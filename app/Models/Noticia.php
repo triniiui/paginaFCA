@@ -12,10 +12,9 @@ class Noticia extends Model
     protected $table = 'noticias';
 
     protected $fillable = [
+        'tipo',
         'titulo',
-        'descripcion',
-        'contenido',
         'imagen',
-        'fecha'
+        'resumen'
     ];
 }
