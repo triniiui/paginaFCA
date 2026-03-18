@@ -6,11 +6,12 @@
     <div class="row">
         <div class="col-lg-8 mb-4">
             <div class="ratio ratio-16x9 shadow-sm">
-                <iframe 
-                    src="https://www.youtube.com/embed/dQw4w9WgXcQ" {{-- Reemplaza con el ID del video de la FCA --}}
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/qi9tQSY1bFw?si=JUOC0Kua7ql2DqN7" 
                     title="YouTube video player" 
                     frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen>
                 </iframe>
             </div>
@@ -19,9 +20,8 @@
         <div class="col-lg-4 mb-4">
             <div class="card shadow-sm h-100">
                 <div class="card-body p-0 overflow-hidden" style="max-height: 450px;">
-                    {{-- Widget de Facebook (Simulado o con el SDK oficial) --}}
                     <div class="fb-page" 
-                data-href="https://www.facebook.com/ContaduriaUADY" 
+                data-href="https://www.facebook.com/fca.uady" 
                 data-tabs="timeline" 
                 data-small-header="false" 
                 data-adapt-container-width="true" 

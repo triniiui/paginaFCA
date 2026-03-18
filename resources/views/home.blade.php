@@ -13,30 +13,13 @@
         </h3>
 
         <div class="row">
-            {{-- 2. Componentes de Noticias --}}
+            @foreach($noticias as $noticia)
             <x-noticia-card 
-                titulo="Entre Raíces y Caminos del Mayab"
-                imagen="assets/img/noticias/not1.jpg"
-                resumen="Descripción detallada de la exposición cultural realizada en la explanada de nuestra facultad..."
+                :titulo="$noticia->titulo"
+                :imagen="$noticia->imagen"
+                :resumen="$noticia->resumen"
             />
-
-            <x-noticia-card 
-                titulo="Inicia el programa de inducción"
-                imagen="assets/img/noticias/not2.jpg"
-                resumen="Damos la bienvenida a los nuevos jaguares que se integran a la licenciatura este semestre."
-            />
-
-            <x-noticia-card 
-                titulo="Clausuran Talleres Artísticos"
-                imagen="assets/img/noticias/not3.jpg"
-                resumen="Se presentaron los resultados de los talleres de pintura, danza y música del ciclo escolar."
-            />
-
-            <x-noticia-card 
-                titulo="Noche de Orgullo en FCA"
-                imagen="assets/img/noticias/not4.jpg"
-                resumen="Evento de gala para reconocer la excelencia académica y deportiva de nuestros estudiantes."
-            />
+            @endforeach
         </div>
     </div>
     <!-- Siguiente sección -->
@@ -46,30 +29,14 @@
         </h3>
 
         <div class="row">
-            <x-noticia-card 
-                titulo="Curso IA EN POWER BI"
-                imagen="assets/img/adu/a1.png"
-                resumen="Descripción detallada de la exposición cultural realizada en la explanada de nuestra facultad..."
-            />
+            @foreach($agenda as $item)
+                <x-noticia-card 
+                    :titulo="$item->titulo"
+                    :imagen="$item->imagen"
+                    :resumen="$item->resumen"
+                />
+            @endforeach
 
-            <x-noticia-card 
-                titulo="Curso HERRAMIENTAS DE IA PARA LOS NEGOCIOS"
-                imagen="assets/img/adu/a2.jpg"
-                resumen="Damos la bienvenida a los nuevos jaguares que se integran a la licenciatura este semestre."
-            />
-
-            <x-noticia-card 
-                titulo="Taller DECLARACIÓN ANUAL PARA PERSONAS FÍSICAS"
-                imagen="assets/img/adu/a3.jpg"
-                resumen="Se presentaron los resultados de los talleres de pintura, danza y música del ciclo escolar."
-            />
-
-            <x-noticia-card 
-                titulo="DIPLOMADO EN DIRECCIÓN DE NEGOCIOS"
-                imagen="assets/img/adu/a4.jpg"
-                resumen="Evento de gala para reconocer la excelencia académica y deportiva de nuestros estudiantes."
-            />
-        
             {{-- Nueva sección de Medios Digitales --}}
     <x-medios-digitales />
 

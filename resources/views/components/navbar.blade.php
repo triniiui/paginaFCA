@@ -9,11 +9,11 @@
     <nav class="bg-uady-gold">
         <div class="container">
             <ul class="nav nav-fill text-uppercase small">
-                <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Aspirantes</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Estudiantes</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Docentes</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Egresados</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route ('home')}}">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route ('aspirantes')}}">Aspirantes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route ('estudiantes')}}">Estudiantes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route ('docentes')}}">Docentes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route ('egresados')}}">Egresados</a></li>
             </ul>
         </div>
     </nav>

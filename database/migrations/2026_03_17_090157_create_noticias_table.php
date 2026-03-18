@@ -1,4 +1,3 @@
-// database/migrations/2024_01_01_000002_create_noticias_table.php
 <?php
 
 use Illuminate\Database\Migrations\Migration;
@@ -7,19 +6,24 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    /**
+     * Run the migrations.
+     */
     public function up(): void
     {
         Schema::create('noticias', function (Blueprint $table) {
             $table->id();
+            $table->string('tipo');
             $table->string('titulo');
-            $table->text('descripcion');
-            $table->longText('contenido');
             $table->string('imagen');
-            $table->date('fecha');
+            $table->text('resumen');
             $table->timestamps();
         });
     }
 
+    /**
+     * Reverse the migrations.
+     */
     public function down(): void
     {
         Schema::dropIfExists('noticias');
