@@ -1,4 +1,4 @@
-<header>
+    <header class="sticky-top bg-white shadow">
     <div class="container py-3 d-flex justify-content-between align-items-center">
         <img src="assets/img/uady-logo.png" alt="UADY" height="80">
         <div class="text-end">
@@ -27,5 +27,18 @@
                 <li class="nav-item"><a class="nav-link" href="#">Vinculación</a></li>
             </ul>
         </div>
+
+    <div class="d-flex align-items-center gap-3">
+
+    <div class="d-flex align-items-center">
+    <i class="bi bi-search px-3 border-end"></i>
+    <i class="bi bi-translate px-3 border-end"></i>
+    <i class="bi bi-laptop px-3 border-end"></i>
+    <i class="bi bi-envelope px-3 border-end"></i>
+    <i class="bi bi-calendar px-3 border-end"></i>
+    <i class="bi bi-person px-3 border-end"></i>
+    <i class="bi bi-chat-dots px-3"></i>
+</div>
+</div>
     </nav>
 </header>
