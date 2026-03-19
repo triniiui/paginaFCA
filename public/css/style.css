@@ -1,0 +1,168 @@
+/* Lema UADY */
+.lema {
+    font-family: Georgia, serif;
+    font-size: 1.8rem;
+    color: #0b2d4d;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Barra de búsqueda */
+.buscador {
+    width: 250px;
+    border: none !important;
+    border-bottom: 1px solid #0b2d4d !important;
+    background: transparent;
+    padding: 5px 0;
+    font-size: 1.1rem;
+    color: #666;
+    margin-right: 15px;
+}
+
+.buscador:focus {
+    outline: none;
+    border-bottom-color: #b38b1d !important;
+}
+
+.icono-item i {
+    font-size: 1.6rem; /* tamaño real del icono */
+    line-height: 1;
+}
+
+/* Separadores más largos tipo UADY */
+.iconos-barra {
+    border-left: 1px dotted #999;
+    padding-left: 10px;
+}
+/* Iconos de la barra superior */
+.iconos-barra {
+    border-left: 1px dotted #999;
+    margin-left: 5px;
+    padding-left: 5px;
+    display: flex !important;
+    align-items: center;
+}
+
+.icono-item i {
+    font-size: 1.6rem;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.icono-item i {
+    font-size: 1.8rem;
+}
+
+.icono-item:last-child {
+    border-right: none;
+    color: #c9a227;
+}
+
+.icono-item i {
+    font-size: 1.8rem;
+    -webkit-text-stroke: 0.3px #0b2d4d; /* 🔥 simula grosor */
+}
+
+.icono-item:hover {
+    color: #b38b1d !important;
+}
+
+/* Menús de navegación */
+.bg-uady-gold { background: #c9a227 !important; }
+.bg-uady-blue { background: #0b2d4d !important; }
+
+.menu-dorado .nav-link {
+    color: #0b2d4d !important;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 12px 20px;
+}
+
+.menu-azul .nav-link {
+    color: white !important;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+}
+
+/* Título Azul */
+.titulo-biblioteca {
+    color: #0b2d4d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+
+.titulo-biblioteca a {
+    color: #999;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Banner con el borde dorado superior de la UADY */
+.banner-biblioteca {
+    border-top: 5px solid #c9a227; /* El color dorado que ya usamos */
+    line-height: 0; /* Elimina espacio extra debajo de la imagen */
+}
+
+.banner-biblioteca img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilo del párrafo */
+.texto-descripcion p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+.texto-descripcion a {
+    color: #0b2d4d;
+    text-decoration: underline;
+}
+
+.texto-descripcion a:hover {
+    color: #c9a227;
+}
+
+/* Color azul institucional para títulos */
+.text-primary-uady {
+    color: #0b2d4d;
+    font-weight: 500;
+}
+
+/* Estilo del Acordeón */
+.accordion-item {
+    border: 1px solid #eee !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fff !important;
+    color: #333 !important;
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    background-size: 1rem; /* Flecha más pequeña */
+}
+
+/* Enlaces estilo UADY */
+.link-uady {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.link-uady:hover {
+    color: #b38b1d;
+}
+
+/* Texto de contacto */
+.contacto-responsable p {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.8;
+}
