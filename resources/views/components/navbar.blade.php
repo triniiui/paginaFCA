@@ -1,4 +1,4 @@
-<header>
+<header class="sticky-top bg-white shadow">
     <div class="container py-3 d-flex justify-content-between align-items-center">
         <img src="assets/img/uady-logo.png" alt="UADY" height="80">
         <div class="text-end">
