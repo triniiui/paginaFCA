@@ -1,44 +1,64 @@
-    <header class="sticky-top bg-white shadow">
-    <div class="container py-3 d-flex justify-content-between align-items-center">
-        <img src="assets/img/uady-logo.png" alt="UADY" height="80">
-        <div class="text-end">
-            <h5 class="mb-0 text-secondary">"Luz, Ciencia y Verdad"</h5>
+<header class="sticky-top bg-white">
+<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- 🔹 Barra superior con logo, lema, búsqueda e iconos -->
+    <div class="container-fluid px-4 py-2">
+        <div class="row align-items-center">
+            <!-- Logo UADY -->
+            <div class="col-auto">
+                <a href={{ route('home') }}>
+                    <img src="{{ asset('assets/img/uady-logo.png') }}" alt="UADY" height="85">
+                </a>
+            </div>
+            
+            <!-- Lema -->
+            <div class="col">
+                <h1 class="lema mb-0">"Luz, Ciencia y Verdad"</h1>
+            </div>
+            
+            <!-- Búsqueda e iconos -->
+            <div class="col-auto">
+                <div class="d-flex align-items-center gap-3">
+                    <input type="text" placeholder="Buscar" class="buscador">
+                    
+                    <div class="iconos-barra d-flex align-items-center">
+                        <a href="#" class="icono-item"><i class="bi bi-search"></i></a>
+                        <a href="#" class="icono-item"><i class="bi bi-translate"></i></a>
+                        <a href="#" class="icono-item"><i class="bi bi-laptop"></i></a>
+                        <a href="#" class="icono-item"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="#" class="icono-item"><i class="bi bi-calendar-fill"></i></a>
+                        <a href="#" class="icono-item"><i class="bi bi-person-fill"></i></a>
+                        <a href="#" class="icono-item"><i class="bi bi-chat-dots-fill"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <!-- 🔹 Menú dorado -->
     <nav class="bg-uady-gold">
-        <div class="container">
-            <ul class="nav nav-fill text-uppercase small">
-                <li class="nav-item"><a class="nav-link" href="{{route ('home')}}">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route ('aspirantes')}}">Aspirantes</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route ('estudiantes')}}">Estudiantes</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route ('docentes')}}">Docentes</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route ('egresados')}}">Egresados</a></li>
+        <div class="container-fluid px-4">
+            <ul class="nav nav-fill menu-dorado">
+                <li class="nav-item"><a class="nav-link" href="{{ route('aspirantes') }}">Aspirantes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('estudiantes') }}">Estudiantes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('docentes') }}">Docentes</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('egresados') }}">Egresados</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Comunidad</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- 🔹 Menú azul -->
     <nav class="bg-uady-blue">
-        <div class="container">
-            <ul class="nav nav-fill small">
-                <li class="nav-item"><a class="nav-link" href="#">Nuestra Facultad</a></li>
+        <div class="container-fluid px-4">
+            <ul class="nav nav-fill menu-azul">
+                <li class="nav-item"><a class="nav-link" href="#">Nuestra Universidad</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Oferta Educativa</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Investigación</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Vinculación</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Internacionalización</a></li>
             </ul>
         </div>
-
-    <div class="d-flex align-items-center gap-3">
-
-    <div class="d-flex align-items-center">
-    <i class="bi bi-search px-3 border-end"></i>
-    <i class="bi bi-translate px-3 border-end"></i>
-    <i class="bi bi-laptop px-3 border-end"></i>
-    <i class="bi bi-envelope px-3 border-end"></i>
-    <i class="bi bi-calendar px-3 border-end"></i>
-    <i class="bi bi-person px-3 border-end"></i>
-    <i class="bi bi-chat-dots px-3"></i>
-</div>
-</div>
     </nav>
+
 </header>
