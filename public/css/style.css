@@ -25,11 +25,10 @@
 }
 
 .icono-item i {
-    font-size: 1.6rem; /* tamaño real del icono */
+    font-size: 1.6rem; 
     line-height: 1;
 }
 
-/* Separadores más largos tipo UADY */
 .iconos-barra {
     border-left: 1px dotted #999;
     padding-left: 10px;
@@ -43,29 +42,7 @@
     align-items: center;
 }
 
-.icono-item i {
-    font-size: 1.6rem;
-    font-weight: bold;
-    vertical-align: middle;
-}
 
-.icono-item i {
-    font-size: 1.8rem;
-}
-
-.icono-item:last-child {
-    border-right: none;
-    color: #c9a227;
-}
-
-.icono-item i {
-    font-size: 1.8rem;
-    -webkit-text-stroke: 0.3px #0b2d4d; /* 🔥 simula grosor */
-}
-
-.icono-item:hover {
-    color: #b38b1d !important;
-}
 
 /* Menús de navegación */
 .bg-uady-gold { background: #c9a227 !important; }
@@ -98,10 +75,10 @@
     font-size: 1.5rem;
 }
 
-/* Banner con el borde dorado superior de la UADY */
+
 .banner-biblioteca {
-    border-top: 5px solid #c9a227; /* El color dorado que ya usamos */
-    line-height: 0; /* Elimina espacio extra debajo de la imagen */
+    border-top: 5px solid #c9a227; 
+    line-height: 0; 
 }
 
 .banner-biblioteca img {
@@ -110,7 +87,7 @@
     display: block;
 }
 
-/* Estilo del párrafo */
+/* Párrafo */
 .texto-descripcion p {
     font-size: 1.05rem;
     line-height: 1.6;
@@ -127,13 +104,13 @@
     color: #c9a227;
 }
 
-/* Color azul institucional para títulos */
+/* Color azul para títulos */
 .text-primary-uady {
     color: #0b2d4d;
     font-weight: 500;
 }
 
-/* Estilo del Acordeón */
+/* Acordeón */
 .accordion-item {
     border: 1px solid #eee !important;
     border-radius: 8px !important;
@@ -147,7 +124,7 @@
 }
 
 .accordion-button::after {
-    background-size: 1rem; /* Flecha más pequeña */
+    background-size: 1rem; 
 }
 
 /* Enlaces estilo UADY */
@@ -166,3 +143,7 @@
     color: #444;
     line-height: 1.8;
 }
+
+
+
+
