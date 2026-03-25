@@ -1,5 +1,5 @@
-@extends('layouts.app')
-@section('content')
+@extends('layouts.vistas')
+@section('vistas-content')
 
 <div class="container my-5">
     <div class="text-center mb-4">

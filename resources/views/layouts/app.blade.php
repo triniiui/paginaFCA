@@ -8,22 +8,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <style>
-        :root { --uady-blue: #002d55; --uady-gold: #b58d1b; }
-        .bg-uady-blue { background-color: var(--uady-blue); }
-        .bg-uady-gold { background-color: var(--uady-gold); }
-        .nav-link { color: white !important; font-weight: 500; }
+        :root { 
+            --uady-blue: #012143; 
+            --uady-gold: #b58d1b; 
+        }
+        .bg-uady-blue { background-color: var(--uady-blue) !important; }
+        .bg-uady-gold { background-color: var(--uady-gold) !important; }
     </style>
 </head>
 <body>
     <x-navbar />
 
-    <main>
+    <main style="min-height: 70vh;">
         @yield('content')
     </main>
 
-    <footer class="bg-uady-blue text-white text-center py-4 mt-5">
-        <p>© 2026 Facultad de Contaduría y Administración - UADY</p>
-    </footer>
+    <x-footer />
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
