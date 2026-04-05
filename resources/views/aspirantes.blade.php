@@ -1,49 +1,137 @@
 @extends('layouts.vistas')
+
 @section('vistas-content')
-<div class="container my-5">
-    <div class="text-center mb-4">
-        <h2 class="titulo-aspi">
-            Becas
-            <a href="#"><i class="bi bi-link-45deg"></i></a>
-        </h2>
-    </div>
 
-    <div class="banner-asp mb-4">
-        <img src="{{ asset('assets/img/aspirantes/b1.jpg') }}" alt="asp" class="img-fluid">
-    </div>
+<x-hero 
+    imagen="assets/img/aspirantes/a2.jpg"
+    titulo="Aspirantes"
+/>
 
-    <div class="texto-descripcion px-3">
-        <p>
-            El compromiso social de la Universidad Autónoma de Yucatán ha generado un esfuerzo continuo por apoyar a estudiantes con deseos de superación, buscando otorgarles medios que les permitan concluir sus estudios en forma satisfactoria.  
-            Desde 1999 la Universidad Autónoma de Yucatán ha brindado su apoyo a los alumnos en desventaja económica y después de varios años, esta tarea se ha traducido en la implementación del Programa Institucional de Becas que procura y atiende a los estudiantes de todos los Campus Universitarios que así lo requieren.
-            El Programa Institucional de Becas apoya a los estudiantes de nivel licenciatura inscritos en las Facultades de la Universidad Autónoma de Yucatán a través de las siguientes becas:<br><br>
-            Becas de Inscripción UADY<br>
-            Becas de Inscripción UADY al período intensivo de verano<br>
-            Becas de Inscripción para deportistas de alto rendimiento <br>
-            Becas de Inscripción de excelencia académica <br>
-            Beca UADY Apoyo a la Manutención<br><br>
-            La Convocatoria de las Becas del Programa Institucional de Becas se publica entre el mes de mayo y septiembre de cada año; en ellas se encuentra el procedimiento para solicitar una beca. El alumno interesado debe verificar si cumple con los requisitos establecidos en dichas convocatorias antes de solicitar una beca.<br>
+@php
+    $contenido = [
+        [
+            'titulo' => 'Programas de calidad', 
+            'descripcion' => 'Reconocidos en el Padrón de Alto Rendimiento Académico del CENEVAL.'
+        ],
+        [
+            'titulo' => 'Excelencia EGEL', 
+            'descripcion' => 'Más del 80% de egresados con desempeño satisfactorio o sobresaliente.'
+        ],
+        [
+            'titulo' => 'Reconocimiento nacional', 
+            'descripcion' => 'Licenciatura en Administración entre las mejores de México.'
+        ],
+    ];
+@endphp
 
-            De igual forma el Programa Institucional de Becas es el enlace con otros Programas de Becas tanto del Gobierno Federal como Estatal, así como otros organismos y tiene la tarea de difundir y promover estos apoyos. <br>
-            ¡Tu permanencia en la UADY nos interesa!
+<x-card titulo="¿Por qué estudiar en FCA?" :beneficios="$contenido">
+    <p>
+        La Facultad cuenta con 164 profesores altamente calificados, incluyendo docentes con certificaciones ANFECA,
+        reconocimiento PRODEP y participación en el Sistema Nacional de Investigadores.
+        Nuestros egresados destacan a nivel nacional, obteniendo premios EGEL y participando en competencias académicas
+        con excelentes resultados.
+        Además, fomentamos la movilidad estudiantil y ofrecemos asignaturas en inglés que fortalecen la formación global.
+    </p>
+
+</x-card>
+
+        
+</section>
+
+{{--cuadradoooos--}}
+    <div class="container text-black">
+        <h2 class="fw-bold mb-4 text-center">Nuestros valores</h2>
+        <div class="row g-3 text-center">
+
+<div class="container py-5">
+    <div class="row g-3 justify-content-center"> 
+        
+        <div class="col-6 col-md-4 col-lg-2">
+            <x-cuadro tipo="texto" contenido="Respeto" color="azul" />
+        </div>
+
+        {{-- 'imagen' --}}
+        <div class="col-6 col-md-4 col-lg-2">
+            <x-cuadro tipo="imagen" imagen="assets/img/aspirantes/a4.jpg" />
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+            <x-cuadro tipo="texto" contenido="Empatía" color="dorado" />
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+            <x-cuadro tipo="imagen" imagen="assets/img/aspirantes/a5.jpg" />
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2"> 
+            <x-cuadro tipo="texto" contenido="Responsabilidad" color="azul" />
+        </div>
+        <div> 
+    <div class="row g-3 justify-content-center"> 
+        <div class="col-6 col-md-4 col-lg-2">
+            <x-cuadro tipo="imagen" imagen="assets/img/aspirantes/a6.jpeg" />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+            <x-cuadro tipo="texto" contenido="Justicia" color="dorado" />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+            <x-cuadro tipo="imagen" imagen="assets/img/aspirantes/a7.png" />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2"> 
+            <x-cuadro tipo="texto" contenido="Ética" color="azul" />
+                </div>
+        <div class="col-6 col-md-4 col-lg-2">
+            <x-cuadro tipo="imagen" imagen="assets/img/aspirantes/a8.jpg" />
+        </div>
+</div>
+
+
+{{-- LICENCIATURA --}}
+<section class="py-5 bg-light">
+    <div class="container">
+
+        <h2 class="fw-bold mb-4">Proceso de Ingreso a Licenciatura</h2>
+
+        <p class="text-muted">
+            Los procesos de admisión son equitativos y transparentes. Inician con la convocatoria publicada cada año.
         </p>
 
-        <div class="container my-5">
-    <h3 class="text-primary-uady mb-4">Información importante</h3>
-            </h2>
-            <x-accordion id="ps" titulo="Páginas sugeridas">
-    <p class="fw-bold mb-1"> </p>
-    <p>https://www.gob.mx/becasbenitojuarez/documentos/comunicados-a-autoridades-educativas-superior <br>
-        https://www.gob.mx/becasbenitojuarez/articulos/beca-jovenes-escribiendo-el-futuro-de-educacion-superior</p>
-</x-accordion>
-             <x-accordion id="pf" titulo="Preguntas frecuentes">
-    <p class="fw-bold mb-1">¿Puedo solicitar más de una beca del Programa Institucional de Becas?</p>
-    <p>Si, sin embargo, solamente se podrá otorgar al alumno una o ninguna, según sea el caso. Si el alumno obtiene alguna de estas becas no podrá solicitar otro apoyo económico o en especie para su educación durante el tiempo que disfrute esta beca.</p>
-</x-accordion>
+        <div class="card shadow-sm border-0 p-4 mt-3">
+            <h5 class="fw-bold">Sitio oficial</h5>
+            <a href="https://ingreso.uady.mx/licenciatura/" target="_blank" 
+               class="btn btn-outline-primary mt-2">
+                Ir al portal de ingreso
+            </a>
 
-
-
+            <p class="mt-3 mb-1"><strong>Correo:</strong> staff.seleccion@correo.uady.mx</p>
+            <p><strong>Tel:</strong> (999) 930 01 30 Ext. 74148</p>
+        </div>
 
     </div>
-</div> 
+</section>
+
+{{-- PROCESO POSGRADO --}}
+<section class="py-5">
+    <div class="container">
+
+        <h2 class="fw-bold mb-4">Proceso de Ingreso al Posgrado</h2>
+
+        <p class="text-muted">
+            Registro mediante el Sistema de Información para el Proceso de Selección (SIPS).
+        </p>
+
+        <div class="card shadow-sm border-0 p-4 mt-3">
+            <h5 class="fw-bold">Sitio oficial</h5>
+            <a href="https://ingreso.uady.mx/posgrado/" target="_blank" 
+               class="btn btn-outline-primary mt-2">
+                Ir al portal de posgrado
+            </a>
+
+            <p class="mt-3 mb-1"><strong>Correo:</strong> posgrados@correo.uady.mx</p>
+            <p><strong>Tel:</strong> (999) 930 01 30 Ext. 74115 y 74119</p>
+        </div>
+
+    </div>
+</section>
+
 @endsection

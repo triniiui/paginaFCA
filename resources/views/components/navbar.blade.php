@@ -128,11 +128,11 @@
     <nav class="bg-uady-gold">
         <div class="container-fluid px-4">
             <ul class="nav nav-justified">
+                <li class="nav-item"><a class="nav-link nav-link-uady" href="{{ route('home') }}">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link nav-link-uady" href="{{ route('aspirantes') }}">Aspirantes</a></li>
                 <li class="nav-item"><a class="nav-link nav-link-uady" href="{{ route('estudiantes') }}">Estudiantes</a></li>
                 <li class="nav-item"><a class="nav-link nav-link-uady" href="{{ route('docentes') }}">Docentes</a></li>
                 <li class="nav-item"><a class="nav-link nav-link-uady" href="{{ route('egresados') }}">Egresados</a></li>
-                <li class="nav-item"><a class="nav-link nav-link-uady" href="{{ route('comunidad') }}">Comunidad</a></li>
             </ul>
         </div>
     </nav>

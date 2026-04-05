@@ -7,6 +7,128 @@
     font-style: italic;
 }
 
+/*Aspirantes */
+.info-card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-8px);
+}
+
+.valor-card {
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.valor-card:hover {
+    background: #b58d1b;
+    color: white;
+    transform: scale(1.05);
+}
+
+.texto-largo {
+    animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos personalizados para Egresados */
+    .egresados-card-main {
+        background: #fff;
+        border-radius: 15px;
+        border-left: 6px solid #012143;
+    }
+
+    .egresados-card {
+        background: #fff;
+        border-radius: 15px;
+        border-top: 6px solid #b58d1b;
+        transition: all 0.3s ease;
+    }
+
+    .egresados-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+    }
+
+    .icon-box {
+        font-size: 2.5rem;
+        color: #012143;
+        min-width: 60px;
+    }
+
+    .icon-circle {
+        background: #f8f9fa;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: #b58d1b;
+        font-size: 1.2rem;
+    }
+
+    .custom-list li {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+/*Estudiantes */
+.hero-estudiantes {
+    position: relative;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.info-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
 /* Barra de búsqueda */
 .buscador {
     width: 250px;

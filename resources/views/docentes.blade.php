@@ -1,5 +1,64 @@
 @extends('layouts.vistas')
 @section('vistas-content')
+
+<x-hero 
+    imagen="assets/img/docentes/d3.jpg"
+    titulo="Docentes"
+    subtitulo="Personal Docente de la Facultad de Contaduría y Administración"
+/>
+
+{{-- docentes --}}
+<div class="container my-5">
+    <div class="row align-items-center">
+
+
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-3">Personal Docente</h3>
+            <p class="text-muted">
+               La Facultad cuenta con 52 maestros de Tiempo Completo, de los cuales 22 (el 42%) cuenta con la certificación de la ANFECA, 26 tienen reconocimiento de Perfil Deseable PRODEP (50%) y 8 (el 15%) están adscritos al Sistema Nacional de Investigadores (SNI), del Conacyt. Complementan nuestra planta docente 4 profesores de Medio Tiempo y 108 de asignatura, todos profesionales altamente calificados, con amplia experiencia laboral y reconocida trayectoria en sus respectivas ramas, que en suma, hacen un total de 164 profesores.
+             </p>
+        </div>
+
+    </div>
+</div>
+
+{{-- Centro de Innovación Pedagógica --}}
+<div class="container my-5">
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-3">Centro de Innovación Pedagógica</h3>
+            <p class="text-muted">
+                 El Centro de Innovación Pedagógica (CIP) de la Facultad de Contaduría y Administración (FCA) de la Universidad Autónoma de Yucatán (UADY) impulsa la mejora continua de la práctica docente y la calidad educativa. Su propósito es apoyar a los docentes mediante la innovación pedagógica, la investigación educativa y la integración de tecnologías emergentes, fomentando un aprendizaje significativo y pertinente.
+                El CIP ofrece recursos y formación continua para desarrollar metodologías innovadoras que fortalezcan las competencias pedagógicas del profesorado, promoviendo una educación crítica y orientada al desarrollo sostenible. Además, apoya la implementación del Modelo Educativo para la Formación Integral (MEFI), colocando al estudiante en el centro del aprendizaje. </p>
+        </div>
+
+        <div class="col-md-6">
+            <img src="{{ asset('assets/img/docentes/d4.png') }}" 
+                 class="img-fluid rounded shadow">
+       
+
+    </div>
+</div>
+
+{{-- Servicios de la Biblioteca del Campus --}}
+<div class="container my-5">
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-3">Servicios de la Biblioteca del Campus</h3>
+            <p class="text-muted">
+                La Biblioteca del Campus de Ciencias Sociales, Económico-Administrativas y Humanidades, cuenta con un amplio acervo de material bibliográfico de las áreas de Ciencias Sociales: Antropología, Psicología, Educación, Economía, Comercio Internacional, Derecho, Administración, Turismo, Comunicación, Literatura, Enseñanza del Inglés, etc.
+                Dicho acervo está conformado por libros, tesis, publicaciones periódicas, folletos, discos compactos, bases de datos, entre otros.</div>
+
+        <div class="col-md-6">
+            <img src="{{ asset('assets/img/docentes/d5.jpg') }}" 
+                 class="img-fluid rounded shadow">
+       
+
+    </div>
+</div>
+
 <div class="container my-5">
     <div class="text-center mb-4">
         <h2 class="titulo-biblioteca">
