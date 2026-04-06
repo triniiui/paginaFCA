@@ -13,15 +13,24 @@ use App\Http\Controllers\ComunidadController;
 
 
 Route::get('/',[HomeController::class,'index'])->name('home');
-Route::get('/aspirantes',[AspiranteController::class,'index'])->name('aspirantes');
-Route::get('/estudiantes',[EstudianteController::class,'index'])->name('estudiantes');
-Route::get('/docentes',[DocenteController::class,'index'])->name('docentes');
-Route::get('/egresados',[EgresadoController::class,'index'])->name('egresados');
-Route::get('/comunidad',[ComunidadController::class,'index'])->name('comunidad');
+//Route::get('/aspirantes',[AspiranteController::class,'index'])->name('aspirantes');
+Route::get('/aspirantes', [AspiranteController::class, 'informacion'])->name('aspirantes');
+
+//Route::get('/estudiantes',[EstudianteController::class,'index'])->name('estudiantes');
+Route::get('/estudiantes',[EstudianteController::class,'informacion'])->name('estudiantes');
+
+
+//Route::get('/docentes',[DocenteController::class,'index'])->name('docentes');
+Route::get('/docentes',[DocenteController::class,'informacion'])->name('docentes');
+
+
+//Route::get('/egresados',[EgresadoController::class,'index'])->name('egresados');
+Route::get('/egresados',[EgresadoController::class,'informacion'])->name('egresados');
+
+//Route::get('/comunidad',[ComunidadController::class,'index'])->name('comunidad');
+Route::get('/comunidad',[ComunidadController::class,'informacion'])->name('comunidad');
 
 Route::get('/noticias',[NoticiaController::class,'index'])->name('noticias');
 Route::get('/noticias/{id}',[NoticiaController::class,'show'])->name('noticias.show');
-
 Route::get('/carreras',[CarreraController::class,'index'])->name('carreras');
-
 Route::get('/contacto',[ContactoController::class,'index'])->name('contacto');

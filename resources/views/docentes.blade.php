@@ -13,20 +13,19 @@
     </div>
 
     <div class="texto-descripcion px-3">
-        <p>
-            En la página web <a href="http://www.bibliotecas.uady.mx/" target="_blank">http://www.bibliotecas.uady.mx/</a> 
-            se puede encontrar la información de cada una de las Bibliotecas que integran el Sistema Bibliotecario, 
-            así como sus avisos, noticias y acceso a sus redes sociales. Además, se puede acceder al catálogo en línea 
-            y a los recursos electrónicos con los que cuentan las bibliotecas.
-        </p>
+        @foreach($cgsb as $cgsb)
+        {!!$cgsb->contenido !!}
+        @endforeach
 
 <div class="container my-5">
     <h3 class="text-primary-uady mb-4">Preguntas Frecuentes</h3>
             </h2>
-            <x-accordion id="faqBiblioteca" titulo="Preguntas Frecuentes">
-    <p class="fw-bold mb-1">¿Cómo consulto la Pág Web?</p>
-    <p>Ingresar a <a href="http://www.bibliotecas.uady.mx/" target="_blank" class="link-uady">http://www.bibliotecas.uady.mx/</a></p>
-</x-accordion>
+        <x-accordion id="faqBiblioteca" titulo="Preguntas Frecuentes">
+            @foreach($preguntasfrecuentes as $preguntafrecuente)
+            {!!$preguntafrecuente->contenido !!}
+            @endforeach
+        </x-accordion>
+
             </div>
     <div class="contacto-responsable mt-5">
         <p class="mb-1"><strong>Responsable:</strong> Ligia Ancona Martínez</p>
@@ -50,11 +49,9 @@
     </div>
 
     <div class="texto-descripcion px-3">
-        <p>
-            El objetivo del programa es generar evidencias para promover la mejora en el desempeño docente de la UADY.
-            Los participantes son profesores y estudiantes de programas educativos de bachillerato, licenciatura y posgrado.
-            La evaluación se opera a través del Sistema Institucional de Evaluación (SIDE), el cual se encuentra vinculado al Sistema de Información y Control Escolar institucional (SICEI).
-        </p>
+            @foreach($pied as $pied)
+            {!!$pied->contenido !!}
+            @endforeach
     </div>
 </div> 
         <div class="text-center mb-4">

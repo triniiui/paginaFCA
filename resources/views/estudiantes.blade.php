@@ -19,10 +19,9 @@
     </div>
 
     <div class="texto-descripcion px-3 mb-5">
-        <h4>Proceso de Ingreso a Bachillerato</h4>
-        <p>
-            El Proceso de Ingreso a Bachillerato está dirigido a las personas interesadas en ingresar como alumnos y alumnas al primer curso del bachillerato en la Escuela Preparatoria Uno, Escuela Preparatoria Dos o la Unidad Académica de Bachillerato con Interacción Comunitaria.
-        </p>
+        @foreach($bachillerato as $bachillerato)
+        {!!$bachillerato->contenido !!}
+        @endforeach
     </div>
 
     <div class="section-convocatorias-uady shadow">
