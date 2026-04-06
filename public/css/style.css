@@ -87,6 +87,190 @@
         align-items: center;
     }
 
+/* acerca */
+.card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card-mv {
+    background: rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+.card-mv:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* innovación */
+.frase {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+/* bloque dorado */
+.bloque-dorado {
+    background: #b58d1b;
+    color: white;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.bloque-dorado:hover {
+    transform: scale(1.03);
+}
+
+/* glass effect */
+.glass-card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+}
+
+/* tarjetas innovacion */
+.innovacion-card {
+    border: none;
+    border-radius: 12px;
+    background: white;
+    transition: 0.3s;
+}
+
+.innovacion-card:hover {
+    transform: translateY(-8px);
+    background: #012143;
+    color: white;
+}
+
+/* innovacion */
+.frase {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+/* bloque dorado */
+.bloque-dorado {
+    background: #b58d1b;
+    color: white;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.bloque-dorado:hover {
+    transform: scale(1.03);
+}
+
+/* glass effect */
+.glass-card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+}
+
+/* tarjetas innovacion */
+.innovacion-card {
+    border: none;
+    border-radius: 12px;
+    background: white;
+    transition: 0.3s;
+}
+
+.innovacion-card:hover {
+    transform: translateY(-8px);
+    background: #012143;
+    color: white;
+}
+
+/*historia*/
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: #b58d1b;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.timeline-item {
+    padding: 20px;
+    position: relative;
+    width: 50%;
+}
+
+.timeline-item.left {
+    left: 0;
+}
+
+.timeline-item.right {
+    left: 50%;
+}
+
+.timeline-content {
+    background: #012143;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.timeline-content:hover {
+    transform: scale(1.05);
+}
+
+
+/* circulito */
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background: #b58d1b;
+    border-radius: 50%;
+    top: 25px;
+    z-index: 1;
+}
+
+.timeline-item.right::after {
+    left: -10px;
+}
+
+/* directores */
+.director-card {
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 0.9rem;
+}
+
+.director-card:hover {
+    background: #012143;
+    color: white;
+    transform: translateY(-5px);
+}
+
 /*Estudiantes */
 .hero-estudiantes {
     position: relative;
