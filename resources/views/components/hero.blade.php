@@ -1,15 +1,21 @@
-@props(['imagen', 'titulo'])
+@props([
+    'imagen',
+    'titulo',
+    'subtitulo' => '',
+    'altura' => '400px'
+])
 
-<section class="position-relative">
-    <div class="hero-container" style="overflow: hidden; max-height: 450px;">
-        <img src="{{ asset($imagen) }}" 
-             alt="Banner FCA" 
-             class="w-100 img-fluid" 
-             style="object-fit: cover; min-height: 300px;">
-        
-        <div class="position-absolute bottom-0 w-100 bg-uady-blue py-3 text-center text-white" 
-             style="background-color: rgba(0, 45, 85, 0.85);">
-            <h2 class="h5 mb-0 fw-light text-uppercase">{{ $titulo }}</h2>
-        </div>
+<div class="position-relative mb-5">
+    <img src="{{ asset($imagen) }}" 
+         class="w-100" 
+         style="height: {{ $altura }}; object-fit: cover;">
+
+    <div style="position:absolute; inset:0; background:rgba(0,0,0,0.5);"></div>
+
+    <div style="position:absolute; bottom:20%; left:10%; color:white;">
+        <h1 class="fw-bold">{{ $titulo }}</h1>
+        @if($subtitulo)
+            <p>{{ $subtitulo }}</p>
+        @endif
     </div>
-</section>
+</div>

@@ -1,75 +1,130 @@
 @extends('layouts.vistas')
+
 @section('vistas-content')
 
+<x-hero 
+    imagen="assets/img/estudiantes/e1.jpg"
+    titulo="¿Por qué estudiar en la UADY?"
+    subtitulo="Personal Docente de la Facultad de Contaduría y Administración"
+/>
+
+{{-- fca --}}
 <div class="container my-5">
-    <div class="text-center mb-4">
-        <h2 class="titulo-estudiantes">¿Por qué estudiar en la uady?</h2>
-    </div>
+    <div class="row align-items-center">
 
-    <div class="banner-est mb-4">
-        <img src="{{ asset('assets/img/estudiantes/e1.jpg') }}" alt="Estudiantes" class="img-fluid w-100">
-    </div>
-
-    <div class="text-center mb-4">
-        <h2 class="titulo-est1">Bachillerato</h2>
-    </div>
-
-    <div class="banner-bach mb-4">
-        <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" alt="Bachillerato" class="img-fluid w-100">
-    </div>
-
-    <div class="texto-descripcion px-3 mb-5">
-        @foreach($bachillerato as $bachillerato)
-        {!!$bachillerato->contenido !!}
-        @endforeach
-    </div>
-
-    <div class="section-convocatorias-uady shadow">
-        
-        <div class="mb-5">
-            <h4 class="titulo-seccion-blanco">CONVOCATORIAS FEDERALES</h4>
-            <div class="row g-3">
-                <div class="col-md-3">
-                    <x-convocatoria-card titulo="Convocatoria Federales" 
-                    url="https://www.gob.mx/becasbenitojuarez/documentos/comunicados-a-autoridades-educativas-superior"
-                    />
-                </div>
-                <div class="col-md-3">
-                    <x-convocatoria-card titulo="Beca y Apoyos Complementarios para la Inclusión de Madres Mexicanas..." 
-                    url="https://portalinsitucionalsa.blob.core.windows.net/cms/principal/documentos/CONVOCATORIA_Inclusion25.pdf"
-                    />
-                </div>
-                <div class="col-md-3">
-                    <x-convocatoria-card titulo="Convocatoria Beca Jóvenes Escribiendo el Futuro Febrero 2026-1"
-                    url="https://portalinsitucionalsa.blob.core.windows.net/cms/principal/documentos/Anexo%202.%20Comunicado%20de%20Inicio%202026-1_Estudiantes_S283.pdf"
-                     />
-                </div>
-                <div class="col-md-3">
-                    <x-convocatoria-card titulo="AVISO importante JEF 2026-1" 
-                    url="https://portalinsitucionalsa.blob.core.windows.net/cms/principal/documentos/AVISO%20JEF%20carga%20de%20fichas%20escolares%2018022026-1.pdf"
-                    />
-                </div>
-                <div class="col-md-3 offset-md-3">
-                    <x-convocatoria-card titulo="AVISO Importante JEF 2026-1 Estudiantes de continuidad"
-                    url="https://portalinsitucionalsa.blob.core.windows.net/cms/principal/documentos/AVISO%20JEF%20carga%20de%20fichas%20escolares%2018022026-1.pdf"
-                     />
-                </div>
-                <div class="col-md-3">
-                    <x-convocatoria-card titulo="AVISO importante JEF 2026-1 Escuelas Prioritarias"
-                    url="https://portalinsitucionalsa.blob.core.windows.net/cms/principal/documentos/AVISO%20JEF%20carga%20de%20fichas%20escolares%2023022026-1.pdf"
-                     />
-                </div>
-            </div>
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-3">Facultad de Contaduría y Administración</h3>
+            <p class="text-muted">
+                Creada en 1962 como Escuela de Comercio y Administración, la Facultad de Contaduría 
+                y Administración es uno de los planteles más importantes de la UADY.
+            </p>
         </div>
-        <div class="pt-4 border-top border-secondary">
-            <h4 class="titulo-seccion-blanco">CONVOCATORIAS ESTATALES</h4>
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <x-convocatoria-card titulo="Convocatoria Juventudes Renacimiento 2025-2026"
-                    url="https://portalinsitucionalsa.blob.core.windows.net/cms/principal/documentos/Convocatoria_JuventudesRenacimiento.pdf"
-                     />
-                </div>
+
+        <div class="col-md-6">
+            <img src="{{ asset('assets/img/estudiantes/e3.jpg') }}" 
+                 class="img-fluid rounded shadow">
+        </div>
+
+    </div>
+</div>
+
+{{-- CARDS --}}
+<div class="container my-5">
+    <h3 class="fw-bold mb-4 text-center">¿Qué te ofrecemos?</h3>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="p-4 shadow-sm border rounded">
+                <h5 class="fw-bold">Excelencia académica</h5>
+                <p class="text-muted">Programas educativos de calidad.</p>
             </div>
         </div>
 
-    </div> </div> @endsection
+        <div class="col-md-4">
+            <div class="p-4 shadow-sm border rounded">
+                <h5 class="fw-bold">Infraestructura moderna</h5>
+                <p class="text-muted">Espacios adecuados para aprender.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="p-4 shadow-sm border rounded">
+                <h5 class="fw-bold">Apoyos y becas</h5>
+                <p class="text-muted">Impulsamos tu formación.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{-- becas --}}
+<div class="container my-5">
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+            <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" 
+                 class="img-fluid rounded shadow">
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-3">Becas</h3>
+            <p class="text-muted">
+                El área de Becas orienta a los solicitantes sobre las convocatorias, plazos y requerimientos tanto de programas institucionales, estatales o a nivel federal.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+{{-- Coordinación de Cultura y Asignaturas Libres --}}
+<div class="container my-5">
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-3">Coordinación de Cultura y Asignaturas Libres</h3>
+            <p class="text-muted">
+                 La Coordinación de Cultura se encarga de la realización de diferentes actividades culturales que ya son parte de la identidad de la Facultad de Contaduría y Administración, tales como la Muestra de Altares Janal Pixán, Concurso de Canto FCA, exposiciones y recitales, por nombrar algunas. 
+                También se encarga de coordinar la impartición de asignaturas artísticas y culturales, como: Ritmos Latinos, Taller de Guitarra, Talleres de Teatro, Pintura, Apreciación del Arte y Apreciación Cinematográfica, entre otras.
+           </p>
+        </div>
+
+        <div class="col-md-6">
+            <img src="{{ asset('assets/img/estudiantes/e4.jpg') }}" 
+                 class="img-fluid rounded shadow">
+        </div>
+
+    </div>
+</div>
+
+
+{{-- Coordinación de Movilidad --}}
+<div class="container my-5">
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+            <img src="{{ asset('assets/img/estudiantes/e5.jpg') }}" 
+                 class="img-fluid rounded shadow">
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-3">Coordinación de Movilidad</h3>
+            <p class="text-muted">
+                La Coordinación de Movilidad ofrece orientación sobre trámites y becas para realizar movilidad nacional o internacional, con las instituciones con las que la UADY tiene convenio de colaboración.
+                También se brinda atención a estudiantes foráneos y extranjeros, con el afán de hacer su estancia lo más provechosa posible en nuestras aulas </p>
+        </div>
+
+    </div>
+</div>
+
+{{-- ACORDEON --}}
+<div class="container my-5">
+    <h3 class="fw-bold mb-4">Información adicional</h3>
+
+    <x-accordion id="info1" titulo="Más información">
+    <p>Consulta convocatorias y fechas importantes.</p>
+</x-accordion> 
+</div>
+
+@endsection
