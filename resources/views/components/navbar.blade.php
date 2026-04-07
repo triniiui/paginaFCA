@@ -142,26 +142,21 @@
             <ul class="nav nav-justified">
                 <li class="nav-item uady-dropdown position-relative">
                     <a class="nav-link nav-link-uady" href="#">Nuestra Universidad</a>
-                    <div class="uady-gold-menu">
-                        <a class="dropdown-item" href="/docentes">¿Quiénes somos?</a>
-                        <a class="dropdown-item" href="/estudiantes">Directorio</a>
-                        <a class="dropdown-item" href="/egresados">Historia</a>
-                        <a class="dropdown-item" href="#">Gaceta Universitaria</a>
-                        <a class="dropdown-item" href="#">Legislación Universitaria</a>
-                        <a class="dropdown-item" href="#">Transparencia</a>
+                    <div class="uady-gold-menu"><a class="dropdown-item" href="{{ route('facultad.acerca') }}">Acerca de Nosotros</a>
+                       <a class="dropdown-item" href="{{ route('facultad.innovacion') }}">Centro de Innovación Pedagógica</a>
+                        <a class="dropdown-item" href="{{ route('facultad.directorio') }}">Directorio</a>
+                        <a class="dropdown-item" href="{{ route('facultad.historia') }}">Historia</a>
+                        <a class="dropdown-item" href="{{ route('facultad.matricula') }}">Matrícula</a>
+                        <a class="dropdown-item" href="{{ route('facultad.organizacion') }}">Organización</a>
+                        <a class="dropdown-item" href="{{ route('facultad.plan') }}">Plan de Desarrollo</a>
                     </div>
                 </li>
 
-
-                <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Oferta educativa</a>
-                    <div class="uady-gold-menu">
-                        <a class="dropdown-item" href="#">¿Quiénes somos?</a>
-                        <a class="dropdown-item" href="#">Directorio</a>
-                        <a class="dropdown-item" href="#">Historia</a>
-                        <a class="dropdown-item" href="#">Gaceta Universitaria</a>
-                        <a class="dropdown-item" href="#">Legislación Universitaria</a>
-                        <a class="dropdown-item" href="#">Transparencia</a>
+                 <li class="nav-item uady-dropdown position-relative">
+                    <a class="nav-link nav-link-uady" href="#">Oferta Educativa</a>
+                    <div class="uady-gold-menu"><a class="dropdown-item" href="{{ route('ofEdu.ofeduCo') }}">Oferta Educativa Continua</a>
+                       <a class="dropdown-item" href="{{ route('ofEdu.proLin') }}">Oferta Licenciatura</a>
+                        <a class="dropdown-item" href="{{ route('ofEdu.proPos') }}">Oferta Posgrado</a>
                     </div>
                 </li>
 
