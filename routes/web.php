@@ -95,3 +95,68 @@ Route::prefix('fca-oferta-educativa')->group(function () {
     })->name('ofEdu.proPos');
 
 });
+
+/* Rutas Investigación */
+Route::prefix('fca-investigacion')->group(function () {
+
+    // Coordinación de Investigación 
+    Route::get('/coordinacion-de-investigacion', function () {
+        return view('investigacion.coordinacionInvestigacion');
+    })->name('investigacion.coordinacionInvestigacion');
+
+    // Cuerpos académicos
+    Route::get('/cuerpos-academicos', function () {
+        return view('investigacion.cuerposAcademicos');
+    })->name('investigacion.cuerposAcademicos');
+
+    // Indicadores económicos del Estado de Yucatán
+    Route::get('/indicadores-economicos-del-estado-de-yucatan', function () {
+        return view('investigacion.indicadoresEconomicos');
+    })->name('investigacion.indicadoresEconomicos');
+
+    // Publicación Científica 
+    Route::get('/publicacion-cientifica', function () {
+        return view('investigacion.publicacionesCientificas');
+    })->name('investigacion.publicacionesCientificas');
+
+});
+
+/* Rutas Vinculación */
+Route::prefix('fca-vinculacion')->group(function () {
+
+    // centro de desarrollo de negocios
+    Route::get('/centro-de-desarollo-de-negocios', function () {
+        return view('vinculacion.centroDesarrolloNegocios');
+    })->name('vinculacion.centroDesarrolloNegocios');
+
+    // coordinacion de vinculacion estrategica
+    Route::get('/coordinacion-de-vinculacion-estrategica', function () {
+        return view('vinculacion.coordinacionVinculacionEstrategica');
+    })->name('vinculacion.coordinacionVinculacionEstrategica');
+
+    // modulo de atencion fiscal
+    Route::get('/modulo-de-atencion-fiscal', function () {
+        return view('vinculacion.moduloAtencionFiscal');
+    })->name('vinculacion.moduloAtencionFiscal');
+
+    // Programa padrino académico
+    Route::get('/programa-padrino-academico', function () {
+        return view('vinculacion.programaPadrinoAcademico');
+    })->name('vinculacion.programaPadrinoAcademico');
+
+});
+
+/* Rutas Internacionalización */
+Route::prefix('fca-internacionalizacion')->group(function () {
+
+    // International Entrepreneurship-Lab Smart Money
+    Route::get('/international-entrepreneurship-lab-smart-money', function () {
+        return view('internacionalizacion.internationalEntrepreneurshipLab');
+    })->name('internacionalizacion.internationalEntrepreneurshipLab');
+
+    // Movilidad Internacional
+    Route::get('/movilidad-internacional', function () {
+        return view('internacionalizacion.movilidadInternacional');
+    })->name('internacionalizacion.movilidadInternacional');
+
+});

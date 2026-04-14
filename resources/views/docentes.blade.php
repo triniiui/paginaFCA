@@ -22,6 +22,101 @@
     </div>
 </div>
 
+{{-- TABLA DE PROFESORES 🔥 --}}
+<div class="container my-5">
+
+    <h3 class="fw-bold mb-4 text-center">Personal Docente</h3>
+
+    <!-- TIEMPO COMPLETO -->
+    <h5 class="fw-bold text-primary mb-3">Profesores de Tiempo Completo</h5>
+
+    <div class="table-responsive mb-4">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nombre completo</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($tiempoCompleto as $p)
+                    <tr>
+                        <td>{{ $p->apellidos }} {{ $p->nombre }}</td>
+                        <td>
+                            <a href="mailto:{{ $p->email }}">{{ $p->email }}</a>
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+
+    <!-- MEDIO TIEMPO -->
+    <h5 class="fw-bold text-primary mb-3">Profesores de Medio Tiempo</h5>
+
+    <div class="table-responsive mb-4">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nombre completo</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($medioTiempo as $p)
+                    <tr>
+                        <td>{{ $p->apellidos }} {{ $p->nombre }}</td>
+                        <td>
+                            <a href="mailto:{{ $p->email }}">{{ $p->email }}</a>
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+
+    <!-- COORDINADOR -->
+    <h5 class="fw-bold text-primary mb-3">Coordinador del Programa Institucional de Inglés</h5>
+
+    @if($coordinador)
+        <table class="table table-bordered mb-4">
+            <tbody>
+                <tr>
+                    <td>{{ $coordinador->apellidos }} {{ $coordinador->nombre }}</td>
+                    <td>
+                        <a href="mailto:{{ $coordinador->email }}">{{ $coordinador->email }}</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    @endif
+
+    <!-- ASIGNATURA -->
+    <h5 class="fw-bold text-primary mb-3">Profesores por Asignatura</h5>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nombre completo</th>
+                    <th>Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($asignatura as $p)
+                    <tr>
+                        <td>{{ $p->apellidos }} {{ $p->nombre }}</td>
+                        <td>
+                            <a href="mailto:{{ $p->email }}">{{ $p->email }}</a>
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
 {{-- Centro de Innovación Pedagógica --}}
 <div class="container my-5">
     <div class="row align-items-center">

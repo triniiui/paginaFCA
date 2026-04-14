@@ -141,7 +141,7 @@
         <div class="container-fluid px-4">
             <ul class="nav nav-justified">
                 <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Nuestra Universidad</a>
+                    <a class="nav-link nav-link-uady">Nuestra Universidad</a>
                     <div class="uady-gold-menu"><a class="dropdown-item" href="{{ route('facultad.acerca') }}">Acerca de Nosotros</a>
                        <a class="dropdown-item" href="{{ route('facultad.innovacion') }}">Centro de Innovación Pedagógica</a>
                         <a class="dropdown-item" href="{{ route('facultad.directorio') }}">Directorio</a>
@@ -153,7 +153,7 @@
                 </li>
 
                  <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Oferta Educativa</a>
+                    <a class="nav-link nav-link-uady">Oferta Educativa</a>
                     <div class="uady-gold-menu"><a class="dropdown-item" href="{{ route('ofEdu.ofeduCo') }}">Oferta Educativa Continua</a>
                        <a class="dropdown-item" href="{{ route('ofEdu.proLin') }}">Oferta Licenciatura</a>
                         <a class="dropdown-item" href="{{ route('ofEdu.proPos') }}">Oferta Posgrado</a>
@@ -161,38 +161,30 @@
                 </li>
 
                 <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Investigación</a>
+                    <a class="nav-link nav-link-uady">Investigación</a>
                     <div class="uady-gold-menu">
-                        <a class="dropdown-item" href="#">¿Quiénes somos?</a>
-                        <a class="dropdown-item" href="#">Directorio</a>
-                        <a class="dropdown-item" href="#">Historia</a>
-                        <a class="dropdown-item" href="#">Gaceta Universitaria</a>
-                        <a class="dropdown-item" href="#">Legislación Universitaria</a>
-                        <a class="dropdown-item" href="#">Transparencia</a>
+                        <a class="dropdown-item" href="{{ route('investigacion.coordinacionInvestigacion') }}">Coordinación de Investigación</a>
+                        <a class="dropdown-item" href="{{ route('investigacion.cuerposAcademicos') }}">Cuerpos Académicos</a>
+                        <a class="dropdown-item" href="{{ route('investigacion.indicadoresEconomicos') }}">Indicadores Economómicos del Estado de Yucatán</a>
+                        <a class="dropdown-item" href="{{ route('investigacion.publicacionesCientificas') }}">Publicaciones Científicas</a>
                     </div>
                 </li>
 
                 <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Vinculación</a>
+                    <a class="nav-link nav-link-uady">Vinculación</a>
                     <div class="uady-gold-menu">
-                        <a class="dropdown-item" href="#">¿Quiénes somos?</a>
-                        <a class="dropdown-item" href="#">Directorio</a>
-                        <a class="dropdown-item" href="#">Historia</a>
-                        <a class="dropdown-item" href="#">Gaceta Universitaria</a>
-                        <a class="dropdown-item" href="#">Legislación Universitaria</a>
-                        <a class="dropdown-item" href="#">Transparencia</a>
+                        <a class="dropdown-item" href="{{ route('vinculacion.centroDesarrolloNegocios') }}">Centro de Desarrollo de Negocios</a>
+                        <a class="dropdown-item" href="{{ route('vinculacion.coordinacionVinculacionEstrategica') }}">Coordinación de Vinculación Estratégica</a>
+                        <a class="dropdown-item" href="{{ route('vinculacion.moduloAtencionFiscal') }}">Modulo de Atención Fiscal</a>
+                        <a class="dropdown-item" href="{{ route('vinculacion.programaPadrinoAcademico') }}">Programa Padrino Académico</a>
                     </div>
                 </li>
 
                 <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Internacionalización</a>
+                    <a class="nav-link nav-link-uady">Internacionalización</a>
                     <div class="uady-gold-menu">
-                        <a class="dropdown-item" href="#">¿Quiénes somos?</a>
-                        <a class="dropdown-item" href="#">Directorio</a>
-                        <a class="dropdown-item" href="#">Historia</a>
-                        <a class="dropdown-item" href="#">Gaceta Universitaria</a>
-                        <a class="dropdown-item" href="#">Legislación Universitaria</a>
-                        <a class="dropdown-item" href="#">Transparencia</a>
+                        <a class="dropdown-item" href="{{ route('internacionalizacion.internationalEntrepreneurshipLab') }}">International Entrepreneurship-Lab Smart Money</a>
+                        <a class="dropdown-item" href="{{ route('internacionalizacion.movilidadInternacional') }}">Movilidad Internacional</a>
                     </div>
                 </li>
             </ul>
