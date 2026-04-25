@@ -3,7 +3,7 @@
 @section('vistas-content')
 
 <x-hero 
-    imagen="assets/img/estudiantes/e1.jpg"
+    imagen="assets/img/estudiantes/eV.mp4"
     titulo="¿Por qué estudiar en la UADY?"
     subtitulo="Personal Docente de la Facultad de Contaduría y Administración"
 />
