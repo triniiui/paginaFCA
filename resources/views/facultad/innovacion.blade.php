@@ -22,10 +22,13 @@
 <section class="py-5">
     <div class="container text-center">
         <h2 class="fw-bold mb-3">Bienvenida</h2>
-        <p class="text-muted w-75 mx-auto">
-            En el Centro de Innovación Pedagógica creemos que la innovación transforma la enseñanza, 
-            inspira a nuevas generaciones y construye un futuro más justo, equitativo y sostenible.
-        </p>
+
+        @foreach($bienvenida as $item)
+            <p class="text-muted w-75 mx-auto">
+                {!! $item->contenido !!}
+            </p>
+        @endforeach
+
     </div>
 </section>
 
@@ -37,23 +40,17 @@
 
             <div class="col-lg-6">
                 <h2 class="fw-bold mb-3">Nuestro propósito</h2>
-                <p class="text-muted">
-                    El Centro de Innovación Pedagógica (CIP) es un espacio dedicado a la mejora continua 
-                    de la práctica docente mediante innovación, investigación educativa y tecnologías emergentes.
-                </p>
-                <p class="text-muted">
-                    Apoyamos a los profesores en el desarrollo de metodologías que enriquecen el proceso 
-                    de enseñanza-aprendizaje.
-                </p>
+                @foreach($proposito as $item)
+                    {!! $item->contenido !!}
+                @endforeach
             </div>
 
             <div class="col-lg-6">
                 <div class="bloque-dorado p-4">
                     <h5 class="fw-bold">Nuestro objetivo</h5>
-                    <p class="small">
-                        Fortalecer la innovación docente, proporcionando herramientas para enfrentar 
-                        los retos de la educación superior en un entorno global.
-                    </p>
+                    @foreach($objetivo as $item)
+                    {!! $item->contenido !!}
+                    @endforeach
                 </div>
             </div>
 

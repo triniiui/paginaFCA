@@ -13,17 +13,14 @@
     <div class="container">
 
         <div class="row align-items-center">
+
             <div class="col-lg-6">
                 <h2 class="fw-bold mb-3">Nuestra Facultad</h2>
-                <p class="text-muted">
-                    Creada en 1962 como Escuela de Comercio y Administración, la Facultad de Contaduría 
-                    y Administración de la Universidad Autónoma de Yucatán es el plantel más grande 
-                    de la institución.
-                </p>
-                <p class="text-muted">
-                    Forma parte del Campus de Ciencias Sociales, Económico-Administrativas y Humanidades, 
-                    contribuyendo activamente al desarrollo de la región.
-                </p>
+
+                @foreach($acercaDeNosotros as $item)
+                    {!! $item->contenido !!}
+                @endforeach
+
             </div>
 
             <div class="col-lg-6">

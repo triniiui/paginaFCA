@@ -10,6 +10,7 @@ use App\Http\Controllers\EstudianteController;
 use App\Http\Controllers\DocenteController;
 use App\Http\Controllers\EgresadoController;
 use App\Http\Controllers\ComunidadController;
+use App\Models\Informacion;
 
 
 Route::get('/',[HomeController::class,'index'])->name('home');
@@ -41,12 +42,24 @@ Route::get('/contacto',[ContactoController::class,'index'])->name('contacto');
 Route::prefix('fca-nuestra-facultad')->group(function () {
     //Acerca de Nosotros
     Route::get('/acerca-de-nosotros', function () {
-        return view('facultad.acerca');
+        $acercaDeNosotros = Informacion::where('seccion', 'acercaDeNosotros')
+                    ->where('titulo', 'nuestraFacultad')
+                    ->get();
+        return view('facultad.acerca', compact ('acercaDeNosotros'));
     })->name('facultad.acerca');
 
     //Centro de Innovación Pedagógica
     Route::get('/centro-de-innovacion-pedagogica', function () {
-        return view('facultad.innovacion');
+        $bienvenida = Informacion::where('seccion', 'centroDeInnovacionPedagogica')
+                    ->where('titulo', 'bienvenida')
+                    ->get();
+        $proposito = Informacion::where('seccion', 'centroDeInnovacionPedagogica')
+                    ->where('titulo', 'nuestroProposito')
+                    ->get();
+        $objetivo = Informacion::where('seccion', 'centroDeInnovacionPedagogica')
+                    ->where('titulo', 'nuestroObjetivo')
+                    ->get();
+        return view('facultad.innovacion', compact('bienvenida', 'proposito', 'objetivo'));
     })->name('facultad.innovacion');
 
     //Directorio
