@@ -1,42 +1,171 @@
-/* Lema UADY */
-.lema {
-    font-family: Georgia, serif;
-    font-size: 1.8rem;
-    color: #0b2d4d;
-    font-weight: normal;
+/*app.layout*/
+:root { 
+            --uady-blue: #012143; 
+            --uady-gold: #b58d1b; 
+        }
+        .bg-uady-blue { background-color: var(--uady-blue) !important; }
+        .bg-uady-gold { background-color: var(--uady-gold) !important; }
+
+
+/* ===============================
+    VARIABLES
+================================ */
+:root {
+    --uady-blue: #012143;
+    --uady-gold: #b58d1b;
+    --uady-light-gold: #f2c94c; /* 🔥 amarillo más vivo */
+}
+
+/* ===============================
+   HEADER GENERAL
+================================ */
+header {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* ===============================
+   LEMA
+================================ */
+.lema-uady {
+    font-family: 'Times New Roman', serif;
     font-style: italic;
+    color: var(--uady-blue);
+    font-size: 1.3rem;
 }
 
-/*Aspirantes */
-.info-card {
-    border-radius: 12px;
-    transition: all 0.3s ease;
+/* ===============================
+   BUSCADOR
+================================ */
+.search-box-container {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 3px;
+    width: 220px;
 }
 
-.info-card:hover {
-    transform: translateY(-8px);
+.buscador-input {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    width: 100%;
 }
 
-.valor-card {
-    background: rgba(255,255,255,0.1);
-    border-radius: 10px;
-    transition: 0.3s;
+/* ===============================
+   ICONOS
+================================ */
+.icono-item-link {
+    color: var(--uady-blue);
+    text-decoration: none;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.2s;
 }
 
-.valor-card:hover {
-    background: #b58d1b;
-    color: white;
-    transform: scale(1.05);
+.icono-item-link i {
+    font-size: 1.2rem;
 }
 
-.texto-largo {
-    animation: fadeUp 1s ease;
+.icono-item-link:hover {
+    color: var(--uady-gold);
+    transform: translateY(-1px);
 }
 
-@keyframes fadeUp {
+/* ===============================
+   NAVBAR PRINCIPAL
+================================ */
+.bg-uady-gold {
+    background-color: var(--uady-gold) !important;
+    padding: 12px 0; /* 🔥 más gordito */
+}
+
+/* Links del menú */
+.nav-link-uady {
+    color: white !important;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 12px 18px !important; /* 🔥 más espacio */
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+/* Hover moderno */
+.nav-link-uady:hover {
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(4px);
+}
+
+/* ===============================
+ DROPDOWN (ARREGLADO)
+================================ */
+
+/* contenedor */
+.uady-dropdown {
+    position: relative;
+}
+
+/* abrir al hover */
+.uady-dropdown:hover .uady-gold-menu {
+    display: block;
+}
+
+/* menú */
+.uady-gold-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* 🔥 pegado sin hueco */
+    left: 0;
+    background-color: var(--uady-light-gold);
+    min-width: 280px;
+    border-radius: 0 0 12px 12px;
+    padding: 8px 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    border: none;
+    z-index: 999;
+}
+
+/* 🔥 zona invisible anti-bug */
+.uady-gold-menu::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+}
+
+/* items */
+.uady-gold-menu .dropdown-item {
+    color: #333;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+}
+
+/* hover items */
+.uady-gold-menu .dropdown-item:hover {
+    background-color: rgba(255,255,255,0.4);
+    color: var(--uady-blue);
+    padding-left: 25px;
+}
+
+/* estado activo del botón */
+.uady-dropdown:hover > .nav-link-uady {
+    background-color: white !important;
+    color: var(--uady-blue) !important;
+}
+
+/* ===============================
+   ✨ ANIMACIÓN SUAVE
+================================ */
+.uady-gold-menu {
+    animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(8px);
     }
     to {
         opacity: 1;
@@ -44,87 +173,119 @@
     }
 }
 
-/* Estilos personalizados para Egresados */
-    .egresados-card-main {
-        background: #fff;
-        border-radius: 15px;
-        border-left: 6px solid #012143;
-    }
 
-    .egresados-card {
-        background: #fff;
-        border-radius: 15px;
-        border-top: 6px solid #b58d1b;
-        transition: all 0.3s ease;
-    }
 
-    .egresados-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
-    }
+/* =========================================
+   VARIABLES Y CONFIGURACIÓN BASE
+   ========================================= */
+:root {
+    --uady-blue: #012143;
+    --uady-blue-light: #0b2d4d;
+    --uady-gold: #b58d1b;
+    --uady-gold-light: #c9a227;
+    --font-main: 'Open Sans', sans-serif;
+    --font-titles: 'Montserrat', sans-serif;
+}
 
-    .icon-box {
-        font-size: 2.5rem;
-        color: #012143;
-        min-width: 60px;
-    }
+body {
+    font-family: var(--font-main);
+    color: #333;
+    line-height: 1.6;
+}
 
-    .icon-circle {
-        background: #f8f9fa;
-        width: 45px;
-        height: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        color: #b58d1b;
-        font-size: 1.2rem;
-    }
+h1, h2, h3, h4, h5, h6, .fw-bold {
+    font-family: var(--font-titles);
+}
 
-    .custom-list li {
-        margin-bottom: 5px;
-        display: flex;
-        align-items: center;
-    }
+/* =========================================
+   COMPONENTES DE NAVEGACIÓN Y HEADER
+   ========================================= */
+.lema {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    color: var(--uady-blue-light);
+    font-weight: normal;
+    font-style: italic;
+}
 
-/* acerca */
-.card {
+/* Buscadores */
+.buscador, .buscador-minimal {
+    width: 250px;
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    background: transparent;
+    padding: 5px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.buscador:focus, .buscador-minimal:focus {
+    border-bottom-color: var(--uady-gold) !important;
+}
+
+/* Iconos de barra superior */
+.iconos-barra {
+    border-left: 1px dotted #999;
+    margin-left: 10px;
+    padding-left: 10px;
+    display: flex !important;
+    align-items: center;
+}
+
+.icono-link {
+    color: var(--uady-blue);
+    text-decoration: none;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.icono-link i { font-size: 1.1rem; }
+.icono-link:hover { color: var(--uady-gold); }
+
+/* Menús (Dorado y Azul) */
+.bg-uady-gold { background-color: var(--uady-gold) !important; }
+.bg-uady-blue { background-color: var(--uady-blue) !important; }
+
+.menu-dorado .nav-link, .menu-azul .nav-link {
+    font-family: var(--font-titles);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 10px 15px !important;
+    transition: 0.3s;
+}
+
+.menu-dorado .nav-link { color: var(--uady-blue) !important; }
+.menu-azul .nav-link { color: white !important; }
+
+.nav-link:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+/* =========================================
+   TARJETAS Y EFECTOS (CARDS)
+   ========================================= */
+.info-card, .card, .innovacion-card, .egresados-card {
+    border: none;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
-.card:hover {
-    transform: translateY(-6px);
+.info-card:hover, .card:hover, .egresados-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-.card-mv {
-    background: rgba(255,255,255,0.1);
-    transition: 0.3s;
-}
-
-.card-mv:hover {
-    background: rgba(255,255,255,0.2);
-}
-
-/* innovación */
-.frase {
-    font-size: 1.3rem;
-    font-style: italic;
-}
-
-/* bloque dorado */
-.bloque-dorado {
-    background: #b58d1b;
+.innovacion-card:hover {
+    transform: translateY(-8px);
+    background: var(--uady-blue);
     color: white;
-    border-radius: 12px;
-    transition: 0.3s;
 }
 
-.bloque-dorado:hover {
-    transform: scale(1.03);
-}
-
-/* glass effect */
+/* Glass Effect */
 .glass-card {
     background: rgba(255,255,255,0.08);
     border-radius: 12px;
@@ -132,146 +293,22 @@
     transition: 0.3s;
 }
 
-.glass-card:hover {
-    transform: translateY(-5px);
-}
+.glass-card:hover { transform: translateY(-5px); }
 
-/* tarjetas innovacion */
-.innovacion-card {
-    border: none;
-    border-radius: 12px;
-    background: white;
-    transition: 0.3s;
-}
-
-.innovacion-card:hover {
-    transform: translateY(-8px);
-    background: #012143;
-    color: white;
-}
-
-/* innovacion */
-.frase {
-    font-size: 1.3rem;
-    font-style: italic;
-}
-
-/* bloque dorado */
+/* Bloque Dorado */
 .bloque-dorado {
-    background: #b58d1b;
+    background: var(--uady-gold);
     color: white;
     border-radius: 12px;
     transition: 0.3s;
 }
+.bloque-dorado:hover { transform: scale(1.03); }
 
-.bloque-dorado:hover {
-    transform: scale(1.03);
-}
+/* =========================================
+   SECCIONES ESPECÍFICAS
+   ========================================= */
 
-/* glass effect */
-.glass-card {
-    background: rgba(255,255,255,0.08);
-    border-radius: 12px;
-    backdrop-filter: blur(10px);
-    transition: 0.3s;
-}
-
-.glass-card:hover {
-    transform: translateY(-5px);
-}
-
-/* tarjetas innovacion */
-.innovacion-card {
-    border: none;
-    border-radius: 12px;
-    background: white;
-    transition: 0.3s;
-}
-
-.innovacion-card:hover {
-    transform: translateY(-8px);
-    background: #012143;
-    color: white;
-}
-
-/*historia*/
-.timeline {
-    position: relative;
-    margin: 0 auto;
-    padding: 20px 0;
-}
-
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 4px;
-    background: #b58d1b;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -2px;
-}
-
-.timeline-item {
-    padding: 20px;
-    position: relative;
-    width: 50%;
-}
-
-.timeline-item.left {
-    left: 0;
-}
-
-.timeline-item.right {
-    left: 50%;
-}
-
-.timeline-content {
-    background: #012143;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    position: relative;
-    transition: 0.3s;
-}
-
-.timeline-content:hover {
-    transform: scale(1.05);
-}
-
-
-/* circulito */
-.timeline-item::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: -10px;
-    background: #b58d1b;
-    border-radius: 50%;
-    top: 25px;
-    z-index: 1;
-}
-
-.timeline-item.right::after {
-    left: -10px;
-}
-
-/* directores */
-.director-card {
-    background: white;
-    border-radius: 10px;
-    transition: 0.3s;
-    font-size: 0.9rem;
-}
-
-.director-card:hover {
-    background: #012143;
-    color: white;
-    transform: translateY(-5px);
-}
-
-/*Estudiantes */
+/* Hero Estudiantes */
 .hero-estudiantes {
     position: relative;
     height: 65vh;
@@ -287,7 +324,7 @@
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.5);
+    background: linear-gradient(to right, rgba(1, 33, 67, 0.8), transparent);
 }
 
 .hero-content {
@@ -297,238 +334,73 @@
     color: white;
 }
 
-.hero-content h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
+/* Egresados Especial */
+.egresados-card-main {
+    background: #fff;
+    border-radius: 15px;
+    border-left: 6px solid var(--uady-blue);
 }
 
-.info-card {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    transition: 0.3s;
+.egresados-card {
+    border-top: 6px solid var(--uady-gold);
 }
 
-.info-card:hover {
-    transform: translateY(-5px);
-}
-
-/* Barra de búsqueda */
-.buscador {
-    width: 250px;
-    border: none !important;
-    border-bottom: 1px solid #0b2d4d !important;
-    background: transparent;
-    padding: 5px 0;
-    font-size: 1.1rem;
-    color: #666;
-    margin-right: 15px;
-}
-
-.buscador:focus {
-    outline: none;
-    border-bottom-color: #b38b1d !important;
-}
-
-.icono-item i {
-    font-size: 1.6rem; 
-    line-height: 1;
-}
-
-.iconos-barra {
-    border-left: 1px dotted #999;
-    padding-left: 10px;
-}
-/* Iconos de la barra superior */
-.iconos-barra {
-    border-left: 1px dotted #999;
-    margin-left: 5px;
-    padding-left: 5px;
-    display: flex !important;
-    align-items: center;
-}
-
-/* Colores Institucionales */
-:root {
-    --uady-blue: #012143;
-    --uady-gold: #b58d1b;
-}
-
-/* Tipografía */
-body {
-    font-family: 'Open Sans', sans-serif; /* La UADY usa fuentes limpias como esta */
-}
-
-.lema {
-    font-family: 'Times New Roman', serif;
-    font-style: italic;
-    color: #333;
-    font-size: 1.8rem;
-    font-weight: 400;
-}
-
-/* Buscador Estilo Minimal */
-.search-container {
+/* Historia (Timeline) */
+.timeline {
     position: relative;
-    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
 }
 
-.buscador-minimal {
-    border: none;
-    padding: 5px 30px 5px 5px;
-    outline: none;
-    font-size: 0.9rem;
-    width: 250px;
-}
-
-.search-icon {
+.timeline::after {
+    content: '';
     position: absolute;
-    right: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--uady-blue);
-    font-size: 1.1rem;
+    width: 4px;
+    background: var(--uady-gold);
+    top: 0; bottom: 0; left: 50%;
+    margin-left: -2px;
 }
 
-/* Iconos Superiores */
-.icono-link {
-    color: var(--uady-blue);
-    text-decoration: none;
-    font-size: 0.75rem; /* Iconos y texto muy pequeños */
-    display: flex;
-    align-items: center;
+.timeline-item {
+    padding: 20px;
+    position: relative;
+    width: 50%;
+}
+
+.timeline-item.left { left: 0; }
+.timeline-item.right { left: 50%; }
+
+.timeline-content {
+    background: var(--uady-blue);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
-.icono-link i {
-    font-size: 1.1rem;
+.timeline-content:hover { transform: scale(1.05); }
+
+/* =========================================
+   ANIMACIONES Y UTILIDADES
+   ========================================= */
+.texto-largo {
+    animation: fadeUp 1s ease;
 }
 
-.icono-link:hover {
-    color: var(--uady-gold);
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
-/* Menús de Navegación */
-.bg-uady-gold { background-color: var(--uady-gold) !important; }
-.bg-uady-blue { background-color: var(--uady-blue) !important; }
-
-.menu-dorado .nav-link, .menu-azul .nav-link {
-    color: white !important;
-    font-size: 0.85rem;
-    font-weight: 500;
-    padding: 8px 15px !important;
-    text-transform: none; /* No todo es mayúsculas */
+.frase {
+    font-size: 1.3rem;
+    font-style: italic;
 }
 
+.text-primary-uady { color: var(--uady-blue-light); }
 
-.menu-azul .nav-link {
-    font-weight: 600;
-}
-
-.nav-link:hover {
-    background: rgba(255,255,255,0.1);
-}
-
-/* Menús de navegación */
-.bg-uady-gold { background: #c9a227 !important; }
-.bg-uady-blue { background: #0b2d4d !important; }
-
-.menu-dorado .nav-link {
-    color: #0b2d4d !important;
-    font-size: 0.95rem;
-    font-weight: 500;
-    padding: 12px 20px;
-}
-
-.menu-azul .nav-link {
-    color: white !important;
-    font-size: 0.9rem;
-    padding: 10px 20px;
-}
-
-/* Título Azul */
-.titulo-biblioteca {
-    color: #0b2d4d;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    font-size: 2.2rem;
-}
-
-.titulo-biblioteca a {
-    color: #999;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
-
-.banner-biblioteca {
-    border-top: 5px solid #c9a227; 
-    line-height: 0; 
-}
-
-.banner-biblioteca img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Párrafo */
-.texto-descripcion p {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    color: #333;
-    text-align: justify;
-}
-
-.texto-descripcion a {
-    color: #0b2d4d;
-    text-decoration: underline;
-}
-
-.texto-descripcion a:hover {
-    color: #c9a227;
-}
-
-/* Color azul para títulos */
-.text-primary-uady {
-    color: #0b2d4d;
-    font-weight: 500;
-}
-
-/* Acordeón */
-.accordion-item {
-    border: 1px solid #eee !important;
-    border-radius: 8px !important;
-    overflow: hidden;
-}
-
-.accordion-button:not(.collapsed) {
-    background-color: #fff !important;
-    color: #333 !important;
-    box-shadow: none !important;
-}
-
-.accordion-button::after {
-    background-size: 1rem; 
-}
-
-/* Enlaces estilo UADY */
 .link-uady {
     color: #0056b3;
     text-decoration: underline;
 }
 
-.link-uady:hover {
-    color: #b38b1d;
-}
-
-/* Texto de contacto */
-.contacto-responsable p {
-    font-size: 0.95rem;
-    color: #444;
-    line-height: 1.8;
-}
-
-
-
-
+.link-uady:hover { color: var(--uady-gold); }

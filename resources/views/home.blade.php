@@ -4,10 +4,10 @@
 
 @php
     $fotosFacultad = [
-        ['url' => 'assets/img/carousel/c3.jpg', 'titulo' => 'Bienvenidos a la Facultad', 'alt' => 'Edificio principal'],
-        ['url' => 'assets/img/carousel/c1.jpg', 'titulo' => 'Inscripciones Abiertas', 'subtitulo' => 'Ciclo Escolar 2026', 'alt' => 'Estudiantes'], 
-        ['url' => 'assets/img/carousel/c2.jpg', 'titulo' => 'Orgullo Jaguar', 'alt' => 'Mascota'],
-    ];
+        ['type' => 'video', 'url' => 'assets/img/estudiantes/eV.mp4', 'titulo' => 'Orgullo Jaguar', 'subtitulo' => ''],
+        ['type' => 'image', 'url' => 'assets/img/carousel/c1.jpg', 'titulo' => 'Inscripciones Abiertas', 'subtitulo' => 'Ciclo Escolar 2026', 'alt' => 'Estudiantes'],  
+        ['type' => 'image', 'url' => 'assets/img/carousel/c2.jpg', 'titulo' => 'Bienvenidos a la Facultad ', 'alt' => 'Edificio principal'], 
+                     ];
 @endphp
 
 {{--  CAROUSEL --}}
@@ -20,7 +20,7 @@
     <div class="container">
         <h2 class="fw-bold">Forma parte de nuestra comunidad</h2>
         <p>Inscripciones abiertas 2026</p>
-        <a href="{{ url('/estudiantes') }}" class="btn btn-warning fw-bold px-4 py-2">
+        <a href="{{ route('facultad.estudiantes') }}"class="btn btn-warning fw-bold px-4 py-2">
             Solicita información
         </a>
     </div>
@@ -28,11 +28,11 @@
 
 {{-- oferta académica :)  --}}
 @php
-$oferta = [
-    ['titulo' => 'Maestrías', 'imagen' => 'assets/img/oferta/m1.jpg', 'link' => '/aspirantes'],
-    ['titulo' => 'Doctorados', 'imagen' => 'assets/img/oferta/m2.jpg', 'link' => '/egresados'],
-    ['titulo' => 'Educación continua', 'imagen' => 'assets/img/oferta/m3.jpg', 'link' => '/egresados'],
-    ['titulo' => 'Licenciaturas', 'imagen' => 'assets/img/oferta/m4.jpg', 'link' => '/estudiantes'],
+$oferta = [ 
+    ['titulo' => 'Maestrías', 'imagen' => 'assets/img/oferta/m1.jpg', 'link' => route('facultad.estudiantes')],
+    ['titulo' => 'Doctorados', 'imagen' => 'assets/img/oferta/m2.jpg', 'link' => route('facultad.egresados')],
+    ['titulo' => 'Educación continua', 'imagen' => 'assets/img/oferta/m3.jpg', 'link' => route('facultad.egresados')],
+    ['titulo' => 'Licenciaturas', 'imagen' => 'assets/img/oferta/m4.jpg', 'link' => route('facultad.estudiantes')],
 ];
 @endphp
 
