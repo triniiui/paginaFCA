@@ -2,7 +2,7 @@
     'imagen',
     'titulo',
     'subtitulo' => '',
-    'altura' => '400px'
+    'altura' => '500px'
 ])
 
 @php

@@ -13,14 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <style>
-        :root { 
-            --uady-blue: #012143; 
-            --uady-gold: #b58d1b; 
-        }
-        .bg-uady-blue { background-color: var(--uady-blue) !important; }
-        .bg-uady-gold { background-color: var(--uady-gold) !important; }
-    </style>
+
 </head>
 <body>
     <x-navbar />

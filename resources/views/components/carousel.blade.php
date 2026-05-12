@@ -18,22 +18,37 @@
         @foreach($imagenes as $index => $imagen)
             <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
 
-                {{-- Imagen grande tipo HERO --}}
-                <img src="{{ asset($imagen['url']) }}" 
-                     class="d-block w-100 hero-img" 
-                     alt="{{ $imagen['alt'] ?? 'Imagen' }}">
+                @if(isset($imagen['type']) && $imagen['type'] === 'video')
+                    
+                    {{-- VIDEO --}}
+                    <video class="d-block w-100 hero-img"
+                           autoplay
+                           loop
+                           muted
+                           playsinline>
+                        <source src="{{ asset($imagen['url']) }}" type="video/mp4">
+                        Tu navegador no soporta videos.
+                    </video>
 
-                {{-- Overlay oscuro --}}
+                @else
+
+                    {{-- IMAGEN --}}
+                    <img src="{{ asset($imagen['url']) }}" 
+                         class="d-block w-100 hero-img" 
+                         alt="{{ $imagen['alt'] ?? 'Imagen' }}">
+
+                @endif
+
+                {{-- Overlay --}}
                 <div class="overlay"></div>
 
-                {{-- Texto estilo moderno --}}
+                {{-- Texto --}}
                 <div class="carousel-caption text-start hero-caption">
                     <h1 class="fw-bold">{{ $imagen['titulo'] }}</h1>
 
                     @if(isset($imagen['subtitulo']))
                         <p>{{ $imagen['subtitulo'] }}</p>
                     @endif
-
                 </div>
 
             </div>
@@ -52,10 +67,13 @@
 
 </div>
 
-{{-- ESTILOS --}}
 <style>
 .hero-img {
     height: 80vh;
+    object-fit: cover;
+}
+
+video.hero-img {
     object-fit: cover;
 }
 

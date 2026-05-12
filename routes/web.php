@@ -34,6 +34,26 @@ Route::prefix('fca-nuestra-facultad')->group(function () {
         return view('facultad.acerca');
     })->name('facultad.acerca');
 
+    //Aspirantes
+    Route::get('/aspirantes', function () {
+        return view('facultad.aspirantes');
+    })->name('facultad.aspirantes');
+
+    //Estudiantes
+    Route::get('/estudiantes', function () {
+        return view('facultad.estudiantes');
+    })->name('facultad.estudiantes');
+
+    //Docentes
+    Route::get('/docentes', function () {
+        return view('facultad.docentes');
+    })->name('facultad.docentes');
+
+    //Egresados
+    Route::get('/egresados', function () {
+        return view('facultad.egresados');
+    })->name('facultad.egresados');
+
     //Centro de Innovación Pedagógica
     Route::get('/centro-de-innovacion-pedagogica', function () {
         return view('facultad.innovacion');

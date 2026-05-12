@@ -1,3 +1,180 @@
+/*app.layout*/
+:root { 
+            --uady-blue: #012143; 
+            --uady-gold: #b58d1b; 
+        }
+        .bg-uady-blue { background-color: var(--uady-blue) !important; }
+        .bg-uady-gold { background-color: var(--uady-gold) !important; }
+
+
+/* ===============================
+    VARIABLES
+================================ */
+:root {
+    --uady-blue: #012143;
+    --uady-gold: #b58d1b;
+    --uady-light-gold: #f2c94c; /* 🔥 amarillo más vivo */
+}
+
+/* ===============================
+   HEADER GENERAL
+================================ */
+header {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* ===============================
+   LEMA
+================================ */
+.lema-uady {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    color: var(--uady-blue);
+    font-size: 1.3rem;
+}
+
+/* ===============================
+   BUSCADOR
+================================ */
+.search-box-container {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 3px;
+    width: 220px;
+}
+
+.buscador-input {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+/* ===============================
+   ICONOS
+================================ */
+.icono-item-link {
+    color: var(--uady-blue);
+    text-decoration: none;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.2s;
+}
+
+.icono-item-link i {
+    font-size: 1.2rem;
+}
+
+.icono-item-link:hover {
+    color: var(--uady-gold);
+    transform: translateY(-1px);
+}
+
+/* ===============================
+   NAVBAR PRINCIPAL
+================================ */
+.bg-uady-gold {
+    background-color: var(--uady-gold) !important;
+    padding: 12px 0; /* 🔥 más gordito */
+}
+
+/* Links del menú */
+.nav-link-uady {
+    color: white !important;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 12px 18px !important; /* 🔥 más espacio */
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+/* Hover moderno */
+.nav-link-uady:hover {
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(4px);
+}
+
+/* ===============================
+ DROPDOWN (ARREGLADO)
+================================ */
+
+/* contenedor */
+.uady-dropdown {
+    position: relative;
+}
+
+/* abrir al hover */
+.uady-dropdown:hover .uady-gold-menu {
+    display: block;
+}
+
+/* menú */
+.uady-gold-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* 🔥 pegado sin hueco */
+    left: 0;
+    background-color: var(--uady-light-gold);
+    min-width: 280px;
+    border-radius: 0 0 12px 12px;
+    padding: 8px 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    border: none;
+    z-index: 999;
+}
+
+/* 🔥 zona invisible anti-bug */
+.uady-gold-menu::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+}
+
+/* items */
+.uady-gold-menu .dropdown-item {
+    color: #333;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+}
+
+/* hover items */
+.uady-gold-menu .dropdown-item:hover {
+    background-color: rgba(255,255,255,0.4);
+    color: var(--uady-blue);
+    padding-left: 25px;
+}
+
+/* estado activo del botón */
+.uady-dropdown:hover > .nav-link-uady {
+    background-color: white !important;
+    color: var(--uady-blue) !important;
+}
+
+/* ===============================
+   ✨ ANIMACIÓN SUAVE
+================================ */
+.uady-gold-menu {
+    animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
 /* =========================================
    VARIABLES Y CONFIGURACIÓN BASE
    ========================================= */
