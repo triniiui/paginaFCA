@@ -38,11 +38,7 @@
 
     <!-- Navbar responsive -->
     <nav class="navbar navbar-expand-lg bg-uady-gold" style="padding-top: 2px; padding-bottom: 2px;">
-<<<<<<< HEAD
         <div class="container-fluid px-lg-5 px-3">
-=======
-        <div class="container-fluid px-4">
->>>>>>> 8774a4509799b31300ec8dd523fceb4be11aa5a0
             <!-- Botón hamburguesa -->
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarUady" aria-controls="navbarUady" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -63,7 +59,6 @@
                             <a class="dropdown-item" href="{{ route('facultad.historia') }}">Historia</a>
                             <a class="dropdown-item" href="{{ route('facultad.matricula') }}">Matrícula</a>
                             <a class="dropdown-item" href="{{ route('facultad.organizacion') }}">Organización</a>
-                            <a class="dropdown-item" href="{{ route('facultad.plan') }}">Plan de Desarrollo</a>
                         </div>
                     </li>
 
@@ -73,6 +68,7 @@
                             <a class="dropdown-item" href="{{ route('ofEdu.ofeduCo') }}">Oferta Educativa Continua</a>
                             <a class="dropdown-item" href="{{ route('ofEdu.proLin') }}">Oferta Licenciatura</a>
                             <a class="dropdown-item" href="{{ route('ofEdu.proPos') }}">Oferta Posgrado</a>
+                            <a class="dropdown-item" href="{{ route('facultad.plan') }}">Plan de Desarrollo</a>
                         </div>
                     </li>
 
@@ -108,9 +104,8 @@
         </div>
        <style>
 
-/* =========================
-   NAVBAR GENERAL
-========================= */
+/*
+   NAVBAR GENERAL */
 
 .bg-uady-gold{
     background-color: #b38b00;
