@@ -10,7 +10,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4">Coordinación de Investigación</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Investigación</h3>
 
     <div class="card shadow-sm mb-4">
         <div class="card-body">
@@ -28,7 +28,7 @@
                 La actividad investigadora de la Facultad es realizada por cuatro cuerpos académicos reconocidos por el PRODED (39% de los PTC) y un grupo de investigación (14% de los PTC), lo que significa que más del 50% de los PTC están generando o aplicando conocimientos.
             </div>
 
-            <h5 class="fw-bold mt-4">Cuerpos Académicos</h5>
+            <h5 class="fw-bold mt-4" style="color: #002E5F;">Cuerpos Académicos</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><a href="#" target="_blank">Cuerpo Académico Organización y Gestión</a></li>
                 <li class="list-group-item"><a href="#" target="_blank">Cuerpo Académico Economía y Finanzas</a></li>
@@ -43,7 +43,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4">Registro de Proyectos en el Sistema de Proyectos (SISTPROY) de la UADY</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Registro de Proyectos en el Sistema de Proyectos (SISTPROY) de la UADY</h3>
 
     <div class="card shadow-sm mb-4">
         <div class="card-body">
@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <h3 class="fw-bold text-center mb-4">Otros documentos de interés</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Otros documentos de interés</h3>
 
     <div class="card shadow-sm mb-4">
         <div class="card-body">

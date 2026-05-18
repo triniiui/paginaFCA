@@ -9,7 +9,7 @@
 />
 <section class="py-5 bg-light text-center">
     <div class="container">
-        <h2 class="fw-bold mb-3">Nuestros Programas de Posgrado</h2>
+        <h2 class="fw-bold mb-3" style="color: #002E5F;">Nuestros Programas de Posgrado</h2>
         <p class="text-muted">
             Programas diseñados para formar líderes estratégicos con visión global, innovación y ética profesional.
         </p>
@@ -26,7 +26,7 @@
                     <div class="card-body">
                         <h5 class="fw-bold">Mercadotecnia Digital</h5>
                         <p class="small text-muted">Innovación + Estrategia digital</p>
-                        <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#mmd">
+                        <button class="btn w-100" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
                             Ver más
                         </button>
                     </div>
@@ -38,7 +38,7 @@
                     <div class="card-body">
                         <h5 class="fw-bold">Impuestos</h5>
                         <p class="small text-muted">Especialización fiscal</p>
-                        <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#mi">
+                        <button class="btn w-100" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
                             Ver más
                         </button>
                     </div>
@@ -50,7 +50,7 @@
                     <div class="card-body">
                         <h5 class="fw-bold">Dirección Estratégica</h5>
                         <p class="small text-muted">Liderazgo organizacional</p>
-                        <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#mde">
+                        <button class="btn w-100" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
                             Ver más
                         </button>
                     </div>
@@ -62,7 +62,7 @@
                     <div class="card-body">
                         <h5 class="fw-bold">Finanzas</h5>
                         <p class="small text-muted">Optimización de recursos</p>
-                        <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#mf">
+                        <button class="btn w-100" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
                             Ver más
                         </button>
                     </div>
@@ -139,7 +139,7 @@
 {{-- coordinares --}}
 <section class="py-5">
     <div class="container">
-        <h3 class="fw-bold text-center mb-5">Coordinadores</h3>
+        <h3 class="fw-bold text-center mb-5" style="color: #002E5F;">Coordinadores</h3>
 
         <div class="row g-4">
 

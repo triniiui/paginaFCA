@@ -11,7 +11,7 @@
 <div class="container my-5">
 
     <div class="text-center mb-5">
-        <h3 class="fw-bold text-dark">Módulo de Atención fiscal</h3>
+        <h3 class="fw-bold" style="color: #002E5F;">Módulo de Atención fiscal</h3>
         <div class="mx-auto" style="width: 60px; height: 4px; background: #b58d1b; border-radius: 2px;"></div>
     </div>
 
@@ -77,7 +77,7 @@
 
     {{-- Bloque de beneficios con íconos --}}
     <div class="mb-5">
-        <h3 class="fw-bold text-center mb-4">Beneficios para la sociedad</h3>
+        <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Beneficios para la sociedad</h3>
         <div class="row">
             <div class="col-md-4 text-center">
                 <div class="p-3">
@@ -104,7 +104,7 @@
 <div class="container my-5">
 
     {{-- Catálogo de trámites como lista --}}
-    <h3 class="fw-bold text-center mb-4">Catálogo de trámites vía portal del SAT</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Catálogo de trámites vía portal del SAT</h3>
     <div class="card shadow-sm mb-5">
         <div class="card-body">
             <ul class="list-group list-group-flush">

@@ -88,7 +88,7 @@
 {{-- INTRO --}}
 <section class="py-5 text-center bg-light">
     <div class="container">
-        <h2 class="fw-bold mb-3">Nuestra Historia</h2>
+        <h2 class="fw-bold mb-3" style="color: #002E5F;">Nuestra Historia</h2>
         <p class="text-muted">
             Desde 1962, la Facultad de Contaduría y Administración ha sido parte fundamental 
             del desarrollo académico y profesional en Yucatán.
@@ -183,7 +183,7 @@
 <section class="py-5 bg-light">
     <div class="container">
 
-        <h2 class="fw-bold mb-4 text-center">Directores</h2>
+        <h2 class="fw-bold mb-4 text-center" style="color: #002E5F;">Directores</h2>
 
         <div class="row g-3">
 

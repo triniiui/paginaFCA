@@ -20,7 +20,7 @@
 
     {{-- Lista de cuerpos académicos --}}
     <div class="mb-4">
-        <h3 class="fw-bold">Cuerpos Académicos</h3>
+        <h3 class="fw-bold" style="color: #002E5F;">Cuerpos Académicos</h3>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">
                 <a href="#" class="text-primary text-decoration-none">
@@ -52,7 +52,7 @@
 
     {{-- Contacto --}}
     <div class="mt-5">
-        <h5 class="fw-bold">Contacto:</h5>
+        <h5 class="fw-bold" style="color: #002E5F;">Contacto:</h5>
         <p>
             <a href="mailto:investigacion.fca@correo.uady.mx" class="text-decoration-none">
                 investigacion.fca@correo.uady.mx

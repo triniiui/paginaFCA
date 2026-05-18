@@ -18,7 +18,7 @@
     {{-- Presentación en bloque destacado --}}
     <div class="card shadow-sm mb-5">
         <div class="card-body">
-            <h3 class="fw-bold mb-3">Presentación</h3>
+            <h3 class="fw-bold mb-3" style="color: #002E5F;">Presentación</h3>
             <p>
                 La formación integral de un estudiante comprende aspectos que van más allá de la transmisión de conocimientos. 
                 En la Facultad de Contaduría y Administración de la UADY, buscamos generar profesionales con alto perfil ético y humanista, 
@@ -33,7 +33,7 @@
     </div>
 
     {{-- Objetivos en tarjetas --}}
-    <h3 class="fw-bold text-center mb-4">Objetivos</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Objetivos</h3>
     <div class="row text-center mb-5">
         <div class="col-md-6 mb-3">
             <div class="card h-100 shadow-sm">
@@ -59,7 +59,7 @@
     </div>
 
     {{-- Documentos relacionados --}}
-    <h3 class="fw-bold text-center mb-4">Documentos del Programa</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Documentos del Programa</h3>
     <div class="list-group mb-5">
         <a href="#" class="list-group-item list-group-item-action">Convocatoria enero-junio 2026</a>
         <a href="#" class="list-group-item list-group-item-action">Infografía Programa Padrino Académico</a>
@@ -73,15 +73,15 @@
     {{-- Relación de matrículas en tabla --}}
     <div class="card shadow-sm mb-5">
         <div class="card-body">
-            <h3 class="fw-bold mb-3">Relación de matrículas de estudiantes beneficiados</h3>
+            <h3 class="fw-bold mb-3" style="color: #002E5F;">Relación de matrículas de estudiantes beneficiados</h3>
             <p>Ciclo enero–junio 2026</p>
 
             <div class="table-responsive">
                 <table class="table table-striped table-bordered align-middle">
                     <thead class="table-primary">
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">MATRÍCULA</th>
+                            <th style="background-color: #002E5F; color: white;">#</th>
+                            <th style="background-color: #002E5F; color: white;">MATRÍCULA</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -119,7 +119,7 @@
     </div>
 
     {{-- Coordinación en bloque destacado --}}
-    <h3 class="fw-bold text-center mb-4">Coordinación de Becas y Programa Padrino Académico</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Becas y Programa Padrino Académico</h3>
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card shadow-sm text-center">

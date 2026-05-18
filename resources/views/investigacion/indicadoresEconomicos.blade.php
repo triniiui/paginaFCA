@@ -12,7 +12,7 @@
 
     <!-- PRESENTACIÓN -->
     <section class="mb-5">
-        <h5 class="fw-bold">Presentación</h5>
+        <h5 class="fw-bold" style="color: #002E5F;">Presentación</h5>
         <hr>
         <p>
             El boletín Indicadores Económicos del Estado de Yucatán es una publicación del Cuerpo Académico de Economía 
@@ -52,7 +52,7 @@
 
     <!-- EDICIONES ANTERIORES -->
     <section class="mb-5">
-        <p class="fw-bold">Ediciones anteriores:</p>
+        <p class="fw-bold" style="color: #002E5F;">Ediciones anteriores:</p>
 
         <!-- AÑO -->
         <div class="text-center mb-4">
@@ -101,7 +101,7 @@
 
     <!-- CONTACTO -->
     <section class="mb-5">
-        <p class="fw-bold">Contacto:</p>
+        <p class="fw-bold" style="color: #002E5F;">Contacto:</p>
 
         <div class="row">
 

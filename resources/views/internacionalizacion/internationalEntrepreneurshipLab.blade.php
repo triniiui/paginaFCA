@@ -56,7 +56,7 @@
     </div>
 
     {{-- Profesores en lista estilizada --}}
-    <h3 class="fw-bold text-center mb-4">Profesores</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Profesores</h3>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">Dra. Anel Flores Novelo</li>
         <li class="list-group-item">Dra. María del Carmen Rachó Barroso</li>
@@ -72,7 +72,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4">Equipo Académico</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Equipo Académico</h3>
 
     <div class="row text-center">
 
@@ -139,14 +139,14 @@
 <div class="container my-5">
 
     {{-- Título de testimonios --}}
-    <h3 class="fw-bold text-center mb-4">Alumnos destacados del programa</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Alumnos destacados del programa</h3>
 
     {{-- Testimonios en tarjetas --}}
     <div class="row">
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="fw-bold">Monserrat Vargas Jiménez</h5>
+                    <h5 class="fw-bold" style="color: #002E5F;">Monserrat Vargas Jiménez</h5>
                     <p class="text-muted">Mercadotecnia y Negocios Internacionales</p>
                     <p>Es una experiencia única y completa. Cada sesión brinda una oportunidad para trabajar en equipo, potencializar ideas, obtener nuevos aprendizajes, ser empáticos, responsables y desarrollar capacidades organizativas.</p>
                 </div>
@@ -156,7 +156,7 @@
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="fw-bold">Viviana Aminairy Poor Trejo</h5>
+                    <h5 class="fw-bold" style="color: #002E5F;">Viviana Aminairy Poor Trejo</h5>
                     <p class="text-muted">Mercadotecnia y Negocios Internacionales</p>
                     <p>El IELSM es una gran experiencia, el programa permite tener contacto directo con empresas nacionales e internacionales y aprender de profesionales y especialistas en el área.</p>
                 </div>
@@ -166,7 +166,7 @@
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="fw-bold">Javier Arturo Vallejo Olán</h5>
+                    <h5 class="fw-bold" style="color: #002E5F;">Javier Arturo Vallejo Olán</h5>
                     <p class="text-muted">Mercadotecnia y Negocios Internacionales</p>
                     <p>El IELSM me brindó la oportunidad de desarrollar un proyecto de marco social junto a alumnos, empresarios y expertos de América y Europa. Esta experiencia fue una gran influencia para mi carrera profesional, te hace adquirir una perspectiva más global.</p>
                 </div>
@@ -176,7 +176,7 @@
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="fw-bold">Jessica Guadalupe Alpuche Pacheco</h5>
+                    <h5 class="fw-bold" style="color: #002E5F;">Jessica Guadalupe Alpuche Pacheco</h5>
                     <p class="text-muted">Comercio Internacional</p>
                     <p>Permite conectar con estudiantes de negocios internacionales, practicar el idioma inglés y realizar tareas donde pude conocer instrumentos de trabajo para desarrollar planes e impulsar a empresas a expandir sus fronteras.</p>
                 </div>
@@ -186,7 +186,7 @@
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="fw-bold">Jonathan Efraín Vázquez Galeana</h5>
+                    <h5 class="fw-bold" style="color: #002E5F;">Jonathan Efraín Vázquez Galeana</h5>
                     <p class="text-muted">Comercio Internacional</p>
                     <p>Participar en la plataforma me hizo sumar experiencia en el análisis y evaluación de modelos de negocios de diferentes empresas según su tamaño, además de aprender a colaborar en equipos de trabajo.</p>
                 </div>
@@ -196,7 +196,7 @@
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="fw-bold">Ana Vanesa May Tec</h5>
+                    <h5 class="fw-bold" style="color: #002E5F;">Ana Vanesa May Tec</h5>
                     <p class="text-muted">Administración</p>
                     <p>Mi experiencia en el IELSM ha sido gratificante ya que aprendo varias cosas, por ejemplo, de los catalizadores, expertos, empresarios y me nutro de los canvas utilizados.</p>
                 </div>
@@ -206,7 +206,7 @@
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h5 class="fw-bold">Mariana Carolina Gómez Porter</h5>
+                    <h5 class="fw-bold" style="color: #002E5F;">Mariana Carolina Gómez Porter</h5>
                     <p class="text-muted">Administración</p>
                     <p>Buena experiencia en el IELSM, los catalizadores responden dudas y escuchan nuestras opiniones en las sesiones. Además, brindan consejos para exponer nuestros proyectos y presentarlos a empresarios y expertos.</p>
                 </div>
@@ -223,7 +223,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4">Galería</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Galería</h3>
 
     <div class="row">
         <div class="col-md-6 mb-4">
@@ -238,7 +238,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4">Contacto</h3>
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Contacto</h3>
 
     <div class="row align-items-center">
         <div class="col-md-4 text-center mb-3">

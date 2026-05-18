@@ -37,7 +37,7 @@
     </div>
 
     <!-- Navbar responsive -->
-    <nav class="navbar navbar-expand-lg bg-uady-gold">
+    <nav class="navbar navbar-expand-lg bg-uady-gold" style="padding-top: 2px; padding-bottom: 2px;">
         <div class="container-fluid px-4">
             <!-- Botón hamburguesa -->
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarUady" aria-controls="navbarUady" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,7 +80,7 @@
                 </li>
 
                 <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady">Investigación</a>
+                    <a class="nav-link nav-link-uady" href="#">Investigación</a>
                     <div class="uady-gold-menu">
                         <a class="dropdown-item" href="{{ route('investigacion.coordinacionInvestigacion') }}">Coordinación de Investigación</a>
                         <a class="dropdown-item" href="{{ route('investigacion.cuerposAcademicos') }}">Cuerpos Académicos</a>
@@ -90,7 +90,7 @@
                 </li>
 
                 <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady">Vinculación</a>
+                    <a class="nav-link nav-link-uady" href="#">Vinculación</a>
                     <div class="uady-gold-menu">
                         <a class="dropdown-item" href="{{ route('vinculacion.centroDesarrolloNegocios') }}">Centro de Desarrollo de Negocios</a>
                         <a class="dropdown-item" href="{{ route('vinculacion.coordinacionVinculacionEstrategica') }}">Coordinación de Vinculación Estratégica</a>
@@ -100,7 +100,7 @@
                 </li>
 
                 <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady">Internacionalización</a>
+                    <a class="nav-link nav-link-uady" href="#">Internacionalización</a>
                     <div class="uady-gold-menu">
                         <a class="dropdown-item" href="{{ route('internacionalizacion.internationalEntrepreneurshipLab') }}">International Entrepreneurship-Lab Smart Money</a>
                         <a class="dropdown-item" href="{{ route('internacionalizacion.movilidadInternacional') }}">Movilidad Internacional</a>
