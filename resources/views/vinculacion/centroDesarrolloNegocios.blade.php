@@ -30,19 +30,47 @@
         </p>
     </div>
 
-    <!-- VALORES -->
-    <h4 class="fw-bold mt-5">Valores</h4>
-    <div class="row mt-3">
-        <div class="col-md-3"><div class="card p-3 mb-3">Responsabilidad</div></div>
-        <div class="col-md-3"><div class="card p-3 mb-3">Compromiso</div></div>
-        <div class="col-md-3"><div class="card p-3 mb-3">Servicio</div></div>
-        <div class="col-md-3"><div class="card p-3 mb-3">Calidad</div></div>
-        <div class="col-md-3"><div class="card p-3 mb-3">Honestidad</div></div>
-        <div class="col-md-3"><div class="card p-3 mb-3">Tolerancia</div></div>
-        <div class="col-md-3"><div class="card p-3 mb-3">Transparencia</div></div>
-        <div class="col-md-3"><div class="card p-3 mb-3">Respeto</div></div>
-    </div>
+    <div class="container text-black">
+        <h2 class="fw-bold mb-4 text-center">Valores</h2>
 
+        <div class="container">
+            <div class="row g-3 justify-content-center text-center">
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <x-cuadro tipo="texto" contenido="Responsabilidad" color="azul" />
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <x-cuadro tipo="texto" contenido="Honestidad" color="dorado" />
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <x-cuadro tipo="texto" contenido="Compromiso" color="azul" />
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <x-cuadro tipo="texto" contenido="Tolerancia" color="dorado" />
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <x-cuadro tipo="texto" contenido="Servicio" color="dorado" />
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <x-cuadro tipo="texto" contenido="Transparencia" color="azul" />
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <x-cuadro tipo="texto" contenido="Calidad" color="dorado" />
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <x-cuadro tipo="texto" contenido="Respeto" color="azul" />
+                </div>
+
+            </div>
+        </div>
+    </div> 
 </div>
 
 <div class="container my-5">
@@ -55,7 +83,7 @@
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h4 class="fw-bold text-primary">Asesoría</h4>
+                    <h4 class="fw-bold" style="color: #002E5F;">Asesoría</h4>
                     <p>
                         Servicio de acompañamiento continuo que brinda orientación especializada en áreas como 
                         mercadotecnia, desarrollo de marca, comunicación estratégica, diseño de imagen, impuestos, 
@@ -69,7 +97,7 @@
         <div class="col-md-6 mb-4">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <h4 class="fw-bold text-success">Consultoría</h4>
+                    <h4 class="fw-bold" style="color: #002E5F;">Consultoría</h4>
                     <p>
                         Servicio orientado a resolver problemas específicos con un enfoque estratégico y de corto plazo. 
                         Implica el desarrollo de proyectos puntuales que generan recomendaciones y soluciones concretas 
@@ -81,9 +109,7 @@
     </div>
 
     <!-- RED DE ASESORES -->
-    <div class="alert alert-info mt-4" role="alert">
-        El CEDENE cuenta con una red de asesores y consultores, conformada por profesionistas y académicos especializados en distintas áreas de atención empresarial.
-    </div>
+    <div class="alert mt-4" role="alert" style="background-color: #002E5F; color: white; border: none;">El CEDENE cuenta con una red de asesores y consultores, conformada por profesionistas y académicos especializados en distintas áreas de atención empresarial.</div>
 
     <!-- ÁREAS DE ATENCIÓN -->
     <h4 class="fw-bold mt-5">Áreas de atención</h4>

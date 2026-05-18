@@ -32,7 +32,7 @@
         <div class="col-md-6 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <i class="bi bi-globe2 fs-1 text-primary"></i>
+                    <i class="bi bi-globe2 fs-1" style="color: #002E5F;"></i>
                     <h5 class="fw-bold mt-2">Transformación Digital</h5>
                     <p>Potencializando capacidades académicas de enseñanza, investigación, emprendimiento e innovación en red digital con Europa y Latinoamérica.</p>
                 </div>
@@ -41,7 +41,7 @@
         <div class="col-md-6 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <i class="bi bi-people-fill fs-1 text-success"></i>
+                    <i class="bi bi-people-fill fs-1" style="color: #002E5F;"></i>
                     <h5 class="fw-bold mt-2">Impacto Internacional</h5>
                     <p>Brindando un impacto nacional e internacional en ámbitos sociales, económicos y ambientales, ejes de gran importancia para nuestra facultad.</p>
                 </div>
@@ -76,89 +76,62 @@
 
     <div class="row text-center">
 
-        {{-- Dra. Anel Flores --}}
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body">
-                    <img src="{{ asset('images/anel_flores.png') }}" alt="Dra. Anel Flores" 
-                         class="img-fluid rounded-circle mb-3" style="max-width:150px;">
-                    <h5 class="fw-bold">Dra. Anel Flores</h5>
-                    <p class="text-muted">IELSM - Coordinadora<br>Universidad Autónoma de Yucatán</p>
-                </div>
-            </div>
-        </div>
+        <x-staff-card 
+            imagen="assets/img/organizacion/o1.jpg"
+            nombre="Dra. Anel Flores"
+            profesion="IELSM - Coordinadora"
+            puesto="Universidad Aurónoma de Yucatán"
+            correo="mbasulto@correo.uady.mx"
+        />
 
-        {{-- Dr. Valentín Alonso --}}
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body">
-                    <img src="{{ asset('images/valentin_alonso.png') }}" alt="Dr. Valentín Alonso" 
-                         class="img-fluid rounded-circle mb-3" style="max-width:150px;">
-                    <h5 class="fw-bold">Dr. Valentín Alonso</h5>
-                    <p class="text-muted">Universidad Autónoma de Yucatán</p>
-                </div>
-            </div>
-        </div>
+        <x-staff-card 
+            imagen="assets/img/organizacion/o1.jpg"
+            nombre="Dr. Valentin Alonso"
+            profesion="I"
+            puesto="Universidad Aurónoma de Yucatán"
+            correo="mbasulto@correo.uady.mx"
+        />
 
-        {{-- Dra. Teresa Sabido --}}
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body">
-                    <img src="{{ asset('images/teresa_sabido.png') }}" alt="Dra. Teresa Sabido" 
-                         class="img-fluid rounded-circle mb-3" style="max-width:150px;">
-                    <h5 class="fw-bold">Dra. Teresa Sabido</h5>
-                    <p class="text-muted">Universidad Autónoma de Yucatán</p>
-                </div>
-            </div>
-        </div>
+        <x-staff-card 
+            imagen="assets/img/organizacion/o1.jpg"
+            nombre="Dra. Teresa Sabido"
+            profesion="I"
+            puesto="Universidad Aurónoma de Yucatán"
+            correo="mbasulto@correo.uady.mx"
+        />
 
-        {{-- Mtro. Marby Yerbes --}}
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body">
-                    <img src="{{ asset('images/marby_yerbes.png') }}" alt="Mtro. Marby Yerbes" 
-                         class="img-fluid rounded-circle mb-3" style="max-width:150px;">
-                    <h5 class="fw-bold">Mtro. Marby Yerbes</h5>
-                    <p class="text-muted">Universidad Autónoma de Yucatán</p>
-                </div>
-            </div>
-        </div>
+        <x-staff-card 
+            imagen="assets/img/organizacion/o1.jpg"
+            nombre="Mtro. Marby Yerbes"
+            profesion="I"
+            puesto="Universidad Aurónoma de Yucatán"
+            correo="mbasulto@correo.uady.mx"
+        />
 
-        {{-- Mtro. Gustavo López --}}
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body">
-                    <img src="{{ asset('images/gustavo_lopez.png') }}" alt="Mtro. Gustavo López" 
-                         class="img-fluid rounded-circle mb-3" style="max-width:150px;">
-                    <h5 class="fw-bold">Mtro. Gustavo López</h5>
-                    <p class="text-muted">Universidad Autónoma de Yucatán</p>
-                </div>
-            </div>
-        </div>
+        <x-staff-card 
+            imagen="assets/img/organizacion/o1.jpg"
+            nombre="Mtro. Gustavo López"
+            profesion="I"
+            puesto="Universidad Aurónoma de Yucatán"
+            correo="mbasulto@correo.uady.mx"
+        />
 
-        {{-- Dra. Maricarmen Rachó --}}
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body">
-                    <img src="{{ asset('images/maricarmen_racho.png') }}" alt="Dra. Maricarmen Rachó" 
-                         class="img-fluid rounded-circle mb-3" style="max-width:150px;">
-                    <h5 class="fw-bold">Dra. Maricarmen Rachó</h5>
-                    <p class="text-muted">Universidad Autónoma de Yucatán</p>
-                </div>
-            </div>
-        </div>
+        <x-staff-card 
+            imagen="assets/img/organizacion/o1.jpg"
+            nombre="Dra. Maricarmen Rachó"
+            profesion="I"
+            puesto="Universidad Aurónoma de Yucatán"
+            correo="mbasulto@correo.uady.mx"
+        />
 
-        {{-- MIGIM. Gina Godínez --}}
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body">
-                    <img src="{{ asset('images/gina_godinez.png') }}" alt="MIGIM. Gina Godínez" 
-                         class="img-fluid rounded-circle mb-3" style="max-width:150px;">
-                    <h5 class="fw-bold">MIGIM. Gina Godínez</h5>
-                    <p class="text-muted">Coordinadora de Marketing Estratégico y Comunicación<br>Universidad Autónoma de Yucatán</p>
-                </div>
-            </div>
-        </div>
+        <x-staff-card 
+            imagen="assets/img/organizacion/o1.jpg"
+            nombre="MIGIM. Gina Godinez"
+            profesion="I"
+            puesto="Universidad Aurónoma de Yucatán"
+            correo="mbasulto@correo.uady.mx"
+        />
+
 
     </div>
 </div>

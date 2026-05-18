@@ -38,7 +38,7 @@
         <div class="col-md-6 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <i class="bi bi-bullseye fs-1 text-primary"></i>
+                    <i class="bi bi-bullseye fs-1" style="color: #002E5F;"></i>
                     <h5 class="fw-bold mt-2">Objetivo General</h5>
                     <p>Reducir el índice de deserción escolar de los alumnos de licenciatura por falta de recursos económicos.</p>
                 </div>
@@ -47,7 +47,7 @@
         <div class="col-md-6 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <i class="bi bi-people-fill fs-1 text-success"></i>
+                    <i class="bi bi-people-fill fs-1" style="color: #002E5F;"></i>
                     <h5 class="fw-bold mt-2">Objetivos Específicos</h5>
                     <ul class="list-unstyled">
                         <li>Apoyar económicamente a los alumnos “ahijados” para la continuidad de sus estudios.</li>

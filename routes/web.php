@@ -22,7 +22,7 @@ Route::get('/estudiantes',[EstudianteController::class,'informacion'])->name('es
 
 
 //Route::get('/docentes',[DocenteController::class,'index'])->name('docentes');
-Route::get('/docentes',[DocenteController::class,'informacion'])->name('docentes');
+Route::get('/docentes',[DocenteController::class,'informacion'])->name('facultad.docentes');
 
 
 //Route::get('/egresados',[EgresadoController::class,'index'])->name('egresados');

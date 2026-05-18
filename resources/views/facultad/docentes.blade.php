@@ -22,7 +22,7 @@
     </div>
 </div>
 
-{{-- TABLA DE PROFESORES 🔥 --}}
+{{-- TABLA DE PROFESORES --}}
 <div class="container my-5">
 
     <h3 class="fw-bold mb-4 text-center">Personal Docente</h3>
@@ -80,14 +80,20 @@
 
     @if($coordinador)
         <table class="table table-bordered mb-4">
-            <tbody>
-                <tr>
-                    <td>{{ $coordinador->apellidos }} {{ $coordinador->nombre }}</td>
-                    <td>
-                        <a href="mailto:{{ $coordinador->email }}">{{ $coordinador->email }}</a>
-                    </td>
-                </tr>
-            </tbody>
+            <thead class="table-dark">
+                    <tr>
+                        <th>Nombre completo</th>
+                        <th>Correo electrónico</th>
+                    </tr>
+                <tbody>   
+                    <tr>
+                        <td>{{ $coordinador->apellidos }} {{ $coordinador->nombre }}</td>
+                        <td>
+                            <a href="mailto:{{ $coordinador->email }}">{{ $coordinador->email }}</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </thead>
         </table>
     @endif
 

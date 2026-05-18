@@ -32,7 +32,7 @@ class DocenteController extends Controller
         $coordinador = Profesor::where('tipo', 'coordinador_ingles')->first();
         $asignatura = Profesor::where('tipo', 'asignatura')->orderBy('apellidos')->get();
 
-        return view('docentes', compact(
+        return view('facultad/docentes', compact(
         'cgsb',
         'preguntasfrecuentes',
         'pied',

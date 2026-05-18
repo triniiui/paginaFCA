@@ -10,6 +10,11 @@
 
 <div class="container my-5">
 
+    <div class="text-center mb-5">
+        <h3 class="fw-bold text-dark">Módulo de Atención fiscal</h3>
+        <div class="mx-auto" style="width: 60px; height: 4px; background: #b58d1b; border-radius: 2px;"></div>
+    </div>
+
     {{-- Introducción con imagen y texto en dos columnas --}}
     <div class="row align-items-center mb-5">
         <div class="col-md-6">
@@ -23,34 +28,52 @@
             </p>
         </div>
     </div>
+    
+    <div class="row g-4 justify-content-center">
+        {{-- tarjeta 1 --}}
+        <div class="col-lg-10 mb-2">
+            <div class="egresados-card-main shadow-sm d-flex align-items-center p-4">
+                <div class="icon-box me-4 d-none d-md-flex">
+                    <i class="bi bi-people-fill"></i> 
+                </div>
+                <div>
+                    <h5 class="fw-bold mb-2">Visión</h5>
+                    <p class="text-muted mb-0">
+                        Formar contribuyentes conscientes de sus obligaciones fiscales, comprometidos con el cumplimiento voluntario y la ética profesional.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-    {{-- Sección con tarjetas para Visión, Misión, Objetivo --}}
-    <div class="row text-center mb-5">
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h4 class="fw-bold">Visión</h4>
-                    <p>Formar contribuyentes conscientes de sus obligaciones fiscales, comprometidos con el cumplimiento voluntario y la ética profesional.</p>
+        {{-- tarjeta EGEL --}}
+        <div class="col-md-5">
+            <div class="egresados-card shadow-sm h-100 p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="icon-circle me-3"><i class="bi bi-journal-check"></i></div>
+                    <h5 class="fw-bold m-0">Misión</h5>
                 </div>
+                <p class="text-muted small">
+                    Promover la formación tributaria y proporcionar servicios gratuitos a los contribuyentes utilizando las herramientas del portal del SAT.
+                </p>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h4 class="fw-bold">Misión</h4>
-                    <p>Promover la formación tributaria y proporcionar servicios gratuitos a los contribuyentes utilizando las herramientas del portal del SAT.</p>
+
+        {{-- tarjeta Objetivo General --}}
+        <div class="col-md-5">
+            <div class="egresados-card shadow-sm h-100 p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="icon-circle me-3"><i class="bi bi-journal-check"></i></div>
+                    <h5 class="fw-bold m-0">Objetivo General</h5>
                 </div>
+                <p class="text-muted small">
+                    Brindar orientación fiscal GRATUITA en inscripción al RFC, presentación de avisos y declaraciones, inscripción estatal y trámites relacionados.
+                </p>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h4 class="fw-bold">Objetivo General</h4>
-                    <p>Brindar orientación fiscal GRATUITA en inscripción al RFC, presentación de avisos y declaraciones, inscripción estatal y trámites relacionados.</p>
-                </div>
-            </div>
-        </div>
+
+        
     </div>
+
 
     {{-- Bloque de beneficios con íconos --}}
     <div class="mb-5">
@@ -112,7 +135,7 @@
         <div class="col-md-4 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <i class="bi bi-envelope-fill fs-1 text-primary"></i>
+                    <i class="bi bi-envelope-fill fs-1" style="color: #002E5F;"></i>
                     <h5 class="fw-bold mt-2">Contacto</h5>
                     <p>CP Idalia Amparo De Los Santos Briones, MAT<br>
                        Dr. Víctor Manuel Villausso Pino<br>
@@ -129,7 +152,7 @@
         <div class="col-md-4 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <i class="bi bi-geo-alt-fill fs-1 text-success"></i>
+                    <i class="bi bi-geo-alt-fill fs-1" style="color: #002E5F;"></i>
                     <h5 class="fw-bold mt-2">Dirección</h5>
                     <p>Facultad de Contaduría y Administración<br>
                        Campus de Ciencias Sociales, Económico-Administrativas y Humanidades<br>
@@ -141,7 +164,7 @@
         <div class="col-md-4 mb-3">
             <div class="card h-100 shadow-sm">
                 <div class="card-body">
-                    <i class="bi bi-clock-fill fs-1 text-warning"></i>
+                    <i class="bi bi-clock-fill fs-1" style="color: #002E5F;"></i>
                     <h5 class="fw-bold mt-2">Horario</h5>
                     <p>Lunes a viernes<br>8:00 a 12:00 horas</p>
                 </div>

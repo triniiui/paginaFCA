@@ -105,31 +105,15 @@
 
         <div class="row">
 
-            <!-- PERSONA 1 -->
-            <div class="col-md-6 text-center">
-                <img src="{{ asset('assets/img/investigacion/i1.png') }}" 
-                     class="rounded-circle mb-2" width="100">
+           <x-persona 
+    nombre="Dra. Laura Guillermina Duarte Cáceres"
+    correo="guillermina.duarte@correo.uady.mx"
+/>
 
-                <p class="mb-1 fw-bold">
-                    Dra. Laura Guillermina Duarte Cáceres
-                </p>
-                <a href="#">
-                    guillermina.duarte@correo.uady.mx
-                </a>
-            </div>
-
-            <!-- PERSONA 2 -->
-            <div class="col-md-6 text-center">
-                <img src="{{ asset('assets/img/investigacion/i1.png') }}" 
-                     class="rounded-circle mb-2" width="100">
-
-                <p class="mb-1 fw-bold">
-                    Dr. Lucio jesús Uc Heredia
-                </p>
-                <a href="#">
-                    lucio.uc@correo.uady.mx
-                </a>
-            </div>
+            <x-persona 
+                nombre="Dr. Lucio Jesús Uc Heredia"
+                correo="lucio.uc@correo.uady.mx"
+            />
 
         </div>
     </section>
