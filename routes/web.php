@@ -10,18 +10,29 @@ use App\Http\Controllers\EstudianteController;
 use App\Http\Controllers\DocenteController;
 use App\Http\Controllers\EgresadoController;
 use App\Http\Controllers\ComunidadController;
+use App\Models\Informacion;
 
 
 Route::get('/',[HomeController::class,'index'])->name('home');
-Route::get('/aspirantes',[AspiranteController::class,'index'])->name('aspirantes');
-Route::get('/estudiantes',[EstudianteController::class,'index'])->name('estudiantes');
-Route::get('/docentes',[DocenteController::class,'index'])->name('docentes');
-Route::get('/egresados',[EgresadoController::class,'index'])->name('egresados');
-Route::get('/comunidad',[ComunidadController::class,'index'])->name('comunidad');
+//Route::get('/aspirantes',[AspiranteController::class,'index'])->name('aspirantes');
+Route::get('/aspirantes', [AspiranteController::class, 'informacion'])->name('aspirantes');
+
+//Route::get('/estudiantes',[EstudianteController::class,'index'])->name('estudiantes');
+Route::get('/estudiantes',[EstudianteController::class,'informacion'])->name('estudiantes');
+
+
+//Route::get('/docentes',[DocenteController::class,'index'])->name('docentes');
+Route::get('/docentes',[DocenteController::class,'informacion'])->name('facultad.docentes');
+
+
+//Route::get('/egresados',[EgresadoController::class,'index'])->name('egresados');
+Route::get('/egresados',[EgresadoController::class,'informacion'])->name('egresados');
+
+//Route::get('/comunidad',[ComunidadController::class,'index'])->name('comunidad');
+Route::get('/comunidad',[ComunidadController::class,'informacion'])->name('comunidad');
 
 Route::get('/noticias',[NoticiaController::class,'index'])->name('noticias');
 Route::get('/noticias/{id}',[NoticiaController::class,'show'])->name('noticias.show');
-
 Route::get('/carreras',[CarreraController::class,'index'])->name('carreras');
 
 Route::get('/contacto',[ContactoController::class,'index'])->name('contacto');
@@ -31,7 +42,10 @@ Route::get('/contacto',[ContactoController::class,'index'])->name('contacto');
 Route::prefix('fca-nuestra-facultad')->group(function () {
     //Acerca de Nosotros
     Route::get('/acerca-de-nosotros', function () {
-        return view('facultad.acerca');
+        $acercaDeNosotros = Informacion::where('seccion', 'acercaDeNosotros')
+                    ->where('titulo', 'nuestraFacultad')
+                    ->get();
+        return view('facultad.acerca', compact ('acercaDeNosotros'));
     })->name('facultad.acerca');
 
     //Aspirantes
@@ -56,7 +70,16 @@ Route::prefix('fca-nuestra-facultad')->group(function () {
 
     //Centro de Innovación Pedagógica
     Route::get('/centro-de-innovacion-pedagogica', function () {
-        return view('facultad.innovacion');
+        $bienvenida = Informacion::where('seccion', 'centroDeInnovacionPedagogica')
+                    ->where('titulo', 'bienvenida')
+                    ->get();
+        $proposito = Informacion::where('seccion', 'centroDeInnovacionPedagogica')
+                    ->where('titulo', 'nuestroProposito')
+                    ->get();
+        $objetivo = Informacion::where('seccion', 'centroDeInnovacionPedagogica')
+                    ->where('titulo', 'nuestroObjetivo')
+                    ->get();
+        return view('facultad.innovacion', compact('bienvenida', 'proposito', 'objetivo'));
     })->name('facultad.innovacion');
 
     //Directorio
@@ -103,5 +126,70 @@ Route::prefix('fca-oferta-educativa')->group(function () {
     Route::get('/programas-posgrado', function () {
         return view('ofEdu.proPos');
     })->name('ofEdu.proPos');
+
+});
+
+/* Rutas Investigación */
+Route::prefix('fca-investigacion')->group(function () {
+
+    // Coordinación de Investigación 
+    Route::get('/coordinacion-de-investigacion', function () {
+        return view('investigacion.coordinacionInvestigacion');
+    })->name('investigacion.coordinacionInvestigacion');
+
+    // Cuerpos académicos
+    Route::get('/cuerpos-academicos', function () {
+        return view('investigacion.cuerposAcademicos');
+    })->name('investigacion.cuerposAcademicos');
+
+    // Indicadores económicos del Estado de Yucatán
+    Route::get('/indicadores-economicos-del-estado-de-yucatan', function () {
+        return view('investigacion.indicadoresEconomicos');
+    })->name('investigacion.indicadoresEconomicos');
+
+    // Publicación Científica 
+    Route::get('/publicacion-cientifica', function () {
+        return view('investigacion.publicacionesCientificas');
+    })->name('investigacion.publicacionesCientificas');
+
+});
+
+/* Rutas Vinculación */
+Route::prefix('fca-vinculacion')->group(function () {
+
+    // centro de desarrollo de negocios
+    Route::get('/centro-de-desarollo-de-negocios', function () {
+        return view('vinculacion.centroDesarrolloNegocios');
+    })->name('vinculacion.centroDesarrolloNegocios');
+
+    // coordinacion de vinculacion estrategica
+    Route::get('/coordinacion-de-vinculacion-estrategica', function () {
+        return view('vinculacion.coordinacionVinculacionEstrategica');
+    })->name('vinculacion.coordinacionVinculacionEstrategica');
+
+    // modulo de atencion fiscal
+    Route::get('/modulo-de-atencion-fiscal', function () {
+        return view('vinculacion.moduloAtencionFiscal');
+    })->name('vinculacion.moduloAtencionFiscal');
+
+    // Programa padrino académico
+    Route::get('/programa-padrino-academico', function () {
+        return view('vinculacion.programaPadrinoAcademico');
+    })->name('vinculacion.programaPadrinoAcademico');
+
+});
+
+/* Rutas Internacionalización */
+Route::prefix('fca-internacionalizacion')->group(function () {
+
+    // International Entrepreneurship-Lab Smart Money
+    Route::get('/international-entrepreneurship-lab-smart-money', function () {
+        return view('internacionalizacion.internationalEntrepreneurshipLab');
+    })->name('internacionalizacion.internationalEntrepreneurshipLab');
+
+    // Movilidad Internacional
+    Route::get('/movilidad-internacional', function () {
+        return view('internacionalizacion.movilidadInternacional');
+    })->name('internacionalizacion.movilidadInternacional');
 
 });
