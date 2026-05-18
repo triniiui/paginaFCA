@@ -92,7 +92,7 @@
 
     <!-- BOTÓN -->
     <section class="mb-5">
-        <div class="bg-primary text-center py-3 rounded">
+        <div style="background-color: #b58d1b;" class="text-center py-3 rounded">
             <a href="#" class="btn btn-light">
                 Descargar edición más reciente
             </a>

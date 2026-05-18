@@ -156,9 +156,9 @@
                         <br><strong>Costo:</strong> 480 euros (exento para estudiantes UADY).
                     </p>
                     <p>
-                        <a href="https://portalinstitucionales.blob.core.windows.net/cms/principal/documentos/Curso%20verano%20Saar%202026.pdf" target="_blank" class="btn btn-outline-primary btn-sm">Consultar aviso</a>
+                        <a href="https://portalinstitucionales.blob.core.windows.net/cms/principal/documentos/Curso%20verano%20Saar%202026.pdf" target="_blank" class="btn btn-sm" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">Consultar aviso</a>
                     </p>
-                    <div class="alert alert-info mt-3">
+                    <div class="alert alert-warning mt-4">
                         Plática informativa vía Teams: <strong>miércoles 28 de enero, 11:00 hrs</strong>  
                         <a href="https://ln.cl/3bwv7d" target="_blank">Acceder a la plática</a>
                     </div>
@@ -175,7 +175,7 @@
                         <br><strong>Costo curso:</strong> 1000 euros (exento para estudiantes UADY).
                     </p>
                     <p>
-                        <a href="https://portalinstitucionales.blob.core.windows.net/cms/principal/documentos/Curso%20verano%20Francia%20INSA%202026.pdf" target="_blank" class="btn btn-outline-primary btn-sm">Consultar aviso</a>
+                        <a href="https://portalinstitucionales.blob.core.windows.net/cms/principal/documentos/Curso%20verano%20Francia%20INSA%202026.pdf" target="_blank" class="btn btn-sm" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">Consultar aviso</a>
                     </p>
                     <p>
                         Registro UADY obligatorio:  
@@ -252,7 +252,7 @@
                 Antes del inicio, se ofrece un <strong>Curso Intensivo de Alemán</strong> a mediados de marzo, abierto a todos los estudiantes entrantes.
             </p>
 
-            <div class="alert alert-info mt-3">
+            <div class="alert alert-warning mt-3">
                 <strong>Fecha límite de aplicación:</strong> 30 de noviembre de 2025.  
                 Los estudiantes deben completar la aplicación en línea antes de esta fecha.
             </div>

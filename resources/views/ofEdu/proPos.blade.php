@@ -23,10 +23,19 @@
 
             <div class="col-md-3">
                 <div class="card h-100 shadow border-0 hover-card">
+
+                    <!-- IMAGEN -->
+                    <img src="{{ asset('assets/img/proPos/p1.png') }}" 
+                         class="card-img-top"
+                         alt="Mercadotecnia Digital"
+                         style="height: 200px; object-fit: cover;">
+
                     <div class="card-body">
                         <h5 class="fw-bold">Mercadotecnia Digital</h5>
                         <p class="small text-muted">Innovación + Estrategia digital</p>
-                        <button class="btn w-100" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
+
+                        <button class="btn w-100"
+                                style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
                             Ver más
                         </button>
                     </div>
@@ -35,10 +44,19 @@
 
             <div class="col-md-3">
                 <div class="card h-100 shadow border-0 hover-card">
+
+                    <!-- IMAGEN -->
+                    <img src="{{ asset('assets/img/imagen2.jpg') }}" 
+                         class="card-img-top"
+                         alt="Impuestos"
+                         style="height: 200px; object-fit: cover;">
+
                     <div class="card-body">
                         <h5 class="fw-bold">Impuestos</h5>
                         <p class="small text-muted">Especialización fiscal</p>
-                        <button class="btn w-100" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
+
+                        <button class="btn w-100"
+                                style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
                             Ver más
                         </button>
                     </div>
@@ -47,10 +65,19 @@
 
             <div class="col-md-3">
                 <div class="card h-100 shadow border-0 hover-card">
+
+                    <!-- IMAGEN -->
+                    <img src="{{ asset('assets/img/imagen3.jpg') }}" 
+                         class="card-img-top"
+                         alt="Dirección Estratégica"
+                         style="height: 200px; object-fit: cover;">
+
                     <div class="card-body">
                         <h5 class="fw-bold">Dirección Estratégica</h5>
                         <p class="small text-muted">Liderazgo organizacional</p>
-                        <button class="btn w-100" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
+
+                        <button class="btn w-100"
+                                style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
                             Ver más
                         </button>
                     </div>
@@ -59,10 +86,19 @@
 
             <div class="col-md-3">
                 <div class="card h-100 shadow border-0 hover-card">
+
+                    <!-- IMAGEN -->
+                    <img src="{{ asset('assets/img/imagen4.jpg') }}" 
+                         class="card-img-top"
+                         alt="Finanzas"
+                         style="height: 200px; object-fit: cover;">
+
                     <div class="card-body">
                         <h5 class="fw-bold">Finanzas</h5>
                         <p class="small text-muted">Optimización de recursos</p>
-                        <button class="btn w-100" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
+
+                        <button class="btn w-100"
+                                style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
                             Ver más
                         </button>
                     </div>

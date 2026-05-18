@@ -104,6 +104,13 @@
 
             {{-- 1962 --}}
             <div class="timeline-item left">
+
+                <div class="timeline-image">
+                    <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" alt="">
+                </div>
+
+                <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
                     <h5>1962 - Fundación</h5>
                     <p>
@@ -115,6 +122,13 @@
 
             {{-- DIRECTOR --}}
             <div class="timeline-item right">
+
+                <div class="timeline-image">
+                    <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" alt="">
+                </div>
+
+                <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
                     <h5>Primer Director</h5>
                     <p>
@@ -125,6 +139,13 @@
 
             {{-- CRECIMIENTO --}}
             <div class="timeline-item left">
+
+                <div class="timeline-image">
+                    <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" alt="">
+                </div>
+
+                <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
                     <h5>Crecimiento</h5>
                     <p>
@@ -136,6 +157,13 @@
 
             {{-- 1979 --}}
             <div class="timeline-item right">
+
+                <div class="timeline-image">
+                    <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" alt="">
+                </div>
+
+                <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
                     <h5>1979 - Nuevo edificio</h5>
                     <p>
@@ -146,6 +174,13 @@
 
             {{-- 1980 --}}
             <div class="timeline-item left">
+
+                <div class="timeline-image">
+                    <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" alt="">
+                </div>
+
+                <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
                     <h5>1980 - Facultad</h5>
                     <p>
@@ -156,6 +191,13 @@
 
             {{-- 2022 --}}
             <div class="timeline-item right">
+
+                <div class="timeline-image">
+                    <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" alt="">
+                </div>
+
+                <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
                     <h5>2022 - 60 Aniversario</h5>
                     <p>
@@ -166,6 +208,13 @@
 
             {{-- 2023 --}}
             <div class="timeline-item left">
+
+                <div class="timeline-image">
+                    <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" alt="">
+                </div>
+
+                <div class="timeline-dot"></div>
+
                 <div class="timeline-content">
                     <h5>2023 - Nueva sede</h5>
                     <p>
@@ -179,6 +228,7 @@
     </div>
 </section>
 
+{{-- DIRECTORES --}}
 {{-- DIRECTORES --}}
 <section class="py-5 bg-light">
     <div class="container">
@@ -214,3 +264,140 @@
 </section>
 
 @endsection
+
+<style>
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #b58d1b;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.timeline-item{
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    min-height: 220px;
+}
+
+.timeline-item.left{
+    left: 0;
+}
+
+.timeline-item.right{
+    left: 50%;
+}
+
+.timeline-dot{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #b58d1b;
+    border-radius: 50%;
+    top: 30px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.timeline-item.left .timeline-dot{
+    right: -10px;
+}
+
+.timeline-item.right .timeline-dot{
+    left: -10px;
+}
+
+.timeline-content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.3s ease;
+}
+
+.timeline-content h5{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* IMÁGENES */
+.timeline-image{
+    position: absolute;
+    top: 10px;
+    width: 260px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.3s ease;
+}
+
+.timeline-image img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.timeline-item.left .timeline-image{
+    left: calc(100% + 70px);
+}
+
+.timeline-item.right .timeline-image{
+    right: calc(100% + 70px);
+}
+</style>
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+
+    document.querySelectorAll('.timeline-dot').forEach(dot => {
+
+        const item = dot.parentElement;
+        const content = item.querySelector('.timeline-content');
+        const image = item.querySelector('.timeline-image');
+
+        // Mostrar al pasar el mouse
+        dot.addEventListener('mouseenter', () => {
+
+            content.style.opacity = '1';
+            content.style.visibility = 'visible';
+            content.style.transform = 'translateY(0)';
+
+            image.style.opacity = '1';
+            image.style.visibility = 'visible';
+            image.style.transform = 'translateY(0)';
+        });
+
+        // Ocultar al hacer click
+        dot.addEventListener('click', () => {
+
+            content.style.opacity = '0';
+        content.style.visibility = 'hidden';
+        content.style.transform = 'translateY(10px)';
+
+        image.style.opacity = '0';
+        image.style.visibility = 'hidden';
+        image.style.transform = 'translateY(10px)';
+        });
+
+    });
+
+});
+</script>

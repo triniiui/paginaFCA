@@ -51,9 +51,16 @@
 
     {{-- Links de información y registro --}}
     <div class="text-center mb-5">
-        <a href="https://www.ieism.com" target="_blank" class="btn btn-primary me-3">Más información</a>
-        <a href="https://forms.gle/ECtLQ8CA1F89gnFR7" target="_blank" class="btn btn-outline-primary">Registro</a>
+        <a href="#" class="btn me-3" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
+            Más información
+        </a>
+        <a href="#" class="btn" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
+            Registro
+        </a>
     </div>
+
+
+
 
     {{-- Profesores en lista estilizada --}}
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Profesores</h3>

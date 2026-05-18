@@ -81,19 +81,19 @@
         <div class="row">
             <div class="col-md-4 text-center">
                 <div class="p-3">
-                    <i class="bi bi-geo-alt-fill fs-1 text-primary"></i>
+                    <i class="bi bi-geo-alt-fill fs-1" style="color: #002E5F;"></i>
                     <p>Puntos y servicios de atención alternos.</p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="p-3">
-                    <i class="bi bi-cash-stack fs-1 text-success"></i>
+                    <i class="bi bi-cash-stack fs-1" style="color: #002E5F;"></i>
                     <p>Recibe servicios tributarios gratuitos.</p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="p-3">
-                    <i class="bi bi-people-fill fs-1 text-warning"></i>
+                    <i class="bi bi-people-fill fs-1" style="color: #002E5F;"></i>
                     <p>Se involucra directamente en la participación tributaria.</p>
                 </div>
             </div>

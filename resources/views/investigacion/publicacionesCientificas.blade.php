@@ -234,7 +234,7 @@
 </script>
 
 <div class="container my-5 text-center">
-    <a href="#" class="btn btn-primary mb-4">
+    <a href="#" class="btn mb-4" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
         Catálogo de publicaciones 2013–2017
     </a>
 

@@ -119,7 +119,7 @@
 
     <!-- ENLACE AL FORMATO -->
     <p class="mt-3">
-        <a href="#" class="btn btn-outline-primary">
+        <a href="#" class="btn" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
             Consulta el formato para elaborar un Convenio Académico
         </a>
     </p>
