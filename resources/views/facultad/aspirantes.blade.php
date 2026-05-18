@@ -99,7 +99,7 @@
         <div class="card shadow-sm border-0 p-4 mt-3">
             <h5 class="fw-bold">Sitio oficial</h5>
             <a href="https://ingreso.uady.mx/licenciatura/" target="_blank" 
-               class="btn btn-outline-primary mt-2">
+               class="btn btn-outline-primary mt-2"> 
                 Ir al portal de ingreso
             </a>
 

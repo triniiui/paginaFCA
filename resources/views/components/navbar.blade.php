@@ -36,17 +36,14 @@
         </div>
     </div>
 
-    <!-- Navbar responsive -->
     <nav class="navbar navbar-expand-lg bg-uady-gold" style="padding-top: 2px; padding-bottom: 2px;">
         <div class="container-fluid px-lg-5 px-3">
-            <!-- Botón hamburguesa -->
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarUady" aria-controls="navbarUady" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Contenedor colapsable -->
             <div class="collapse navbar-collapse" id="navbarUady">
-                <ul class="navbar-nav ms-lg-5 gap-lg-2 align-items-lg-center">
+                <ul class="navbar-nav ms-lg-auto gap-lg-2 align-items-lg-center">
                     <li class="nav-item uady-dropdown position-relative">
                         <a class="nav-link nav-link-uady" href="#">Nuestra Universidad</a>
                         <div class="uady-gold-menu">
@@ -72,36 +69,39 @@
                         </div>
                     </li>
 
-                <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Investigación</a>
-                    <div class="uady-gold-menu">
-                        <a class="dropdown-item" href="{{ route('investigacion.coordinacionInvestigacion') }}">Coordinación de Investigación</a>
-                        <a class="dropdown-item" href="{{ route('investigacion.cuerposAcademicos') }}">Cuerpos Académicos</a>
-                        <a class="dropdown-item" href="{{ route('investigacion.indicadoresEconomicos') }}">Indicadores Economómicos del Estado de Yucatán</a>
-                        <a class="dropdown-item" href="{{ route('investigacion.publicacionesCientificas') }}">Publicaciones Científicas</a>
-                    </div>
-                </li>
+                    <li class="nav-item uady-dropdown position-relative">
+                        <a class="nav-link nav-link-uady" href="#">Investigación</a>
+                        <div class="uady-gold-menu">
+                            <a class="dropdown-item" href="{{ route('investigacion.coordinacionInvestigacion') }}">Coordinación de Investigación</a>
+                            <a class="dropdown-item" href="{{ route('investigacion.cuerposAcademicos') }}">Cuerpos Académicos</a>
+                            <a class="dropdown-item" href="{{ route('investigacion.indicadoresEconomicos') }}">Indicadores Economómicos del Estado de Yucatán</a>
+                            <a class="dropdown-item" href="{{ route('investigacion.publicacionesCientificas') }}">Publicaciones Científicas</a>
+                        </div>
+                    </li>
 
-                <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Vinculación</a>
-                    <div class="uady-gold-menu">
-                        <a class="dropdown-item" href="{{ route('vinculacion.centroDesarrolloNegocios') }}">Centro de Desarrollo de Negocios</a>
-                        <a class="dropdown-item" href="{{ route('vinculacion.coordinacionVinculacionEstrategica') }}">Coordinación de Vinculación Estratégica</a>
-                        <a class="dropdown-item" href="{{ route('vinculacion.moduloAtencionFiscal') }}">Modulo de Atención Fiscal</a>
-                        <a class="dropdown-item" href="{{ route('vinculacion.programaPadrinoAcademico') }}">Programa Padrino Académico</a>
-                    </div>
-                </li>
+                    <li class="nav-item uady-dropdown position-relative">
+                        <a class="nav-link nav-link-uady" href="#">Vinculación</a>
+                        <div class="uady-gold-menu">
+                            <a class="dropdown-item" href="{{ route('vinculacion.centroDesarrolloNegocios') }}">Centro de Desarrollo de Negocios</a>
+                            <a class="dropdown-item" href="{{ route('vinculacion.coordinacionVinculacionEstrategica') }}">Coordinación de Vinculación Estratégica</a>
+                            <a class="dropdown-item" href="{{ route('vinculacion.moduloAtencionFiscal') }}">Modulo de Atención Fiscal</a>
+                            <a class="dropdown-item" href="{{ route('vinculacion.programaPadrinoAcademico') }}">Programa Padrino Académico</a>
+                        </div>
+                    </li>
 
-                <li class="nav-item uady-dropdown position-relative">
-                    <a class="nav-link nav-link-uady" href="#">Internacionalización</a>
-                    <div class="uady-gold-menu">
-                        <a class="dropdown-item" href="{{ route('internacionalizacion.internationalEntrepreneurshipLab') }}">International Entrepreneurship-Lab Smart Money</a>
-                        <a class="dropdown-item" href="{{ route('internacionalizacion.movilidadInternacional') }}">Movilidad Internacional</a>
-                    </div>
-                </li>
-            </ul>
+                    <li class="nav-item uady-dropdown position-relative">
+                        <a class="nav-link nav-link-uady" href="#">Internacionalización</a>
+                        <div class="uady-gold-menu">
+                            <a class="dropdown-item" href="{{ route('internacionalizacion.internationalEntrepreneurshipLab') }}">International Entrepreneurship-Lab Smart Money</a>
+                            <a class="dropdown-item" href="{{ route('internacionalizacion.movilidadInternacional') }}">Movilidad Internacional</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
+        
+        </nav>
+</header>
        <style>
 
 /*
@@ -115,9 +115,7 @@
     gap: 10px;
 }
 
-/* =========================
-   LINKS PRINCIPALES
-========================= */
+/*    LINKS PRINCIPALES*/
 
 .nav-link-uady{
     color: white !important;
@@ -139,9 +137,7 @@
     color: #012143 !important;
 }
 
-/* =========================
-   DROPDOWN
-========================= */
+/* DROPDOWN*/
 
 .uady-dropdown{
     position: relative;
@@ -152,7 +148,7 @@
     position: absolute;
 
     top: 100%;
-    left: 0;
+    right: 0;
 
    width: 260px;
     max-width: 90vw;
@@ -210,9 +206,7 @@
     color: white;
 }
 
-/* =========================
-   MOBILE
-========================= */
+/*  MOBILE*/
 
 @media (max-width: 991px){
 
