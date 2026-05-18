@@ -13,7 +13,7 @@
 
 
         <div class="col-md-6">
-            <h3 class="fw-bold mb-3">Personal Docente</h3>
+            <h3 class="fw-bold mb-3" style="color: #002E5F;">Personal Docente</h3>
             <p class="text-muted">
                La Facultad cuenta con 52 maestros de Tiempo Completo, de los cuales 22 (el 42%) cuenta con la certificación de la ANFECA, 26 tienen reconocimiento de Perfil Deseable PRODEP (50%) y 8 (el 15%) están adscritos al Sistema Nacional de Investigadores (SNI), del Conacyt. Complementan nuestra planta docente 4 profesores de Medio Tiempo y 108 de asignatura, todos profesionales altamente calificados, con amplia experiencia laboral y reconocida trayectoria en sus respectivas ramas, que en suma, hacen un total de 164 profesores.
              </p>
@@ -22,12 +22,111 @@
     </div>
 </div>
 
+{{-- TABLA DE PROFESORES --}}
+<div class="container my-5">
+
+    <!-- TIEMPO COMPLETO -->
+    <h5 class="fw-bold" style="color: #002E5F;">Profesores de Tiempo Completo</h5>
+
+    <div class="table-responsive mb-4">
+        <table class="table table-striped table-bordered">
+            <thead style="background-color: #002E5F; color: white;">
+                <tr>
+                    <th style="background-color: #002E5F; color: white;">Nombre completo</th>
+                    <th style="background-color: #002E5F; color: white;">Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($tiempoCompleto as $p)
+                    <tr>
+                        <td>{{ $p->apellidos }} {{ $p->nombre }}</td>
+                        <td>
+                            <a href="mailto:{{ $p->email }}">{{ $p->email }}</a>
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+
+    <!-- MEDIO TIEMPO -->
+    <h5 class="fw-bold" style="color: #002E5F;">Profesores de Medio Tiempo</h5>
+
+    <div class="table-responsive mb-4">
+        <table class="table table-striped table-bordered">
+            <thead style="background-color: #002E5F; color: white;">
+                <tr>
+                    <th style="background-color: #002E5F; color: white;">Nombre completo</th>
+                    <th style="background-color: #002E5F; color: white;">Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($medioTiempo as $p)
+                    <tr>
+                        <td>{{ $p->apellidos }} {{ $p->nombre }}</td>
+                        <td>
+                            <a href="mailto:{{ $p->email }}">{{ $p->email }}</a>
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+
+    <!-- COORDINADOR -->
+    <h5 class="fw-bold" style="color: #002E5F;">Coordinador del Programa Institucional de Inglés</h5>
+
+    @if($coordinador)
+        <table class="table table-bordered mb-4">
+            <thead style="background-color: #002E5F; color: white;">
+                    <tr>
+                        <th style="background-color: #002E5F; color: white;">Nombre completo</th>
+                        <th style="background-color: #002E5F; color: white;">Correo electrónico</th>
+                    </tr>
+                <tbody>   
+                    <tr>
+                        <td>{{ $coordinador->apellidos }} {{ $coordinador->nombre }}</td>
+                        <td>
+                            <a href="mailto:{{ $coordinador->email }}">{{ $coordinador->email }}</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    @endif
+
+    <!-- ASIGNATURA -->
+    <h5 class="fw-bold" style="color: #002E5F;">Profesores por Asignatura</h5>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead style="background-color: #002E5F; color: white;">
+                <tr>
+                    <th style="background-color: #002E5F; color: white;">Nombre completo</th>
+                    <th style="background-color: #002E5F; color: white;">Correo electrónico</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($asignatura as $p)
+                    <tr>
+                        <td>{{ $p->apellidos }} {{ $p->nombre }}</td>
+                        <td>
+                            <a href="mailto:{{ $p->email }}">{{ $p->email }}</a>
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
 {{-- Centro de Innovación Pedagógica --}}
 <div class="container my-5">
     <div class="row align-items-center">
 
         <div class="col-md-6">
-            <h3 class="fw-bold mb-3">Centro de Innovación Pedagógica</h3>
+            <h3 class="fw-bold mb-3" style="color: #002E5F;">Centro de Innovación Pedagógica</h3>
             <p class="text-muted">
                  El Centro de Innovación Pedagógica (CIP) de la Facultad de Contaduría y Administración (FCA) de la Universidad Autónoma de Yucatán (UADY) impulsa la mejora continua de la práctica docente y la calidad educativa. Su propósito es apoyar a los docentes mediante la innovación pedagógica, la investigación educativa y la integración de tecnologías emergentes, fomentando un aprendizaje significativo y pertinente.
                 El CIP ofrece recursos y formación continua para desarrollar metodologías innovadoras que fortalezcan las competencias pedagógicas del profesorado, promoviendo una educación crítica y orientada al desarrollo sostenible. Además, apoya la implementación del Modelo Educativo para la Formación Integral (MEFI), colocando al estudiante en el centro del aprendizaje. </p>
@@ -46,7 +145,7 @@
     <div class="row align-items-center">
 
         <div class="col-md-6">
-            <h3 class="fw-bold mb-3">Servicios de la Biblioteca del Campus</h3>
+            <h3 class="fw-bold mb-3" style="color: #002E5F;">Servicios de la Biblioteca del Campus</h3>
             <p class="text-muted">
                 La Biblioteca del Campus de Ciencias Sociales, Económico-Administrativas y Humanidades, cuenta con un amplio acervo de material bibliográfico de las áreas de Ciencias Sociales: Antropología, Psicología, Educación, Economía, Comercio Internacional, Derecho, Administración, Turismo, Comunicación, Literatura, Enseñanza del Inglés, etc.
                 Dicho acervo está conformado por libros, tesis, publicaciones periódicas, folletos, discos compactos, bases de datos, entre otros.</div>
@@ -61,7 +160,7 @@
 
 <div class="container my-5">
     <div class="text-center mb-4">
-        <h2 class="titulo-biblioteca">
+        <h2 class="titulo-biblioteca" style="color: #002E5F;">
             Coordinación General del Sistema Bibliotecario 
             <a href="#"><i class="bi bi-link-45deg"></i></a>
         </h2>
@@ -72,20 +171,19 @@
     </div>
 
     <div class="texto-descripcion px-3">
-        <p>
-            En la página web <a href="http://www.bibliotecas.uady.mx/" target="_blank">http://www.bibliotecas.uady.mx/</a> 
-            se puede encontrar la información de cada una de las Bibliotecas que integran el Sistema Bibliotecario, 
-            así como sus avisos, noticias y acceso a sus redes sociales. Además, se puede acceder al catálogo en línea 
-            y a los recursos electrónicos con los que cuentan las bibliotecas.
-        </p>
+        @foreach($cgsb as $cgsb)
+        {!!$cgsb->contenido !!}
+        @endforeach
 
 <div class="container my-5">
-    <h3 class="text-primary-uady mb-4">Preguntas Frecuentes</h3>
+    <h3 class="text-primary-uady mb-4" style="color: #002E5F;">Preguntas Frecuentes</h3>
             </h2>
-            <x-accordion id="faqBiblioteca" titulo="Preguntas Frecuentes">
-    <p class="fw-bold mb-1">¿Cómo consulto la Pág Web?</p>
-    <p>Ingresar a <a href="http://www.bibliotecas.uady.mx/" target="_blank" class="link-uady">http://www.bibliotecas.uady.mx/</a></p>
-</x-accordion>
+        <x-accordion id="faqBiblioteca" titulo="Preguntas Frecuentes">
+            @foreach($preguntasfrecuentes as $preguntafrecuente)
+            {!!$preguntafrecuente->contenido !!}
+            @endforeach
+        </x-accordion>
+
             </div>
     <div class="contacto-responsable mt-5">
         <p class="mb-1"><strong>Responsable:</strong> Ligia Ancona Martínez</p>
@@ -97,7 +195,7 @@
 </div>
 
 <div class="text-center mb-4">
-        <h2 class="titulo-biblioteca">
+        <h2 class="titulo-biblioteca" style="color: #002E5F;">
             Programa Institucional de Evaluación Docente
             <a href="#"><i class="bi bi-link-45deg"></i></a>
         </h2>
@@ -109,11 +207,9 @@
     </div>
 
     <div class="texto-descripcion px-3">
-        <p>
-            El objetivo del programa es generar evidencias para promover la mejora en el desempeño docente de la UADY.
-            Los participantes son profesores y estudiantes de programas educativos de bachillerato, licenciatura y posgrado.
-            La evaluación se opera a través del Sistema Institucional de Evaluación (SIDE), el cual se encuentra vinculado al Sistema de Información y Control Escolar institucional (SICEI).
-        </p>
+            @foreach($pied as $pied)
+            {!!$pied->contenido !!}
+            @endforeach
     </div>
 </div> 
         <div class="text-center mb-4">

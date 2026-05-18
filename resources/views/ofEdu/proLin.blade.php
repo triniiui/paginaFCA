@@ -11,7 +11,7 @@
 
 <section class="py-5 bg-light">
     <div class="container text-center">
-        <h2 class="fw-bold mb-3">Nuestros Programas</h2>
+        <h2 class="fw-bold mb-3" style="color: #002E5F;">Nuestros Programas</h2>
         <p class="text-muted">
             La Facultad de Contaduría y Administración ofrece 4 programas de licenciatura 
             alineados al Modelo Educativo para la Formación Integral (MEFI 2019).
@@ -74,7 +74,7 @@
 {{-- coordinadores --}}
 <section class="py-5">
     <div class="container">
-        <h3 class="fw-bold mb-5 text-center">Coordinaciones</h3>
+        <h3 class="fw-bold mb-5 text-center" style="color: #002E5F;">Coordinaciones</h3>
 
         <div class="row g-4">
 

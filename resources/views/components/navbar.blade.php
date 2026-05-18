@@ -38,7 +38,11 @@
 
     <!-- Navbar responsive -->
     <nav class="navbar navbar-expand-lg bg-uady-gold" style="padding-top: 2px; padding-bottom: 2px;">
+<<<<<<< HEAD
         <div class="container-fluid px-lg-5 px-3">
+=======
+        <div class="container-fluid px-4">
+>>>>>>> 8774a4509799b31300ec8dd523fceb4be11aa5a0
             <!-- Botón hamburguesa -->
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarUady" aria-controls="navbarUady" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

@@ -40,7 +40,7 @@
 
 {{--cuadradoooos--}}
     <div class="container text-black">
-        <h2 class="fw-bold mb-4 text-center">Nuestros valores</h2>
+        <h2 class="fw-bold mb-4 text-center" style="color: #002E5F;">Nuestros valores</h2>
         <div class="row g-3 text-center">
 
 <div class="container py-5">
@@ -90,7 +90,7 @@
 <section class="py-5 bg-light">
     <div class="container">
 
-        <h2 class="fw-bold mb-4">Proceso de Ingreso a Licenciatura</h2>
+        <h2 class="fw-bold mb-4" style="color: #002E5F;">Proceso de Ingreso a Licenciatura</h2>
 
         <p class="text-muted">
             Los procesos de admisión son equitativos y transparentes. Inician con la convocatoria publicada cada año.
@@ -114,7 +114,7 @@
 <section class="py-5">
     <div class="container">
 
-        <h2 class="fw-bold mb-4">Proceso de Ingreso al Posgrado</h2>
+        <h2 class="fw-bold mb-4" style="color: #002E5F;">Proceso de Ingreso al Posgrado</h2>
 
         <p class="text-muted">
             Registro mediante el Sistema de Información para el Proceso de Selección (SIPS).

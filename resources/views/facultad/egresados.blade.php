@@ -8,7 +8,7 @@
 />
 <div class="container my-5">
     <div class="text-center mb-5">
-        <h3 class="fw-bold text-dark">Coordinación de Seguimiento a Egresados</h3>
+        <h3 class="fw-bold" style="color: #002E5F;">Coordinación de Seguimiento a Egresados</h3>
         <div class="mx-auto" style="width: 60px; height: 4px; background: #b58d1b; border-radius: 2px;"></div>
     </div>
 
@@ -63,7 +63,7 @@
 <section class="py-5">
     <div class="container">
 
-        <h2 class="fw-bold mb-4">Guías para realizar los Trámites de Titulación</h2>
+        <h2 class="fw-bold mb-4" style="color: #002E5F;">Guías para realizar los Trámites de Titulación</h2>
 
         <div class="card shadow-sm border-0 p-4 mt-3">
             <h5 class="fw-bold">Sitio oficial</h5>
@@ -81,7 +81,7 @@
 <section class="py-5 bg-light">
     <div class="container">
 
-        <h2 class="fw-bold mb-4">Sistema Virtual de Citas</h2>
+        <h2 class="fw-bold mb-4" style="color: #002E5F;">Sistema Virtual de Citas</h2>
 
         <div class="card shadow-sm border-0 p-4 mt-3">
             <a href="https://bit.ly/bookingsCE-FCA" target="_blank" 

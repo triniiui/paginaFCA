@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h2 class="fw-bold mb-3">Oferta de Educación Continua</h2>
+                <h2 class="fw-bold mb-3" style="color: #002E5F;">Oferta de Educación Continua</h2>
                 <p class="text-muted">
                     La Facultad de Contaduría y Administración ofrece una amplia variedad de programas 
                     diseñados para mantener a nuestros egresados actualizados en áreas clave como 
@@ -31,7 +31,7 @@
 {{-- cat --}}
 <section class="py-5">
     <div class="container">
-        <h3 class="fw-bold text-center mb-5">Nuestra oferta académica</h3>
+        <h3 class="fw-bold text-center mb-5" style="color: #002E5F;">Nuestra oferta académica</h3>
 
         <div class="row g-4 text-center">
 
@@ -77,7 +77,7 @@
 {{-- cap emp --}}
 <section class="py-5">
     <div class="container">
-        <h3 class="fw-bold mb-8">Capacitación para empresas</h3>
+        <h3 class="fw-bold mb-8" style="color: #002E5F;">Capacitación para empresas</h3>
 
         <div class="row align-items-center">
             <div class="col-md-8">
@@ -95,7 +95,7 @@
 {{-- cursos --}}
 <section class="py-5 bg-light">
     <div class="container">
-        <h3 class="fw-bold text-center mb-5">Cursos más solicitados</h3>
+        <h3 class="fw-bold text-center mb-5" style="color: #002E5F;">Cursos más solicitados</h3>
 
         <div class="row g-4">
 
@@ -142,7 +142,7 @@
 {{-- faq --}}
 <section class="py-5">
     <div class="container">
-        <h3 class="fw-bold mb-4">Preguntas frecuentes</h3>
+        <h3 class="fw-bold mb-4" style="color: #002E5F;">Preguntas frecuentes</h3>
 
         <x-accordion id="faq1" titulo="¿Los diplomados tienen valor curricular?">
             Sí, todos nuestros programas cuentan con respaldo institucional.

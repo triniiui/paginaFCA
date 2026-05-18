@@ -11,7 +11,7 @@
 {{-- tel --}}
 <section class="py-4 text-center bg-light">
     <div class="container">
-        <h5 class="fw-bold">Atención telefónica</h5>
+        <h5 class="fw-bold" style="color: #002E5F;">Atención telefónica</h5>
         <p class="text-muted">(999) 981 09 26</p>
     </div>
 </section>
@@ -19,7 +19,7 @@
 {{-- direccion --}}
 <section class="py-5">
     <div class="container">
-        <h3 class="fw-bold mb-4">Dirección</h3>
+        <h3 class="fw-bold mb-4" style="color: #002E5F;">Dirección</h3>
 
         <div class="row g-4">
 
@@ -57,7 +57,7 @@
 {{-- areas --}}
 <section class="py-5 bg-light">
     <div class="container">
-        <h3 class="fw-bold mb-4">Áreas y Coordinaciones</h3>
+        <h3 class="fw-bold mb-4" style="color: #002E5F;">Áreas y Coordinaciones</h3>
 
         <x-accordion id="comunicacion" titulo="Coordinación de Comunicación">
             Información de contacto y difusión institucional.
