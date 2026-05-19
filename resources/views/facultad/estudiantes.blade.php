@@ -30,12 +30,8 @@
 
 {{-- CARDS --}}
 <div class="container my-5">
-<<<<<<< HEAD
     <div class="card-body text-center">
     <h3 class="fw-bold mb-4 text-center" style="color: #002E5F;">¿Qué te ofrecemos?</h3>
-=======
-    <h3 id="que-te-ofrecemos" class="fw-bold mb-4 text-center" style="color: #002E5F;">¿Qué te ofrecemos?</h3>
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
 
     <div class="row g-4">
 

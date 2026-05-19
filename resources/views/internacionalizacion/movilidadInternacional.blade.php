@@ -65,15 +65,6 @@
 </div>
 
 <div class="container my-5">
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Video Informativo</h3>
-    <div class="ratio ratio-16x9">
-        <iframe src="https://www.youtube.com/embed/XXXXXXXXXXX" 
-                title="Video Movilidad Internacional UADY" 
-                allowfullscreen></iframe>
-    </div>
-</div>
-
-<div class="container my-5">
 
     <h3 id="avisos-movilidad-internacional" class="fw-bold text-center mb-4" style="color: #002E5F;">Avisos</h3>
 
@@ -337,7 +328,7 @@
 
     <div class="card shadow-sm mt-5">
         <div class="card-body d-flex align-items-center">
-            <img src="images/contacto_valentin.jpg" alt="Dr. Valentín Alonso Novelo" class="rounded-circle me-3" style="width:80px; height:80px;">
+            <img src="{{ asset('assets/img/investigacion/lucio.png') }}" alt="Dr. Valentín Alonso Novelo" class="rounded-circle me-3" style="width:80px; height:80px;">
             <div>
                 <h5 class="fw-bold mb-1" style="color: #002E5F;">Contacto</h5>
                 <p class="mb-0">Dr. Valentín Alonso Novelo<br>Coordinador</p>
