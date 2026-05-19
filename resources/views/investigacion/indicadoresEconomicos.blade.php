@@ -12,7 +12,8 @@
 
     <!-- PRESENTACIÓN -->
     <section class="mb-5">
-        <h5 id="indicadores-economicos" class="fw-bold" style="color: #002E5F;">Presentación</h5>
+        <section class="py-5 seccion-azul-suave">
+        <h5  id="indicadores-economicos" class="fw-bold" style="color: #002E5F;">Presentación</h5>
         <hr>
         <p>
             El boletín Indicadores Económicos del Estado de Yucatán es una publicación del Cuerpo Académico de Economía 

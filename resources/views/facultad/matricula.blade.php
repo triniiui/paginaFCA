@@ -3,7 +3,7 @@
 @section('vistas-content')
 
 <x-hero 
-    imagen="assets/img/estudiantes/e1.jpg"
+    imagen="assets/img/historia/h7.jpg"
     titulo="Matrícula"
     subtitulo="Alumnos inscritos en nuestros programas educativos"
 />
