@@ -35,7 +35,7 @@
 
         <div class="text-center mb-5">
 
-            <h2 class="fw-bold display-6 title-uady">
+            <h2 id="equipo-directivo"class="fw-bold display-6 title-uady">
                 Equipo directivo
             </h2>
 
@@ -137,7 +137,9 @@
     </div>
 
 </section>
-{{-- areas --}} <section class="py-5 bg-light"> <div class="container"> <h3 class="fw-bold mb-4" style="color: #002E5F;">Áreas y Coordinaciones</h3> <x-accordion id="comunicacion" titulo="Coordinación de Comunicación"> Información de contacto y difusión institucional. </x-accordion> <x-accordion id="vinculacion" titulo="Coordinación de Vinculación Estratégica"> Vinculación con empresas, instituciones y comunidad. </x-accordion> <x-accordion id="cip" titulo="Centro de Innovación Pedagógica"> Innovación educativa y desarrollo docente. </x-accordion> <x-accordion id="movilidad" titulo="Coordinación de Movilidad"> Intercambios académicos nacionales e internacionales. </x-accordion> <x-accordion id="ti" titulo="Centro de Servicios de Tecnologías de Información"> Soporte tecnológico y sistemas institucionales. </x-accordion> </div> </section>
+
+{{-- areas --}} 
+<section id="areas-coordinaciones" class="py-5 bg-light"> <div class="container"> <h3 class="fw-bold mb-4" style="color: #002E5F;">Áreas y Coordinaciones</h3> <x-accordion id="comunicacion" titulo="Coordinación de Comunicación"> Información de contacto y difusión institucional. </x-accordion> <x-accordion id="vinculacion" titulo="Coordinación de Vinculación Estratégica"> Vinculación con empresas, instituciones y comunidad. </x-accordion> <x-accordion id="cip" titulo="Centro de Innovación Pedagógica"> Innovación educativa y desarrollo docente. </x-accordion> <x-accordion id="movilidad" titulo="Coordinación de Movilidad"> Intercambios académicos nacionales e internacionales. </x-accordion> <x-accordion id="ti" titulo="Centro de Servicios de Tecnologías de Información"> Soporte tecnológico y sistemas institucionales. </x-accordion> </div> </section>
 
 {{-- CONTACTO --}}
 <section class="py-5 seccion-blanca">

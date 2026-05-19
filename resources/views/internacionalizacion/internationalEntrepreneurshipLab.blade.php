@@ -9,6 +9,7 @@
 />
 
 <div class="container my-5">
+<<<<<<< HEAD
     <section class="py-5 seccion-azul-suave">
         {{-- Introducción en bloque destacado --}}
         <div class="card shadow-sm mb-5">
@@ -24,6 +25,22 @@
                     Además, ofrece la oportunidad de estancias en Alemania con universidades miembro para alumnos, profesores y administrativos.
                 </p>
             </div>
+=======
+<section class="py-5 seccion-azul-suave">
+    {{-- Introducción en bloque destacado --}}
+    <div id="IELSM" class="card shadow-sm mb-5">
+        <div class="card-body">
+            <p>
+                La Facultad de Contaduría y Administración ejerce su compromiso como institución aliada en la plataforma digital europea y latinoamericana de inteligencia colectiva-multicultural para el emprendimiento e innovación digital <strong>International Entrepreneurship-Lab Smart Money</strong>.
+            </p>
+            <p>
+                Esta iniciativa abre paso a la internacionalización y readaptación de modelos de negocio, participando activamente nuestros profesores y alumnos como actores de innovación en el contexto de la transformación digital y la sostenibilidad ambiental.
+            </p>
+            <p>
+                Todo ello es posible gracias a la creación de ecosistemas digitales de negocios e inteligencia multicultural junto a estudiantes, académicos, universidades, empresarios, expertos e inversionistas que comparten el know-how con enfoque internacional. 
+                Además, ofrece la oportunidad de estancias en Alemania con universidades miembro para alumnos, profesores y administrativos.
+            </p>
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
         </div>
 
         {{-- Impacto y objetivos en tarjetas --}}
@@ -53,6 +70,36 @@
             <a href="https://www.ieism.com" target="_blank" class="btn btn-primary me-3">Más información</a>
             <a href="https://forms.gle/ECtLQ8CA1F89gnFR7" target="_blank" class="btn btn-outline-primary">Registro</a>
         </div>
+<<<<<<< HEAD
+=======
+    </div>
+
+    {{-- Links de información y registro --}}
+    <div class="text-center mb-5">
+        <a href="#" class="btn me-3" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
+            Más información
+        </a>
+        <a href="#" class="btn" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
+            Registro
+        </a>
+    </div>
+
+
+
+
+    {{-- Profesores en lista estilizada --}}
+    <h3 id="profesores-IELSM" class="fw-bold text-center mb-4" style="color: #002E5F;">Profesores</h3>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Dra. Anel Flores Novelo</li>
+        <li class="list-group-item">Dra. María del Carmen Rachó Barroso</li>
+        <li class="list-group-item">Dra. Teresa Sabido Domínguez</li>
+        <li class="list-group-item">Dr. Gustavo Alberto Barredo Baqueiro</li>
+        <li class="list-group-item">Dr. Valentín Alonso Novelo</li>
+        <li class="list-group-item">Mtra. Gina Estefanía Godínez Molina</li>
+        <li class="list-group-item">Mtro. Gustavo López</li>
+        <li class="list-group-item">Lic. Mary Efraín Yerves Irigoyen</li>
+    </ul>
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
 
         {{-- Profesores en lista estilizada --}}
         <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Profesores</h3>
@@ -70,7 +117,13 @@
 </div>
 
 <div class="container my-5">
+<<<<<<< HEAD
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Equipo Académico</h3>
+=======
+
+    <h3 id="equipo-IELSM" class="fw-bold text-center mb-4" style="color: #002E5F;">Equipo Académico</h3>
+
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
     <div class="row text-center">
         <x-staff-card 
             imagen="assets/img/organizacion/o1.jpg"
@@ -135,8 +188,12 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
 <div class="container py-5">
+<<<<<<< HEAD
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Alumnos destacados del programa</h3>
     
+=======
+<h3 id="alumnos-IELSM" class="fw-bold text-center mb-4" style="color: #002E5F;">Alumnos destacados del programa</h3>
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
     <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
 

@@ -10,7 +10,7 @@
 
 <section class="py-5 text-center bg-light">
     <div class="container">
-        <h2 class="fw-bold mb-4" style="color: #002E5F;">Dirección</h2>
+        <h2 id="direccion-organizacion" class="fw-bold mb-4" style="color: #002E5F;">Dirección</h2>
 
         {{-- direc --}}
         <div class="d-flex justify-content-center mb-5">

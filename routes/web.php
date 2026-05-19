@@ -11,6 +11,8 @@ use App\Http\Controllers\DocenteController;
 use App\Http\Controllers\EgresadoController;
 use App\Http\Controllers\ComunidadController;
 use App\Models\Informacion;
+use App\Models\Imagen;
+use App\Http\Controllers\BusquedaController;
 
 
 Route::get('/',[HomeController::class,'index'])->name('home');
@@ -55,7 +57,20 @@ Route::prefix('fca-nuestra-facultad')->group(function () {
 
     //Estudiantes
     Route::get('/estudiantes', function () {
-        return view('facultad.estudiantes');
+        $FCA = Imagen::where('seccion', 'estudiantes')
+                ->where('titulo', 'FCA')
+                ->first();
+        $Becas = Imagen::where('seccion', 'estudiantes')
+                ->where('titulo', 'becas')
+                ->first();
+        $CCAL = Imagen::where('seccion', 'estudiantes')
+                ->where('titulo', 'CCAL')
+                ->first();
+
+        $movilidad = Imagen::where('seccion', 'estudiantes')
+                ->where('titulo', 'movilidad')
+                ->first();
+        return view('facultad.estudiantes', compact('FCA','Becas', 'CCAL', 'movilidad'));
     })->name('facultad.estudiantes');
 
     //Docentes
@@ -193,3 +208,7 @@ Route::prefix('fca-internacionalizacion')->group(function () {
     })->name('internacionalizacion.movilidadInternacional');
 
 });
+
+
+//Ruta de busquedas
+Route::get('/buscar', [BusquedaController::class, 'buscar']);

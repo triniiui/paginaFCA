@@ -15,7 +15,7 @@
 
         <div class="row align-items-center g-5">
 
-            <div class="col-lg-7">
+            <div class="col-lg-7"> <!-- borrar desde acá -->
 
                 <h2 class="fw-bold display-5 mb-4" style="color:#002E5F;">
                     Especialízate y lleva tu perfil profesional al siguiente nivel
@@ -85,7 +85,7 @@
 <section class="py-5 seccion-blanca overflow-hidden">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold display-6" style="color:#002E5F;">
+            <h2 id="nuestros-programas-posgrado" class="fw-bold display-6" style="color:#002E5F;">
                 Nuestros programas de posgrado
             </h2>
         </div>
@@ -206,7 +206,7 @@
 
         <div class="text-center text-white mb-5">
             
-            <h2 class="fw-bold display-6" style="color:#002E5F;">
+            <h2 id="equipo-academico-posgrado" class="fw-bold display-6" style="color:#002E5F;">
                 Equipo académico
             </h2>
 

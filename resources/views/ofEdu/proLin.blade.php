@@ -14,7 +14,12 @@
     <div class="container">
         <div class="row align-items-center g-5">
             <div class="col-lg-7">
+<<<<<<< HEAD
                 <h2 class="fw-bold display-5 mb-4" style="color:#002E5F;">
+=======
+
+                <h2 id="formacion-profesional-vision-global" class="fw-bold display-5 mb-4" style="color:#002E5F;">
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
                     Formación profesional con visión global
                 </h2>
                 <p class="lead text-muted">
@@ -78,7 +83,7 @@
                 Oferta Académica
             </span>
 
-            <h2 class="fw-bold display-5 mt-3" style="color:#002E5F;">
+            <h2 id="nuestros-programas-licenciatura" class="fw-bold display-5 mt-3" style="color:#002E5F;">
                 Nuestros programas
             </h2>
 
@@ -274,7 +279,7 @@
 
         <div class="text-center text-white mb-5">
 
-           <h2 class="fw-bold display-6" style="color:#002E5F;">
+           <h2 id="equipo-academico-licenciatura" class="fw-bold display-6" style="color:#002E5F;">
                 Equipo académico
             </h2>
 

@@ -12,7 +12,7 @@
 <div class="container my-5">
     <div class="card-body text-center">
     {{-- Introducción en bloque destacado --}}
-    <div class="card shadow-sm mb-5">
+    <div id="movilidad-internacional" class="card shadow-sm mb-5">
         <div class="card-body">
             <p>
                 La Facultad de Contaduría y Administración ha escudriñado su internacionalización por diversos medios. 
@@ -74,7 +74,13 @@
 </div>
 
 <div class="container my-5">
+<<<<<<< HEAD
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Avisos</h3>
+=======
+
+    <h3 id="avisos-movilidad-internacional" class="fw-bold text-center mb-4" style="color: #002E5F;">Avisos</h3>
+
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
     <div class="card shadow-sm mb-5">
         <div class="card-body">
             <p>
@@ -138,8 +144,12 @@
             </div>
 
             {{-- Convocatorias internacionales --}}
+<<<<<<< HEAD
             <div class="card-body text-center">
             <h5 class="fw-bold mt-4" style="color: #002E5F;">Convocatorias de estancias internacionales</h5>
+=======
+            <h5 id="convocatorias-estancias-internacionales" class="fw-bold mt-4" style="color: #002E5F;">Convocatorias de estancias internacionales</h5>
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
 
             <div class="card shadow-sm mb-4">
                 <div class="card-body text-center">
@@ -151,9 +161,9 @@
                         <br><strong>Costo:</strong> 480 euros (exento para estudiantes UADY).
                     </p>
                     <p>
-                        <a href="https://portalinstitucionales.blob.core.windows.net/cms/principal/documentos/Curso%20verano%20Saar%202026.pdf" target="_blank" class="btn btn-outline-primary btn-sm">Consultar aviso</a>
+                        <a href="https://portalinstitucionales.blob.core.windows.net/cms/principal/documentos/Curso%20verano%20Saar%202026.pdf" target="_blank" class="btn btn-sm" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">Consultar aviso</a>
                     </p>
-                    <div class="alert alert-info mt-3">
+                    <div class="alert alert-warning mt-4">
                         Plática informativa vía Teams: <strong>miércoles 28 de enero, 11:00 hrs</strong>  
                         <a href="https://ln.cl/3bwv7d" target="_blank">Acceder a la plática</a>
                     </div>
@@ -169,7 +179,7 @@
                         <br><strong>Costo curso:</strong> 1000 euros (exento para estudiantes UADY).
                     </p>
                     <p>
-                        <a href="https://portalinstitucionales.blob.core.windows.net/cms/principal/documentos/Curso%20verano%20Francia%20INSA%202026.pdf" target="_blank" class="btn btn-outline-primary btn-sm">Consultar aviso</a>
+                        <a href="https://portalinstitucionales.blob.core.windows.net/cms/principal/documentos/Curso%20verano%20Francia%20INSA%202026.pdf" target="_blank" class="btn btn-sm" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">Consultar aviso</a>
                     </p>
                     <p>
                         Registro UADY obligatorio:  
@@ -243,7 +253,7 @@
                 Antes del inicio, se ofrece un <strong>Curso Intensivo de Alemán</strong> a mediados de marzo, abierto a todos los estudiantes entrantes.
             </p>
 
-            <div class="alert alert-info mt-3">
+            <div class="alert alert-warning mt-3">
                 <strong>Fecha límite de aplicación:</strong> 30 de noviembre de 2025.  
                 Los estudiantes deben completar la aplicación en línea antes de esta fecha.
             </div>
@@ -285,7 +295,13 @@
 </div>
 
 <div class="container my-5">
+<<<<<<< HEAD
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Convocatorias 2026</h3>
+=======
+
+    <h3 id="convocatorias-2026" class="fw-bold text-center mb-4" style="color: #002E5F;">Convocatorias 2026</h3>
+
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
     <div class="row g-4">
         <div class="col-md-6">
             <div class="card shadow-sm h-100">

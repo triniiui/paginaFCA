@@ -18,7 +18,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">
+    <h3 id="publicaciones-2025"class="fw-bold text-center mb-4" style="color: #002E5F;">
         Relación de Publicaciones Científicas de la Facultad de Contaduría y Administración (2025)
     </h3>
 
@@ -95,7 +95,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">
+    <h3 id="publicaciones-2021-2024" class="fw-bold text-center mb-4" style="color: #002E5F;">
         Relación de Publicaciones Científicas de la Facultad de Contaduría y Administración (2021–2024)
     </h3>
 
@@ -176,7 +176,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">
+    <h3 id="publicaciones-2017-2020" class="fw-bold text-center mb-4" style="color: #002E5F;">
         Relación de Publicaciones Científicas de la Facultad de Contaduría y Administración (2017–2020)
     </h3>
 
@@ -234,7 +234,7 @@
 </script>
 
 <div class="container my-5 text-center">
-    <a href="#" class="btn btn-primary mb-4">
+    <a href="#" class="btn mb-4" style="background-color: #b58d1b; border-color: #b58d1b; color: white;">
         Catálogo de publicaciones 2013–2017
     </a>
 

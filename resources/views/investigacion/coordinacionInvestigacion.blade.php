@@ -9,8 +9,13 @@
 />
 
 <div class="container my-5">
+<<<<<<< HEAD
 <div class="container position-relative">
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Investigación</h3>
+=======
+
+    <h3 id="coordinacion-investigacion" class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Investigación</h3>
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
 
     <div class="card shadow-sm mb-4">
           <div class="card-body text-center"> 
@@ -44,7 +49,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Registro de Proyectos en el Sistema de Proyectos (SISTPROY) de la UADY</h3>
+    <h3 id="SISTPROY" class="fw-bold text-center mb-4" style="color: #002E5F;">Registro de Proyectos en el Sistema de Proyectos (SISTPROY) de la UADY</h3>
 
     <div class="card shadow-sm mb-4">
         <div class="card-body">
@@ -78,7 +83,11 @@
 
     <div class="card shadow-sm">
         <div class="card-body d-flex justify-content-center align-items-center">
+<<<<<<< HEAD
             <img src="assets/img/investigacion/i5.jpg"
+=======
+            <img src="{{ asset('assets/img/investigacion/guillermina.png') }}" alt="Dra. Laura Guillermina Duarte Cáceres" 
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
                  class="rounded-circle me-3" style="width:90px; height:90px;">
             <div class="text-center">
                 <h5 class="fw-bold mb-1">Contacto</h5>

@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h2 class="fw-bold mb-3" style="color: #002E5F;">Oferta de Educación Continua</h2>
+                <h2 id="oferta-educacion-continua" class="fw-bold mb-3" style="color: #002E5F;">Oferta de Educación Continua</h2>
                 <p class="text-muted">
                     La Facultad de Contaduría y Administración ofrece una amplia variedad de programas 
                     diseñados para mantener a nuestros egresados actualizados en áreas clave como 
@@ -30,8 +30,13 @@
 <section class="py-5 seccion-blanca overflow-hidden">
 
     <div class="container">
+<<<<<<< HEAD
 <div class="card-body text-center">
             <h2 class="fw-bold display-6 text-center" style="color:#002E5F;">
+=======
+
+            <h2 id="nuestra-oferta-academica" class="fw-bold display-6 text-center" style="color:#002E5F;">
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
                 Nuestra oferta académica
             </h2>
 
@@ -156,7 +161,12 @@
     <div class="container">
         <div class="row align-items-center g-5">
             <div class="col-lg-6">
+<<<<<<< HEAD
                 <h2 class="fw-bold mb-4" style="color:#002E5F;">
+=======
+
+                <h2 id="capacitacion-organizaciones" class="fw-bold mb-4" style="color:#002E5F;">
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
                     Capacitación para organizaciones
                 </h2>
                 <p class="text-muted">
@@ -192,7 +202,12 @@
 {{-- cursos --}}
 <section class="py-5 seccion-blanca">
     <div class="container">
+<<<<<<< HEAD
         <h3 class="fw-bold text-center mb-5" style="color: #002E5F;">Cursos más solicitados</h3>
+=======
+        <h3 id="cursos-mas-solicitados" class="fw-bold text-center mb-5" style="color: #002E5F;">Cursos más solicitados</h3>
+
+>>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
         <div class="row g-4">
             <div class="col-md-3">
                 <div class="card shadow-sm border-0 hover-card">
