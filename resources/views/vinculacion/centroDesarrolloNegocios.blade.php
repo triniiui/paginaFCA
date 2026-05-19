@@ -129,9 +129,12 @@
 
     <!-- ENCABEZADO CON IMAGEN -->
     <div class="text-center mb-4">
-        <!-- Aquí colocas tu imagen de banner -->
-        <img src="ruta-de-tu-imagen.jpg" alt="Marketing Digital" class="img-fluid rounded shadow">
+        <img src="{{ asset('assets/img/oferta/m1.jpg') }}" 
+            alt="Marketing Digital" 
+            class="img-fluid rounded shadow" 
+            style="width:450px; height:auto;">
     </div>
+    
 
     <!-- TÍTULO -->
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Marketing Digital</h3>

@@ -21,8 +21,8 @@
         </div>
 
         <div class="col-md-6">
-            <img src="{{ asset('assets/img/estudiantes/e3.jpg') }}" 
-                 class="img-fluid rounded shadow">
+            <img src="{{ asset($FCA->ruta) }}"
+                class="img-fluid rounded shadow">
         </div>
 
     </div>
@@ -63,8 +63,8 @@
     <div class="row align-items-center">
 
         <div class="col-md-6">
-            <img src="{{ asset('assets/img/estudiantes/e2.jpg') }}" 
-                 class="img-fluid rounded shadow">
+            <img src="{{ asset($Becas->ruta) }}"
+                class="img-fluid rounded shadow">
         </div>
 
         <div class="col-md-6">
@@ -91,8 +91,8 @@
         </div>
 
         <div class="col-md-6">
-            <img src="{{ asset('assets/img/estudiantes/e4.jpg') }}" 
-                 class="img-fluid rounded shadow">
+            <img src="{{ asset($CCAL->ruta) }}"
+                class="img-fluid rounded shadow">
         </div>
 
     </div>
@@ -104,8 +104,8 @@
     <div class="row align-items-center">
 
         <div class="col-md-6">
-            <img src="{{ asset('assets/img/estudiantes/e5.jpg') }}" 
-                 class="img-fluid rounded shadow">
+            <img src="{{ asset($movilidad->ruta) }}"
+                class="img-fluid rounded shadow">
         </div>
 
         <div class="col-md-6">

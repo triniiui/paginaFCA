@@ -135,7 +135,7 @@
         <div class="col-md-6">
             <img src="{{ asset('assets/img/docentes/d4.png') }}" 
                  class="img-fluid rounded shadow">
-       
+        </div>
 
     </div>
 </div>

@@ -77,7 +77,7 @@
 
     <div class="card shadow-sm">
         <div class="card-body d-flex justify-content-center align-items-center">
-            <img src="images/contacto_guillermina.jpg" alt="Dra. Laura Guillermina Duarte Cáceres" 
+            <img src="{{ asset('assets/img/investigacion/guillermina.png') }}" alt="Dra. Laura Guillermina Duarte Cáceres" 
                  class="rounded-circle me-3" style="width:90px; height:90px;">
             <div class="text-center">
                 <h5 class="fw-bold mb-1">Contacto</h5>
