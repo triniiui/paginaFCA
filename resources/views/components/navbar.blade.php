@@ -16,15 +16,34 @@
             
             <div class="col-auto">
                 <div class="d-flex align-items-center gap-3">
-                    <div class="search-box-container d-flex align-items-center">
-                        <input type="text" placeholder="Buscar" class="buscador-input">
-                        <i class="bi bi-search text-primary"></i>
-                    </div>
                     
-                    <div class="vr mx-1" style="height: 25px; opacity: 0.2;"></div>
+                    <div class="position-relative">
+                        <div class="search-box-container d-flex align-items-center">
+                            <input type="text"
+                                placeholder="Buscar"
+                                class="buscador-input"
+                                id="searchInput">
+
+                            <i class="bi bi-search text-primary"></i>
+
+                        </div>
+
+                        <!-- RESULTADOS -->
+                        <div id="searchResults"
+                            class="position-absolute bg-white shadow rounded mt-1"
+                            style="
+                                width: 100%;
+                                z-index: 9999;
+                                max-height: 300px;
+                                overflow-y: auto;
+                            ">
+                        </div>
+                    </div>
+                
+                    
+                <div class="vr mx-1" style="height: 25px; opacity: 0.2;"></div>
 
                     <div class="d-flex align-items-center gap-3">
-                        <a href="#" class="icono-item-link"><i class="bi bi-translate"></i> <span class="d-none d-xxl-inline">Inglés</span></a>
                         <a href="https://uady.mx/servicioslinea" class="icono-item-link"><i class="bi bi-laptop"></i> <span class="d-none d-xxl-inline">Servicios</span></a>
                         <a href="https://outlook.office.com/mail/" class="icono-item-link"><i class="bi bi-envelope"></i></a>
                         <a href="https://uady.mx/calendario" class="icono-item-link"><i class="bi bi-calendar3"></i></a>
@@ -286,3 +305,66 @@
 </style>
     </nav>
 </header>
+
+<script>
+
+const input = document.getElementById('searchInput');
+const results = document.getElementById('searchResults');
+
+input.addEventListener('keyup', async () => {
+
+    const q = input.value.trim();
+
+    if(q.length < 1){
+
+        results.innerHTML = '';
+        return;
+    }
+
+    try{
+
+        const response = await fetch(`/buscar?q=${q}`);
+
+        const data = await response.json();
+
+        results.innerHTML = '';
+
+        if(data.length === 0){
+
+            results.innerHTML = `
+                <div class="p-2 text-muted">
+                    Sin resultados
+                </div>
+            `;
+
+            return;
+        }
+
+        data.forEach(item => {
+
+            results.innerHTML += `
+                <a href="${item.url}"
+                   class="d-block p-2 text-decoration-none border-bottom text-dark search-item">
+                   
+                    ${item.titulo}
+
+                </a>
+            `;
+        });
+
+    }catch(error){
+
+        console.error(error);
+    }
+
+});
+
+document.addEventListener('click', (e) => {
+
+    if(!results.contains(e.target) && e.target !== input){
+
+        results.innerHTML = '';
+    }
+});
+
+</script>

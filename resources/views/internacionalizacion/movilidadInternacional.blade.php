@@ -12,7 +12,7 @@
 <div class="container my-5">
 
     {{-- Introducción en bloque destacado --}}
-    <div class="card shadow-sm mb-5">
+    <div id="movilidad-internacional" class="card shadow-sm mb-5">
         <div class="card-body">
             <p>
                 La Facultad de Contaduría y Administración ha escudriñado su internacionalización por diversos medios. 
@@ -80,7 +80,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Avisos</h3>
+    <h3 id="avisos-movilidad-internacional" class="fw-bold text-center mb-4" style="color: #002E5F;">Avisos</h3>
 
     <div class="card shadow-sm mb-5">
         <div class="card-body">
@@ -145,7 +145,7 @@
             </div>
 
             {{-- Convocatorias internacionales --}}
-            <h5 class="fw-bold mt-4" style="color: #002E5F;">Convocatorias de estancias internacionales</h5>
+            <h5 id="convocatorias-estancias-internacionales" class="fw-bold mt-4" style="color: #002E5F;">Convocatorias de estancias internacionales</h5>
 
             <div class="card shadow-sm mb-4">
                 <div class="card-body">
@@ -296,7 +296,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Convocatorias 2026</h3>
+    <h3 id="convocatorias-2026" class="fw-bold text-center mb-4" style="color: #002E5F;">Convocatorias 2026</h3>
 
     <div class="row g-4">
         <div class="col-md-6">

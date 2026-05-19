@@ -19,7 +19,7 @@
 {{-- direccion --}}
 <section class="py-5">
     <div class="container">
-        <h3 class="fw-bold mb-4" style="color: #002E5F;">Dirección</h3>
+        <h3 id="direccion" class="fw-bold mb-4" style="color: #002E5F;">Dirección</h3>
 
         <div class="row g-4">
 
@@ -57,7 +57,7 @@
 {{-- areas --}}
 <section class="py-5 bg-light">
     <div class="container">
-        <h3 class="fw-bold mb-4" style="color: #002E5F;">Áreas y Coordinaciones</h3>
+        <h3 id="areas-coordinaciones" class="fw-bold mb-4" style="color: #002E5F;">Áreas y Coordinaciones</h3>
 
         <x-accordion id="comunicacion" titulo="Coordinación de Comunicación">
             Información de contacto y difusión institucional.

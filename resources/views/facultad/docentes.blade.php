@@ -13,7 +13,7 @@
 
 
         <div class="col-md-6">
-            <h3 class="fw-bold mb-3" style="color: #002E5F;">Personal Docente</h3>
+            <h3 id="personal-docente" class="fw-bold mb-3" style="color: #002E5F;">Personal Docente</h3>
             <p class="text-muted">
                La Facultad cuenta con 52 maestros de Tiempo Completo, de los cuales 22 (el 42%) cuenta con la certificación de la ANFECA, 26 tienen reconocimiento de Perfil Deseable PRODEP (50%) y 8 (el 15%) están adscritos al Sistema Nacional de Investigadores (SNI), del Conacyt. Complementan nuestra planta docente 4 profesores de Medio Tiempo y 108 de asignatura, todos profesionales altamente calificados, con amplia experiencia laboral y reconocida trayectoria en sus respectivas ramas, que en suma, hacen un total de 164 profesores.
              </p>
@@ -26,7 +26,7 @@
 <div class="container my-5">
 
     <!-- TIEMPO COMPLETO -->
-    <h5 class="fw-bold" style="color: #002E5F;">Profesores de Tiempo Completo</h5>
+    <h5 id="profesores-tiempo-completo" class="fw-bold" style="color: #002E5F;">Profesores de Tiempo Completo</h5>
 
     <div class="table-responsive mb-4">
         <table class="table table-striped table-bordered">
@@ -50,7 +50,7 @@
     </div>
 
     <!-- MEDIO TIEMPO -->
-    <h5 class="fw-bold" style="color: #002E5F;">Profesores de Medio Tiempo</h5>
+    <h5 id="profesores-medio-tiempo" class="fw-bold" style="color: #002E5F;">Profesores de Medio Tiempo</h5>
 
     <div class="table-responsive mb-4">
         <table class="table table-striped table-bordered">
@@ -74,7 +74,7 @@
     </div>
 
     <!-- COORDINADOR -->
-    <h5 class="fw-bold" style="color: #002E5F;">Coordinador del Programa Institucional de Inglés</h5>
+    <h5 id="coordinador-programa-institucional-ingles" class="fw-bold" style="color: #002E5F;">Coordinador del Programa Institucional de Inglés</h5>
 
     @if($coordinador)
         <table class="table table-bordered mb-4">
@@ -96,7 +96,7 @@
     @endif
 
     <!-- ASIGNATURA -->
-    <h5 class="fw-bold" style="color: #002E5F;">Profesores por Asignatura</h5>
+    <h5 id="profesores-por-asignatura" class="fw-bold" style="color: #002E5F;">Profesores por Asignatura</h5>
 
     <div class="table-responsive">
         <table class="table table-striped table-bordered">
@@ -126,7 +126,7 @@
     <div class="row align-items-center">
 
         <div class="col-md-6">
-            <h3 class="fw-bold mb-3" style="color: #002E5F;">Centro de Innovación Pedagógica</h3>
+            <h3 id="centro-innovacion-pedagogica" class="fw-bold mb-3" style="color: #002E5F;">Centro de Innovación Pedagógica</h3>
             <p class="text-muted">
                  El Centro de Innovación Pedagógica (CIP) de la Facultad de Contaduría y Administración (FCA) de la Universidad Autónoma de Yucatán (UADY) impulsa la mejora continua de la práctica docente y la calidad educativa. Su propósito es apoyar a los docentes mediante la innovación pedagógica, la investigación educativa y la integración de tecnologías emergentes, fomentando un aprendizaje significativo y pertinente.
                 El CIP ofrece recursos y formación continua para desarrollar metodologías innovadoras que fortalezcan las competencias pedagógicas del profesorado, promoviendo una educación crítica y orientada al desarrollo sostenible. Además, apoya la implementación del Modelo Educativo para la Formación Integral (MEFI), colocando al estudiante en el centro del aprendizaje. </p>
@@ -145,7 +145,7 @@
     <div class="row align-items-center">
 
         <div class="col-md-6">
-            <h3 class="fw-bold mb-3" style="color: #002E5F;">Servicios de la Biblioteca del Campus</h3>
+            <h3 id="servicio-biblioteca-campus" class="fw-bold mb-3" style="color: #002E5F;">Servicios de la Biblioteca del Campus</h3>
             <p class="text-muted">
                 La Biblioteca del Campus de Ciencias Sociales, Económico-Administrativas y Humanidades, cuenta con un amplio acervo de material bibliográfico de las áreas de Ciencias Sociales: Antropología, Psicología, Educación, Economía, Comercio Internacional, Derecho, Administración, Turismo, Comunicación, Literatura, Enseñanza del Inglés, etc.
                 Dicho acervo está conformado por libros, tesis, publicaciones periódicas, folletos, discos compactos, bases de datos, entre otros.</div>
@@ -160,7 +160,7 @@
 
 <div class="container my-5">
     <div class="text-center mb-4">
-        <h2 class="titulo-biblioteca" style="color: #002E5F;">
+        <h2 id="coordinacion-general-sistema-bibliotecario" class="titulo-biblioteca" style="color: #002E5F;">
             Coordinación General del Sistema Bibliotecario 
             <a href="#"><i class="bi bi-link-45deg"></i></a>
         </h2>
@@ -195,7 +195,7 @@
 </div>
 
 <div class="text-center mb-4">
-        <h2 class="titulo-biblioteca" style="color: #002E5F;">
+        <h2 id="programa-institucional-evaluacion-docente" class="titulo-biblioteca" style="color: #002E5F;">
             Programa Institucional de Evaluación Docente
             <a href="#"><i class="bi bi-link-45deg"></i></a>
         </h2>

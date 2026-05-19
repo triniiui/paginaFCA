@@ -28,6 +28,7 @@ $pos = [
 ];
 @endphp
 
+<div id="licenciatura">
 <x-estadisticas 
     titulo="Licenciatura"
     subtitulo="Ciclo agosto - diciembre 2025"
@@ -36,7 +37,9 @@ $pos = [
     cols="col-md-4"
     bg="bg-light"
 />
+</div>
 
+<div id="posgrado">
 <x-estadisticas 
     titulo="Posgrado"
     subtitulo="Ciclo agosto 2025 - enero 2026"
@@ -44,5 +47,6 @@ $pos = [
     total="316"
     cols="col-md-3"
 />
+</div>
 
 @endsection

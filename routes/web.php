@@ -11,6 +11,7 @@ use App\Http\Controllers\DocenteController;
 use App\Http\Controllers\EgresadoController;
 use App\Http\Controllers\ComunidadController;
 use App\Models\Informacion;
+use App\Http\Controllers\BusquedaController;
 
 
 Route::get('/',[HomeController::class,'index'])->name('home');
@@ -193,3 +194,7 @@ Route::prefix('fca-internacionalizacion')->group(function () {
     })->name('internacionalizacion.movilidadInternacional');
 
 });
+
+
+//Ruta de busquedas
+Route::get('/buscar', [BusquedaController::class, 'buscar']);

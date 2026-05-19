@@ -12,7 +12,7 @@
 <div class="container my-5">
 
     {{-- Introducción en bloque destacado --}}
-    <div class="card shadow-sm mb-5">
+    <div id="IELSM" class="card shadow-sm mb-5">
         <div class="card-body">
             <p>
                 La Facultad de Contaduría y Administración ejerce su compromiso como institución aliada en la plataforma digital europea y latinoamericana de inteligencia colectiva-multicultural para el emprendimiento e innovación digital <strong>International Entrepreneurship-Lab Smart Money</strong>.
@@ -63,7 +63,7 @@
 
 
     {{-- Profesores en lista estilizada --}}
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Profesores</h3>
+    <h3 id="profesores-IELSM" class="fw-bold text-center mb-4" style="color: #002E5F;">Profesores</h3>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">Dra. Anel Flores Novelo</li>
         <li class="list-group-item">Dra. María del Carmen Rachó Barroso</li>
@@ -79,7 +79,7 @@
 
 <div class="container my-5">
 
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Equipo Académico</h3>
+    <h3 id="equipo-IELSM" class="fw-bold text-center mb-4" style="color: #002E5F;">Equipo Académico</h3>
 
     <div class="row text-center">
 
@@ -146,7 +146,7 @@
 <div class="container my-5">
 
     {{-- Título de testimonios --}}
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Alumnos destacados del programa</h3>
+    <h3 id="alumnos-IELSM" class="fw-bold text-center mb-4" style="color: #002E5F;">Alumnos destacados del programa</h3>
 
     {{-- Testimonios en tarjetas --}}
     <div class="row">

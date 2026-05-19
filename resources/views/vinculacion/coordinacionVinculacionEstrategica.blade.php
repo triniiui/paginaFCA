@@ -11,7 +11,7 @@
 <div class="container my-5">
 
     <!-- TÍTULO -->
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Vinculación Estratégica</h3>
+    <h3 id="coordinacion-vinculacion-estrategica" class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Vinculación Estratégica</h3>
 
     <!-- INTRODUCCIÓN -->
     <p class="text-justify">
@@ -29,7 +29,7 @@
     </p>
 
     <!-- FUNCIONES -->
-    <h4 class="fw-bold mt-5" style="color: #002E5F;">Funciones de la Coordinación de Vinculación Estratégica</h4>
+    <h4 id="funciones-coordinacion-vinculacion-estrategica" class="fw-bold mt-5" style="color: #002E5F;">Funciones de la Coordinación de Vinculación Estratégica</h4>
     <ol class="mt-3">
         <li>Promover una mayor vinculación de la FCA-UADY ante los diversos sectores productivos, instituciones educativas, organismos colegiados, cámaras empresariales, dependencias gubernamentales y agrupaciones no gubernamentales, mediante convenios.</li>
         <li>Fomentar una activa relación de docentes, investigadores y alumnos con los principales actores de vinculación internos y externos.</li>
@@ -44,7 +44,7 @@
     </ol>
 
     <!-- PROCESO DE CONVENIOS -->
-    <h4 class="fw-bold mt-5" style="color: #002E5F;">Proceso de Convenios</h4>
+    <h4 id="convenios-vinculacion-estrategica" class="fw-bold mt-5" style="color: #002E5F;">Proceso de Convenios</h4>
     <div class="row mt-3 text-center">
         <div class="col-md-2"><div class="card p-3 mb-3">1. Envía tu solicitud</div></div>
         <div class="col-md-2"><div class="card p-3 mb-3">2. Pasa la revisión</div></div>
@@ -78,7 +78,7 @@
     </ol>
 
     <!-- MODALIDADES DE VINCULACIÓN -->
-    <h4 class="fw-bold mt-5" style="color: #002E5F;">Principales modalidades de vinculación</h4>
+    <h4 id="modalidades-vinculacion" class="fw-bold mt-5" style="color: #002E5F;">Principales modalidades de vinculación</h4>
     <div class="row mt-3 text-center">
         <div class="col-md-3"><div class="card p-3 mb-3">Bolsa de Trabajo, Prácticas Profesionales y Servicio Social</div></div>
         <div class="col-md-3"><div class="card p-3 mb-3">Educación Continua</div></div>
@@ -91,7 +91,7 @@
 <div class="container my-5">
 
     <!-- TÍTULO -->
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Convenios de Vinculación de la Facultad de Contaduría y Administración</h3>
+    <h3 id="convenios-vinculacion-FCA" class="fw-bold text-center mb-4" style="color: #002E5F;">Convenios de Vinculación de la Facultad de Contaduría y Administración</h3>
 
     <!-- LISTA DE CONVENIOS (SOLO VISUALIZACIÓN) -->
     <div class="bg-light p-4 rounded shadow-sm">

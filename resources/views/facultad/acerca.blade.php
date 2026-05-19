@@ -15,7 +15,7 @@
         <div class="row align-items-center">
 
             <div class="col-lg-6">
-                <h2 class="fw-bold mb-3" style="color: #002E5F;">Nuestra Facultad</h2>
+                <h2 id="nuestra-facultad" class="fw-bold mb-3" style="color: #002E5F;">Nuestra Facultad</h2>
 
                 @foreach($acercaDeNosotros as $item)
                     {!! $item->contenido !!}
@@ -36,7 +36,7 @@
 <section class="py-5">
     <div class="container">
 
-        <h2 class="fw-bold mb-4 text-center" style="color: #002E5F;">Oferta Académica</h2>
+        <h2 id="oferta-academica" class="fw-bold mb-4 text-center" style="color: #002E5F;">Oferta Académica</h2>
 
         <div class="row g-4">
 

@@ -12,7 +12,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <h2 class="fw-bold mb-3" style="color: #002E5F;">Oferta de Educación Continua</h2>
+                <h2 id="oferta-educacion-continua" class="fw-bold mb-3" style="color: #002E5F;">Oferta de Educación Continua</h2>
                 <p class="text-muted">
                     La Facultad de Contaduría y Administración ofrece una amplia variedad de programas 
                     diseñados para mantener a nuestros egresados actualizados en áreas clave como 
@@ -32,7 +32,7 @@
 
     <div class="container">
 
-            <h2 class="fw-bold display-6 text-center" style="color:#002E5F;">
+            <h2 id="nuestra-oferta-academica" class="fw-bold display-6 text-center" style="color:#002E5F;">
                 Nuestra oferta académica
             </h2>
 
@@ -197,7 +197,7 @@
 
             <div class="col-lg-6">
 
-                <h2 class="fw-bold mb-4" style="color:#002E5F;">
+                <h2 id="capacitacion-organizaciones" class="fw-bold mb-4" style="color:#002E5F;">
                     Capacitación para organizaciones
                 </h2>
 
@@ -247,7 +247,7 @@
 {{-- cursos --}}
 <section class="py-5 seccion-blanca">
     <div class="container">
-        <h3 class="fw-bold text-center mb-5" style="color: #002E5F;">Cursos más solicitados</h3>
+        <h3 id="cursos-mas-solicitados" class="fw-bold text-center mb-5" style="color: #002E5F;">Cursos más solicitados</h3>
 
         <div class="row g-4">
 

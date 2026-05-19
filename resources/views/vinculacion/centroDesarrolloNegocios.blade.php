@@ -11,7 +11,7 @@
 <div class="container my-5">
 
     <!-- ENCABEZADO -->
-    <h2 class="fw-bold text-center mb-4" style="color: #002E5F;">Centro de Desarrollo de Negocios (CEDENE)</h2>
+    <h2 id="CEDENE" class="fw-bold text-center mb-4" style="color: #002E5F;">Centro de Desarrollo de Negocios (CEDENE)</h2>
 
     <!-- INTRODUCCIÓN -->
     <p class="text-justify">
@@ -24,14 +24,14 @@
 
     <!-- MISIÓN -->
     <div class="bg-light p-4 rounded shadow-sm my-4">
-        <h4 class="fw-bold" style="color: #002E5F;">Misión</h4>
+        <h4 id="mision-CEDENE" class="fw-bold" style="color: #002E5F;">Misión</h4>
         <p>
             Contribuir al desarrollo económico del estado a través de asesorías y consultorías especializadas para PyMEs, fomentando la innovación y mejora continua de sus procesos en áreas como mercadotecnia, desarrollo de marcas, comunicación estratégica, diseño de identidad, administración, finanzas y tecnologías de la información, con el propósito de lograr un crecimiento sostenido y competitivo.
         </p>
     </div>
 
     <div class="container text-black">
-        <h2 class="fw-bold mb-4 text-center" style="color: #002E5F;">Valores</h2>
+        <h2 id="valores-CEDENE" class="fw-bold mb-4 text-center" style="color: #002E5F;">Valores</h2>
 
         <div class="container">
             <div class="row g-3 justify-content-center text-center">
@@ -76,7 +76,7 @@
 <div class="container my-5">
 
     <!-- SERVICIOS PRINCIPALES -->
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Servicios principales</h3>
+    <h3 id="servicios-CEDENE" class="fw-bold text-center mb-4" style="color: #002E5F;">Servicios principales</h3>
 
     <div class="row">
         <!-- Asesoría -->
@@ -112,7 +112,7 @@
     <div class="alert mt-4" role="alert" style="background-color: #002E5F; color: white; border: none;">El CEDENE cuenta con una red de asesores y consultores, conformada por profesionistas y académicos especializados en distintas áreas de atención empresarial.</div>
 
     <!-- ÁREAS DE ATENCIÓN -->
-    <h4 class="fw-bold mt-5" style="color: #002E5F;">Áreas de atención</h4>
+    <h4 id="areas-CEDENE" class="fw-bold mt-5" style="color: #002E5F;">Áreas de atención</h4>
     <div class="row mt-3">
         <div class="col-md-3"><div class="card p-3 mb-3 text-center">Mercadotecnia</div></div>
         <div class="col-md-3"><div class="card p-3 mb-3 text-center">Comunicación</div></div>
