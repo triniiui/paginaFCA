@@ -117,13 +117,9 @@
 </div>
 
 <div class="container my-5">
-<<<<<<< HEAD
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Equipo Académico</h3>
-=======
 
     <h3 id="equipo-IELSM" class="fw-bold text-center mb-4" style="color: #002E5F;">Equipo Académico</h3>
 
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
     <div class="row text-center">
         <x-staff-card 
             imagen="assets/img/organizacion/o1.jpg"

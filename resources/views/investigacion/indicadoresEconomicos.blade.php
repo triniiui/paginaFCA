@@ -97,18 +97,30 @@
     </section>
 
     <!-- CONTACTO -->
+    
     <section class="mb-5">
         <p class="fw-bold" style="color: #002E5F;">Contacto:</p>
         <div class="row">
 
-           <x-persona 
-    nombre="Dra. Laura Guillermina Duarte Cáceres"
-    correo="guillermina.duarte@correo.uady.mx"
-/>
-            <x-persona 
-                nombre="Dr. Lucio Jesús Uc Heredia"
-                correo="lucio.uc@correo.uady.mx"
-            />
+
+            <div class="row text-center">
+                <div class="row justify-content-center">
+        <x-staff-card 
+            imagen="assets/img/investigacion/guillermina.png"
+            nombre="Dra. Laura Guillermina Duarte Cáceres"
+            profesion="Coordinadora"
+            puesto="Universidad Autónoma de Yucatán"
+            correo="guillermina.duarte@correo.uady.mx"
+        />
+        <x-staff-card 
+            imagen="assets/img/investigacion/lucio.png"
+            nombre="Dr. Lucio Jesús Uc Heredia
+            "
+            profesion="Coordinador"
+            puesto="Universidad Autónoma de Yucatán"
+            correo="lucio.uc@correo.uady.mx"
+        />
+        
         </div>
     </section>
 </div>
