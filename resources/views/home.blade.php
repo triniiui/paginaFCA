@@ -40,6 +40,7 @@ $oferta = [
 
 {{-- NOTICIAS --}}
 <section class="py-5 bg-light">
+    <section class="py-5 seccion-azul-suave">
     <div class="container">
         <h3 class="fw-bold mb-4 border-start border-4 ps-3" style="border-color:#b58d1b;">
             Noticias

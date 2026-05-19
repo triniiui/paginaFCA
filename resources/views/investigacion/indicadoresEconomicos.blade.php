@@ -12,6 +12,7 @@
 
     <!-- PRESENTACIÓN -->
     <section class="mb-5">
+        <section class="py-5 seccion-azul-suave">
         <h5 class="fw-bold" style="color: #002E5F;">Presentación</h5>
         <hr>
         <p>

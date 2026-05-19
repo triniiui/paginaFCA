@@ -10,7 +10,7 @@
 />
 
 <div class="container my-5">
-
+<section class="py-5 seccion-azul-suave">
     {{-- Introducción en bloque destacado --}}
     <div class="card shadow-sm mb-5">
         <div class="card-body">
@@ -131,89 +131,128 @@
             puesto="Universidad Aurónoma de Yucatán"
             correo="mbasulto@correo.uady.mx"
         />
+         <x-staff-card 
+            imagen="assets/img/organizacion/o1.jpg"
+            nombre="Dra. Anel Flores"
+            profesion="IELSM - Coordinadora"
+            puesto="Universidad Aurónoma de Yucatán"
+            correo="mbasulto@correo.uady.mx"
+        />
 
 
     </div>
 </div>
 
-<div class="container my-5">
 
-    {{-- Título de testimonios --}}
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Alumnos destacados del programa</h3>
 
-    {{-- Testimonios en tarjetas --}}
-    <div class="row">
-        <div class="col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="fw-bold" style="color: #002E5F;">Monserrat Vargas Jiménez</h5>
-                    <p class="text-muted">Mercadotecnia y Negocios Internacionales</p>
-                    <p>Es una experiencia única y completa. Cada sesión brinda una oportunidad para trabajar en equipo, potencializar ideas, obtener nuevos aprendizajes, ser empáticos, responsables y desarrollar capacidades organizativas.</p>
+
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<div class="container py-5">
+<h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Alumnos destacados del programa</h3>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+
+                    <x-testimonial-card
+                        name="Monserrat Vargas Jiménez"
+                        career="Mercadotecnia"
+                        image="{{ asset('img/internacional/i1.jpg') }}"
+                        text="Experiencia única y completa."
+                    />
+
+                    <x-testimonial-card
+                        name="Andrea López"
+                        career="Administración"
+                        image="{{ asset('img/internacional/i2.jpg') }}"
+                        text="Fortalecí mis habilidades de liderazgo."
+                    />
+
+                    <x-testimonial-card
+                        name="Carlos Méndez"
+                        career="Ingeniería"
+                        image="{{ asset('img/internacional/i3.jpg') }}"
+                        text="Aprendí a trabajar bajo presión."
+                    />
+
+                    <x-testimonial-card
+                        name="Fernanda Ruiz"
+                        career="Diseño"
+                        image="{{ asset('img/internacional/i4.jpg') }}"
+                        text="Me ayudó a crecer profesionalmente."
+                    />
+
                 </div>
             </div>
-        </div>
 
-        <div class="col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="fw-bold" style="color: #002E5F;">Viviana Aminairy Poor Trejo</h5>
-                    <p class="text-muted">Mercadotecnia y Negocios Internacionales</p>
-                    <p>El IELSM es una gran experiencia, el programa permite tener contacto directo con empresas nacionales e internacionales y aprender de profesionales y especialistas en el área.</p>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+
+                    <x-testimonial-card
+                        name="Luis Herrera"
+                        career="Contaduría"
+                        image="{{ asset('img/internacional/i1.jpg') }}"
+                        text="Conocí personas increíbles."
+                    />
+
+                    <x-testimonial-card
+                        name="Sofía Martínez"
+                        career="Psicología"
+                        image="{{ asset('img/internacional/i2.jpg') }}"
+                        text="Una experiencia enriquecedora."
+                    />
+
+                    <x-testimonial-card
+                        name="Daniela Castro"
+                        career="Derecho"
+                        image="{{ asset('img/internacional/i3.jpg') }}"
+                        text="Aprendí muchísimo trabajando en equipo."
+                    />
+
+                    <x-testimonial-card
+                        name="José Pérez"
+                        career="Arquitectura"
+                        image="{{ asset('img/internacional/i4.jpg') }}"
+                        text="Desarrollé habilidades organizativas."
+                    />
+
                 </div>
             </div>
+
         </div>
 
-        <div class="col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="fw-bold" style="color: #002E5F;">Javier Arturo Vallejo Olán</h5>
-                    <p class="text-muted">Mercadotecnia y Negocios Internacionales</p>
-                    <p>El IELSM me brindó la oportunidad de desarrollar un proyecto de marco social junto a alumnos, empresarios y expertos de América y Europa. Esta experiencia fue una gran influencia para mi carrera profesional, te hace adquirir una perspectiva más global.</p>
-                </div>
-            </div>
-        </div>
+        <!-- Flechas -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-arrow">
+                <i class="bi bi-chevron-left"></i>
+            </span>
+        </button>
 
-        <div class="col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="fw-bold" style="color: #002E5F;">Jessica Guadalupe Alpuche Pacheco</h5>
-                    <p class="text-muted">Comercio Internacional</p>
-                    <p>Permite conectar con estudiantes de negocios internacionales, practicar el idioma inglés y realizar tareas donde pude conocer instrumentos de trabajo para desarrollar planes e impulsar a empresas a expandir sus fronteras.</p>
-                </div>
-            </div>
-        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-arrow">
+                <i class="bi bi-chevron-right"></i>
+            </span>
+        </button>
 
-        <div class="col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="fw-bold" style="color: #002E5F;">Jonathan Efraín Vázquez Galeana</h5>
-                    <p class="text-muted">Comercio Internacional</p>
-                    <p>Participar en la plataforma me hizo sumar experiencia en el análisis y evaluación de modelos de negocios de diferentes empresas según su tamaño, además de aprender a colaborar en equipos de trabajo.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="fw-bold" style="color: #002E5F;">Ana Vanesa May Tec</h5>
-                    <p class="text-muted">Administración</p>
-                    <p>Mi experiencia en el IELSM ha sido gratificante ya que aprendo varias cosas, por ejemplo, de los catalizadores, expertos, empresarios y me nutro de los canvas utilizados.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                    <h5 class="fw-bold" style="color: #002E5F;">Mariana Carolina Gómez Porter</h5>
-                    <p class="text-muted">Administración</p>
-                    <p>Buena experiencia en el IELSM, los catalizadores responden dudas y escuchan nuestras opiniones en las sesiones. Además, brindan consejos para exponer nuestros proyectos y presentarlos a empresarios y expertos.</p>
-                </div>
-            </div>
-        </div>
     </div>
 
+</div>
+
+
+
+
+
+
+
+<div class="container my-5">
+   <section class="py-5 seccion-azul-suave">
     {{-- Imagen de fases IELSM --}}
     <div class="text-center mt-5">
         <img src="{{ asset('images/ielsm_phases.png') }}" alt="Fases IELSM" class="img-fluid rounded shadow">
@@ -260,7 +299,91 @@
 
 </div>
 
+<style>
+    /* =========================
+   CARD
+========================= */
 
+.testimonial-mini{
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    transition: .3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    border: 1px solid #f1f1f1;
+    height: 100%;
+}
+
+.testimonial-mini:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+}
+
+.testimonial-mini-img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.testimonial-name{
+    color: #002E5F;
+    font-size: 1rem;
+}
+
+.testimonial-career{
+    color: #C79A00;
+    font-size: .82rem;
+    font-weight: 600;
+}
+
+.testimonial-text{
+    color: #666;
+    font-size: .88rem;
+    line-height: 1.6;
+}
+
+/* =========================
+   FLECHAS
+========================= */
+
+.carousel-arrow{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #002E5F;
+    font-size: 1.4rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: .3s ease;
+}
+
+.carousel-arrow:hover{
+    background: #002E5F;
+    color: white;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:992px){
+
+    .carousel-control-prev,
+    .carousel-control-next{
+        display: none;
+    }
+
+    .testimonial-mini-img{
+        height: 180px;
+    }
+
+}
+
+</style>
 
 
 @endsection
