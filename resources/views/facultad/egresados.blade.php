@@ -82,12 +82,8 @@
                 <span class="section-badge">
                     Titulación
                 </span>
-<<<<<<< HEAD
-                <h2 class="fw-bold display-6 mt-3 mb-4" style="color:#002E5F;">
-=======
 
                 <h2 id="guias-tramites-titulacion" class="fw-bold display-6 mt-3 mb-4" style="color:#002E5F;">
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
                     Guías para realizar los trámites
                 </h2>
                 <p class="text-muted">
@@ -146,12 +142,8 @@
                 <span class="section-badge">
                     Atención
                 </span>
-<<<<<<< HEAD
-                <h2 class="fw-bold display-6 mt-3 mb-4" style="color:#002E5F;">
-=======
 
                 <h2 id="sistema-virtual-citas" class="fw-bold display-6 mt-3 mb-4" style="color:#002E5F;">
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
                      Sistema Virtual de Citas
                 </h2>
                 <p class="text-muted">

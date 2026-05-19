@@ -96,36 +96,40 @@
             Los procesos de admisión son equitativos y transparentes. Inician con la convocatoria publicada cada año.
         </p>
 
-        <div class="card shadow-sm border-0 p-4 mt-3">
-            <h5 class="fw-bold">Sitio oficial</h5>
-            <a href="https://ingreso.uady.mx/licenciatura/" target="_blank" 
-               class="btn btn-outline-primary mt-2"> 
-                Ir al portal de ingreso
-            </a>
-
+       <div class="card shadow-sm border-0 p-4 mt-3">
+    <h5 class="fw-bold" style="color: #002E5F;">Sitio oficial</h5>
+    <a href="https://ingreso.uady.mx/licenciatura/" target="_blank" 
+       class="btn mt-2" 
+       style="border: 1px solid #002E5F; color: #002E5F; transition: 0.3s;"
+       onmouseover="this.style.backgroundColor='#002E5F'; this.style.color='white'"
+       onmouseout="this.style.backgroundColor='transparent'; this.style.color='#002E5F'"> 
+        Ir al portal de ingreso
+    </a>
+</div>
             <p class="mt-3 mb-1"><strong>Correo:</strong> staff.seleccion@correo.uady.mx</p>
             <p><strong>Tel:</strong> (999) 930 01 30 Ext. 74148</p>
         </div>
 
     </div>
 </section>
-
 {{-- PROCESO POSGRADO --}}
 <section class="py-5">
     <div class="container">
-
         <h2 id="proceso-ingreso-posgrado" class="fw-bold mb-4" style="color: #002E5F;">Proceso de Ingreso al Posgrado</h2>
-
         <p class="text-muted">
             Registro mediante el Sistema de Información para el Proceso de Selección (SIPS).
         </p>
 
         <div class="card shadow-sm border-0 p-4 mt-3">
-            <h5 class="fw-bold">Sitio oficial</h5>
-            <a href="https://ingreso.uady.mx/posgrado/" target="_blank" 
-               class="btn btn-outline-primary mt-2">
-                Ir al portal de posgrado
-            </a>
+    <h5 class="fw-bold" style="color: #002E5F;">Sitio oficial</h5>
+    <a href="https://ingreso.uady.mx/posgrado/" target="_blank" 
+       class="btn mt-2" 
+       style="border: 1px solid #002E5F; color: #002E5F; transition: 0.3s;"
+       onmouseover="this.style.backgroundColor='#002E5F'; this.style.color='white'"
+       onmouseout="this.style.backgroundColor='transparent'; this.style.color='#002E5F'"> 
+        Ir al portal de ingreso
+    </a>
+</div>
 
             <p class="mt-3 mb-1"><strong>Correo:</strong> posgrados@correo.uady.mx</p>
             <p><strong>Tel:</strong> (999) 930 01 30 Ext. 74115 y 74119</p>

@@ -15,12 +15,8 @@
             <i class="bi bi-clock-history"></i>
             Trayectoria FCA
         </span>
-<<<<<<< HEAD
-        <h2 class="fw-bold display-5 mt-4 mb-4" style="color:#012143;">
-=======
 
         <h2 id="nuestra-historia" class="fw-bold display-5 mt-4 mb-4" style="color:#012143;">
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
             Más de 60 años formando profesionales
         </h2>
         <p class="text-muted mx-auto historia-texto">
@@ -210,12 +206,8 @@
 <section class="py-5 directores-section">
     <div class="container">
         <div class="text-center mb-5">
-<<<<<<< HEAD
-            <h2 class="fw-bold" style="color:#012143;">
-=======
 
             <h2 id="directores" class="fw-bold" style="color:#012143;">
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
                 Directores
             </h2>
             <div class="line-title mx-auto"></div>

@@ -74,13 +74,9 @@
 </div>
 
 <div class="container my-5">
-<<<<<<< HEAD
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Avisos</h3>
-=======
 
     <h3 id="avisos-movilidad-internacional" class="fw-bold text-center mb-4" style="color: #002E5F;">Avisos</h3>
 
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
     <div class="card shadow-sm mb-5">
         <div class="card-body">
             <p>
@@ -144,12 +140,7 @@
             </div>
 
             {{-- Convocatorias internacionales --}}
-<<<<<<< HEAD
-            <div class="card-body text-center">
-            <h5 class="fw-bold mt-4" style="color: #002E5F;">Convocatorias de estancias internacionales</h5>
-=======
             <h5 id="convocatorias-estancias-internacionales" class="fw-bold mt-4" style="color: #002E5F;">Convocatorias de estancias internacionales</h5>
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
 
             <div class="card shadow-sm mb-4">
                 <div class="card-body text-center">
@@ -295,13 +286,7 @@
 </div>
 
 <div class="container my-5">
-<<<<<<< HEAD
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Convocatorias 2026</h3>
-=======
-
-    <h3 id="convocatorias-2026" class="fw-bold text-center mb-4" style="color: #002E5F;">Convocatorias 2026</h3>
-
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
     <div class="row g-4">
         <div class="col-md-6">
             <div class="card shadow-sm h-100">

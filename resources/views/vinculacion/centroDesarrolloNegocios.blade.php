@@ -3,7 +3,7 @@
 @section('vistas-content')
 
 <x-hero 
-    imagen="assets/img/vinculacion/v1.png"
+    imagen="assets/img/vinculacion/v6.jpg"
     titulo="Centro de Desarrollo de Negocios"
     subtitulo="Poner el subtítulo correcto"
 />
@@ -76,12 +76,7 @@
 <div class="container my-5">
 
     <!-- SERVICIOS PRINCIPALES -->
-<<<<<<< HEAD
-    <div class="alert alert-info mt-3 text-center">
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Servicios principales</h3>
-=======
     <h3 id="servicios-CEDENE" class="fw-bold text-center mb-4" style="color: #002E5F;">Servicios principales</h3>
->>>>>>> 01abd925ff1fe34a4d64ade2981dd5ccbec1852c
 
     <div class="row">
         <!-- Asesoría -->
