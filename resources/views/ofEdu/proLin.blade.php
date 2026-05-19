@@ -11,73 +11,52 @@
 {{-- INTRO --}}
 
 <section class="py-5 seccion-azul-suave">
-
     <div class="container">
-
         <div class="row align-items-center g-5">
-
             <div class="col-lg-7">
-
                 <h2 class="fw-bold display-5 mb-4" style="color:#002E5F;">
                     Formación profesional con visión global
                 </h2>
-
                 <p class="lead text-muted">
                     Nuestros programas están alineados al Modelo Educativo
                     para la Formación Integral (MEFI 2019), fortaleciendo
                     competencias académicas, tecnológicas y humanas.
                 </p>
-
                 <div class="d-flex flex-wrap gap-3 mt-4">
-
                     <div class="mini-stat">
                         <h4>CENEVAL</h4>
                         <span>Reconocimiento</span>
                     </div>
-
                     <div class="mini-stat">
                         <h4>CACECA</h4>
                         <span>Acreditación</span>
                     </div>
-
                 </div>
-
             </div>
-
             <div class="col-lg-5">
-
                 <div class="glass-info-card">
-
                     <h4 class="fw-bold mb-4">
                         ¿Por qué estudiar en FCA?
                     </h4>
-
                     <div class="feature-item">
                         <i class="bi bi-check-circle-fill"></i>
                         Programas acreditados
                     </div>
-
                     <div class="feature-item">
                         <i class="bi bi-check-circle-fill"></i>
                         Formación integral
                     </div>
-
                     <div class="feature-item">
                         <i class="bi bi-check-circle-fill"></i>
                         Vinculación profesional
                     </div>
-
                     <div class="feature-item">
                         <i class="bi bi-check-circle-fill"></i>
                         Docentes especializados
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
 </section>
 {{-- PROGRAMAS --}}

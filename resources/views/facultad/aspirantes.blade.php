@@ -6,7 +6,7 @@
     imagen="assets/img/aspirantes/a2.jpg"
     titulo="Aspirantes"
 />
-
+<div class="card-body text-center">
 @php
     $contenido = [
         [

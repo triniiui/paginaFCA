@@ -2,48 +2,6 @@
 
 @section('vistas-content')
 
-<style>
-    .director-card {
-    width: 350px;
-    border-radius: 15px;
-    border: none;
-    transition: 0.3s;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-.director-card:hover {
-    transform: translateY(-10px);
-    background: #012143;
-    color: white;
-}
-
-.director-img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border: 4px solid #b58d1b;
-}
-
-.linea-organigrama {
-    width: 3px;
-    height: 50px;
-    background: #b58d1b;
-    margin: 0 auto;
-}
-
-.staff-card {
-    border-radius: 12px;
-    border: none;
-    transition: 0.3s;
-}
-
-.staff-card:hover {
-    transform: translateY(-8px);
-    background: #012143;
-    color: white;
-}
-</style>
-
 <x-hero 
     imagen="assets/img/docentes/d3.jpg"
     titulo="Organización"
@@ -132,5 +90,45 @@
 
     </div>
 </section>
+<style>
+    .director-card {
+    width: 350px;
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
 
+.director-card:hover {
+    transform: translateY(-10px);
+    background: #012143;
+    color: white;
+}
+
+.director-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 4px solid #b58d1b;
+}
+
+.linea-organigrama {
+    width: 3px;
+    height: 50px;
+    background: #b58d1b;
+    margin: 0 auto;
+}
+
+.staff-card {
+    border-radius: 12px;
+    border: none;
+    transition: 0.3s;
+}
+
+.staff-card:hover {
+    transform: translateY(-8px);
+    background: #012143;
+    color: white;
+}
+</style>
 @endsection

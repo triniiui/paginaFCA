@@ -9,10 +9,11 @@
 />
 
 <div class="container my-5">
-
+<div class="container position-relative">
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Investigación</h3>
 
     <div class="card shadow-sm mb-4">
+          <div class="card-body text-center"> 
         <div class="card-body">
             <p>
                 La Coordinación de Investigación depende de la Unidad de Posgrado e Investigación de la Facultad.
@@ -77,7 +78,7 @@
 
     <div class="card shadow-sm">
         <div class="card-body d-flex justify-content-center align-items-center">
-            <img src="images/contacto_guillermina.jpg" alt="Dra. Laura Guillermina Duarte Cáceres" 
+            <img src="assets/img/investigacion/i5.jpg"
                  class="rounded-circle me-3" style="width:90px; height:90px;">
             <div class="text-center">
                 <h5 class="fw-bold mb-1">Contacto</h5>

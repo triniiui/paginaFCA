@@ -30,6 +30,7 @@
 
 {{-- CARDS --}}
 <div class="container my-5">
+    <div class="card-body text-center">
     <h3 class="fw-bold mb-4 text-center" style="color: #002E5F;">¿Qué te ofrecemos?</h3>
 
     <div class="row g-4">

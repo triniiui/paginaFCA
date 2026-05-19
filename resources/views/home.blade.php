@@ -44,7 +44,7 @@ $oferta = [
     <div class="container">
         <h3 class="fw-bold mb-4 border-start border-4 ps-3" style="border-color:#b58d1b;">
             Noticias
-        </h3>
+        </h3> 
 
         <div class="row g-4">
             @foreach($noticias as $noticia)

@@ -7,7 +7,7 @@
     titulo="Publicaciónes Científicas"
     subtitulo="Poner subtítulo correcto"
 />
-
+  <div class="card-body text-center"> 
 <div class="container my-5">
     <p class="mb-5 text-justify">
         Las publicaciones científicas son el producto del ejercicio profesional, académico y de investigación 

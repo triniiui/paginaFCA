@@ -19,7 +19,6 @@
                     administración, fiscal, mercadotecnia, contabilidad, liderazgo e inteligencia emocional.
                 </p>
             </div>
-
             <div class="col-lg-6">
                 <img src="{{ asset('assets/img/ofeduCo/o1.png') }}" 
                      class="img-fluid rounded shadow">
@@ -31,7 +30,7 @@
 <section class="py-5 seccion-blanca overflow-hidden">
 
     <div class="container">
-
+<div class="card-body text-center">
             <h2 class="fw-bold display-6 text-center" style="color:#002E5F;">
                 Nuestra oferta académica
             </h2>
@@ -42,87 +41,67 @@
                 actuales del mercado.
             </p>
         </div>
-
-        <div class="row g-4">
+    <div class="row g-4">
 
             {{-- CARD 1 --}}
             <div class="col-lg-4">
                 <div class="modern-card h-100">
-
                     <div class="icon-circle bg-primary-subtle">
                         <i class="bi bi-journal-text"></i>
                     </div>
-
                     <h4 class="fw-bold mt-4">
                         Cursos y Talleres
                     </h4>
-
                     <p class="text-muted">
                         Capacitación práctica y especializada enfocada en
                         habilidades de aplicación inmediata.
                     </p>
-
                     <div class="mini-line"></div>
-
                     <small class="text-info-emphasis fw-semibold">
                         Modalidad flexible
                     </small>
-
                 </div>
             </div>
 
             {{-- CARD 2 --}}
             <div class="col-lg-4">
                 <div class="modern-card h-100">
-
                     <div class="icon-circle bg-primary-subtle">
                         <i class="bi bi-mortarboard"></i>
                     </div>
-
                     <h4 class="fw-bold mt-4">
                         Diplomados
                     </h4>
-
                     <p class="text-muted">
                         Formación integral con contenido actualizado en áreas
                         estratégicas del entorno empresarial.
                     </p>
-
                     <div class="mini-line"></div>
-
                     <small class="text-info-emphasis fw-semibold">
                         Valor curricular
                     </small>
-
                 </div>
             </div>
 
             {{-- CARD 3 --}}
             <div class="col-lg-4">
                 <div class="modern-card h-100">
-
                     <div class="icon-circle bg-primary-subtle">
                         <i class="bi bi-award"></i>
                     </div>
-
                     <h4 class="fw-bold mt-4">
                         Certificaciones
                     </h4>
-
                     <p class="text-muted">
                         Programas respaldados por estándares profesionales y
                         orientados al sector laboral.
                     </p>
-
                     <div class="mini-line"></div>
-
                     <small class="text-info-emphasis fw-semibold">
                         Reconocimiento profesional
                     </small>
-
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -130,117 +109,83 @@
 
 {{-- PROGRAMAS --}}
 <section class="py-5 position-relative overflow-hidden seccion-azul">
-
     <div class="blur-circle blur-1"></div>
     <div class="blur-circle blur-2"></div>
-
     <div class="container position-relative">
-
         <div class="row align-items-center">
-
             <div class="col-lg-7 text-white">
-
                 <h2 class="fw-bold display-6 mb-4">
                     Programas completos y actualizados
                 </h2>
-
                 <p class="lead opacity-75">
                     Cada programa incluye modalidad, duración, fechas,
                     costos y requisitos, además de acceso directo
                     a inscripción y contacto institucional.
                 </p>
-
             </div>
-
             <div class="col-lg-5">
-
                 <div class="glass-card">
-
                     <div class="d-flex justify-content-between mb-4">
                         <div>
                             <h3 class="fw-bold mb-0">+40</h3>
                             <small>Programas</small>
                         </div>
-
                         <div>
                             <h3 class="fw-bold mb-0">100%</h3>
                             <small>Actualizados</small>
                         </div>
                     </div>
-
                     <div class="d-flex justify-content-between">
                         <div>
                             <h3 class="fw-bold mb-0">Flexible</h3>
                             <small>Modalidad</small>
                         </div>
-
                         <div>
                             <h3 class="fw-bold mb-0">UADY</h3>
                             <small>Respaldo</small>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     </div>
 </section>
 
 {{-- CAPACITACIÓN --}}
 <section class="py-5 seccion-azul-suave">
-
     <div class="container">
-
         <div class="row align-items-center g-5">
-
             <div class="col-lg-6">
-
                 <h2 class="fw-bold mb-4" style="color:#002E5F;">
                     Capacitación para organizaciones
                 </h2>
-
                 <p class="text-muted">
                     Diseñamos programas especializados para empresas e
                     instituciones que buscan fortalecer las competencias
                     de sus equipos de trabajo.
                 </p>
-
                 <div class="mt-4">
-
                     <div class="feature-item">
                         <i class="bi bi-check-circle-fill"></i>
                         Profesores especializados
                     </div>
-
                     <div class="feature-item">
                         <i class="bi bi-check-circle-fill"></i>
                         Contenido actualizado
                     </div>
-
                     <div class="feature-item">
                         <i class="bi bi-check-circle-fill"></i>
                         Programas con valor curricular
                     </div>
-
                 </div>
-
             </div>
-
             <div class="col-lg-6">
-
                 <div class="empresa-card shadow-lg">
-
                     <img src="{{ asset('assets/img/ofeduCo/o2.jpg') }}"
                          class="img-fluid rounded-4">
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
 </section>
 
@@ -248,9 +193,7 @@
 <section class="py-5 seccion-blanca">
     <div class="container">
         <h3 class="fw-bold text-center mb-5" style="color: #002E5F;">Cursos más solicitados</h3>
-
         <div class="row g-4">
-
             <div class="col-md-3">
                 <div class="card shadow-sm border-0 hover-card">
                     <img src="{{ asset('assets/img/ofeduCo/o4.jpeg') }}" class="card-img-top">
@@ -314,6 +257,17 @@
 
     </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <style>

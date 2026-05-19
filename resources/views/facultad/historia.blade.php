@@ -10,293 +10,207 @@
 
 {{-- INTRO --}}
 <section class="py-5 historia-intro">
-
     <div class="container text-center">
-
         <span class="historia-badge mb-4">
             <i class="bi bi-clock-history"></i>
             Trayectoria FCA
         </span>
-
         <h2 class="fw-bold display-5 mt-4 mb-4" style="color:#012143;">
             Más de 60 años formando profesionales
         </h2>
-
         <p class="text-muted mx-auto historia-texto">
             Desde 1962, la Facultad de Contaduría y Administración ha sido 
             referente académico en Yucatán, impulsando la formación integral, 
             la innovación y el liderazgo profesional.
         </p>
-
     </div>
-
 </section>
 
 {{-- TIMELINE --}}
 <section class="timeline-section py-5">
-
     <div class="container">
-
         <div class="text-center mb-5">
-
             <h2 class="fw-bold" style="color:#012143;">
                 Línea del tiempo
             </h2>
-
             <div class="line-title mx-auto"></div>
-
         </div>
-
         <div class="timeline">
-
             {{-- 1962 --}}
             <div class="timeline-item left">
-
                 <div class="timeline-content">
-
                     <img 
                         src="{{ asset('assets/img/historia/h1.jpg') }}"
                         class="timeline-img"
                         alt="Fundación"
                     >
-
                     <div class="timeline-body">
-
                         <div class="timeline-year">
                             1962
                         </div>
-
                         <h5 class="timeline-title">
                             Fundación
                         </h5>
-
                         <p class="timeline-text">
                             Nace como Escuela de Comercio y Administración. 
                             Inicia con 32 estudiantes en la carrera de 
                             Contador Público.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
 
             {{-- PRIMER DIRECTOR --}}
             <div class="timeline-item right">
-
                 <div class="timeline-content">
-
                     <img 
                         src="{{ asset('assets/img/historia/h2.jpg') }}"
                         class="timeline-img"
                         alt="Primer Director"
                     >
-
                     <div class="timeline-body">
-
                         <div class="timeline-year">
                             1963
                         </div>
-
                         <h5 class="timeline-title">
                             Primer Director
                         </h5>
-
                         <p class="timeline-text">
                             C.P. Enrique López Novelo lideró los primeros años 
                             de crecimiento de la institución.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
 
             {{-- CRECIMIENTO --}}
             <div class="timeline-item left">
-
                 <div class="timeline-content">
-
                     <img 
                         src="{{ asset('assets/img/historia/h3.jpg') }}"
                         class="timeline-img"
                         alt="Crecimiento"
                     >
-
                     <div class="timeline-body">
-
                         <div class="timeline-year">
                             1970
                         </div>
-
                         <h5 class="timeline-title">
                             Crecimiento Académico
                         </h5>
-
                         <p class="timeline-text">
                             La matrícula estudiantil creció rápidamente, 
                             consolidando la formación contable en la región.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
 
             {{-- NUEVO EDIFICIO --}}
             <div class="timeline-item right">
-
                 <div class="timeline-content">
-
                     <img 
                         src="{{ asset('assets/img/historia/h4.jpg') }}"
                         class="timeline-img"
                         alt="Nuevo edificio"
                     >
-
                     <div class="timeline-body">
-
                         <div class="timeline-year">
                             1979
                         </div>
-
                         <h5 class="timeline-title">
                             Nuevo edificio
                         </h5>
-
                         <p class="timeline-text">
                             Se inauguran nuevas instalaciones en Chuburná, 
                             fortaleciendo la infraestructura educativa.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
 
             {{-- FACULTAD --}}
             <div class="timeline-item left">
-
                 <div class="timeline-content">
-
                     <img 
                         src="{{ asset('assets/img/historia/h5.jpg') }}"
                         class="timeline-img"
                         alt="Facultad"
                     >
-
                     <div class="timeline-body">
-
                         <div class="timeline-year">
                             1980
                         </div>
-
                         <h5 class="timeline-title">
                             Facultad
                         </h5>
-
                         <p class="timeline-text">
                             Se crea la Maestría en Administración y la escuela 
                             se convierte oficialmente en Facultad.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
 
             {{-- 60 ANIVERSARIO --}}
             <div class="timeline-item right">
-
                 <div class="timeline-content">
-
                     <img 
                         src="{{ asset('assets/img/historia/h6.jpg') }}"
                         class="timeline-img"
                         alt="60 aniversario"
                     >
-
                     <div class="timeline-body">
-
                         <div class="timeline-year">
                             2022
                         </div>
-
                         <h5 class="timeline-title">
                             60 Aniversario
                         </h5>
-
                         <p class="timeline-text">
                             Celebración conmemorativa con actividades 
                             académicas, culturales y deportivas.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
 
             {{-- NUEVA SEDE --}}
             <div class="timeline-item left">
-
                 <div class="timeline-content">
-
                     <img 
                         src="{{ asset('assets/img/historia/h7.jpg') }}"
                         class="timeline-img"
                         alt="Nueva sede"
                     >
-
                     <div class="timeline-body">
-
                         <div class="timeline-year">
                             2023
                         </div>
-
                         <h5 class="timeline-title">
                             Nueva sede
                         </h5>
-
                         <p class="timeline-text">
                             Traslado al Campus de Ciencias Sociales, 
                             marcando una nueva etapa institucional.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
 {{-- DIRECTORES --}}
 <section class="py-5 directores-section">
-
     <div class="container">
-
         <div class="text-center mb-5">
-
             <h2 class="fw-bold" style="color:#012143;">
                 Directores
             </h2>
-
             <div class="line-title mx-auto"></div>
-
         </div>
-
         <div class="row g-4">
-
             @php
             $directores = [
                 "Enrique López Novelo (1962-1969)",
@@ -309,7 +223,6 @@
                 "David Suárez Pacheco (2023-Actual)"
             ];
             @endphp
-
             @foreach($directores as $d)
 
                 <div class="col-lg-3 col-md-4 col-6">
@@ -317,21 +230,13 @@
                     <div class="director-card">
                         {{ $d }}
                     </div>
-
                 </div>
-
             @endforeach
-
         </div>
-
     </div>
-
 </section>
 
-
-
 <style>
-
 /* ========================================
    INTRO
 ======================================== */

@@ -7,9 +7,8 @@
     titulo="Indicadores Económicos del Estado de Yucatán"
     subtitulo="Poner Subtítulo Correcto"
 />
-
 <div class="container mt-5 mb-5">
-
+      <div class="card-body text-center"> 
     <!-- PRESENTACIÓN -->
     <section class="mb-5">
         <section class="py-5 seccion-azul-suave">
@@ -31,7 +30,7 @@
 
             <!-- IMAGEN -->
             <div class="col-md-4 text-center">
-                <img src="{{ asset('assets/img/ejemplo.png') }}" 
+                <img src="{{ asset('assets/img/investigacion/i4.jpg"') }}" 
                      class="img-fluid shadow">
             </div>
 
@@ -45,10 +44,8 @@
                 <p class="mb-1">MARZO DE 2026</p>
                 <p>Cifras a febrero de 2026</p>
             </div>
-
         </div>
     </section>
-
     <hr>
 
     <!-- EDICIONES ANTERIORES -->
@@ -72,7 +69,6 @@
                 <img src="{{ asset('assets/img/ejemplo.png') }}" class="img-fluid shadow-sm mb-2">
                 <div><a href="#">FEBRERO</a></div>
             </div>
-
         </div>
 
         <!-- AÑO -->
@@ -103,22 +99,18 @@
     <!-- CONTACTO -->
     <section class="mb-5">
         <p class="fw-bold" style="color: #002E5F;">Contacto:</p>
-
         <div class="row">
 
            <x-persona 
     nombre="Dra. Laura Guillermina Duarte Cáceres"
     correo="guillermina.duarte@correo.uady.mx"
 />
-
             <x-persona 
                 nombre="Dr. Lucio Jesús Uc Heredia"
                 correo="lucio.uc@correo.uady.mx"
             />
-
         </div>
     </section>
-
 </div>
 
 @endsection

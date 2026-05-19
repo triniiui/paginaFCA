@@ -7,7 +7,7 @@
     titulo="Centro de Desarrollo de Negocios"
     subtitulo="Poner el subtítulo correcto"
 />
-
+  <div class="alert alert-info mt-3 text-center">
 <div class="container my-5">
 
     <!-- ENCABEZADO -->
@@ -72,10 +72,11 @@
         </div>
     </div> 
 </div>
-
+  </div>
 <div class="container my-5">
 
     <!-- SERVICIOS PRINCIPALES -->
+    <div class="alert alert-info mt-3 text-center">
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Servicios principales</h3>
 
     <div class="row">
@@ -107,7 +108,7 @@
             </div>
         </div>
     </div>
-
+    </div>
     <!-- RED DE ASESORES -->
     <div class="alert mt-4" role="alert" style="background-color: #002E5F; color: white; border: none;">El CEDENE cuenta con una red de asesores y consultores, conformada por profesionistas y académicos especializados en distintas áreas de atención empresarial.</div>
 
@@ -134,6 +135,7 @@
     </div>
 
     <!-- TÍTULO -->
+    <div class="bg-light p-4 rounded shadow-sm my-4">
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Marketing Digital</h3>
 
     <!-- DESCRIPCIÓN -->
@@ -189,6 +191,7 @@
     </div>
 
     <!-- TÍTULO -->
+    <div class="bg-light p-4 rounded shadow-sm my-4">
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Diseño de Imagen</h3>
 
     <!-- DESCRIPCIÓN -->
@@ -243,6 +246,7 @@
     </div>
 
     <!-- TÍTULO -->
+    <div class="bg-light p-4 rounded shadow-sm my-4">
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Servicios de Mercadotecnia</h3>
 
     <!-- DESCRIPCIÓN -->
@@ -298,6 +302,7 @@
     </div>
 
     <!-- TÍTULO -->
+    <div class="bg-light p-4 rounded shadow-sm my-4">
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Servicio de Finanzas</h3>
 
     <!-- DESCRIPCIÓN -->
