@@ -80,12 +80,31 @@
             <small class="text-muted">AÑO 2025</small>
         </div>
 
-        <!-- GENERA VARIOS -->
+        @php
+        $meses = [
+        1 => 'ENERO',
+        2 => 'FEBRERO',
+        3 => 'MARZO',
+        4 => 'ABRIL',
+        5 => 'MAYO',
+        6 => 'JUNIO',
+        7 => 'JULIO',
+        8 => 'AGOSTO',
+        9 => 'SEPTIEMBRE',
+        10 => 'OCTUBRE',
+        11 => 'NOVIEMBRE',
+        12 => 'DICIEMBRE'
+        ];
+        @endphp
+
         <div class="row text-center">
             @for ($i = 1; $i <= 12; $i++)
                 <div class="col-6 col-md-2 mb-4">
-                    <img src="{{ asset('assets/img/indicadores/2025-' . $i . '.png') }}" class="img-fluid shadow-sm mb-2">
-                    <div><a href="#">MES {{ $i }}</a></div>
+                    <img src="{{ asset('assets/img/investigacion/IE' . $i . '2025' . '.png') }}" class="img-fluid shadow-sm mb-2">
+                    
+                    <div>
+                        <a href="#">{{ $meses[$i] }}</a>
+                    </div>
                 </div>
             @endfor
         </div>

@@ -6,7 +6,7 @@
     imagen="assets/img/estudiantes/e2.jpg"
     titulo="Plan de Desarrollo FCA 2021-2030"
 />
-{{-- bien venida ;) --}}
+{{-- bien venida --}}
 <section class="py-5">
     <div class="container text-center">
         <h2 id="plan-desarrollo" class="fw-bold mb-3">Plan de Desarrollo FCA 2021-2030</h2>

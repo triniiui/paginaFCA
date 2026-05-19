@@ -9,6 +9,7 @@
 />
 
 <div class="container my-5">
+      <div class="card-body text-center"> 
 
     {{-- Texto introductorio --}}
     <div class="mb-4">

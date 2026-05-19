@@ -3,7 +3,7 @@
 @section('vistas-content')
 
 <x-hero 
-    imagen="assets/img/proPos/p1.png"
+    imagen="assets/img/ofeduCo/o1.jpg"
     titulo="Programas de Posgrado"
     subtitulo="Impulsa tu futuro profesional"
 />

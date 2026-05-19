@@ -10,7 +10,7 @@
 />
 
 <div class="container my-5">
-
+    <div class="card-body text-center">
     {{-- Introducción en bloque destacado --}}
     <div id="movilidad-internacional" class="card shadow-sm mb-5">
         <div class="card-body">
@@ -32,7 +32,6 @@
             </p>
         </div>
     </div>
-
     {{-- Tarjetas de modalidades --}}
     <div class="row text-center">
         <div class="col-md-4 mb-3">
@@ -63,19 +62,15 @@
             </div>
         </div>
     </div>
-
 </div>
 
 <div class="container my-5">
-
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Video Informativo</h3>
-
     <div class="ratio ratio-16x9">
         <iframe src="https://www.youtube.com/embed/XXXXXXXXXXX" 
                 title="Video Movilidad Internacional UADY" 
                 allowfullscreen></iframe>
     </div>
-
 </div>
 
 <div class="container my-5">
@@ -148,6 +143,7 @@
             <h5 id="convocatorias-estancias-internacionales" class="fw-bold mt-4" style="color: #002E5F;">Convocatorias de estancias internacionales</h5>
 
             <div class="card shadow-sm mb-4">
+                <div class="card-body text-center">
                 <div class="card-body">
                     <h6 class="fw-bold" style="color: #002E5F;">Alemania – Hochschule für Technik und Wirtschaft des Saarlandes</h6>
                     <p>
@@ -164,7 +160,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="card shadow-sm mb-4">
                 <div class="card-body">
                     <h6 class="fw-bold" style="color: #002E5F;">Francia – Institut National des Sciences Appliquées (INSA Rennes)</h6>
@@ -182,6 +177,8 @@
                         <a href="https://forms.gle/2WTdQhpVwb5h6RUA8" target="_blank">Formulario de registro</a>
                     </p>
                 </div>
+            </div>
+            </div>
             </div>
 
             <h6 class="fw-bold mt-4" style="color: #002E5F;">Procedimiento Examen de Francés</h6>
@@ -229,19 +226,14 @@
                         <li>Carta de intención (razones para estudiar en Canadá y relación con tu carrera).</li>
                         <li>Formulario de aplicación internacional.</li>
                     </ul>
-
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
 
 <div class="container my-5">
-
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Wiesbaden Business School – Summer 2026</h3>
-
     <div class="card shadow-sm mb-4">
         <div class="card-body">
             <p>
@@ -291,13 +283,10 @@
             </ul>
         </div>
     </div>
-
 </div>
 
 <div class="container my-5">
-
-    <h3 id="convocatorias-2026" class="fw-bold text-center mb-4" style="color: #002E5F;">Convocatorias 2026</h3>
-
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Convocatorias 2026</h3>
     <div class="row g-4">
         <div class="col-md-6">
             <div class="card shadow-sm h-100">

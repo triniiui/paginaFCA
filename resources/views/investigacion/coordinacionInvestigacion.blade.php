@@ -9,10 +9,11 @@
 />
 
 <div class="container my-5">
-
-    <h3 id="coordinacion-investigacion" class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Investigación</h3>
+<div class="container position-relative">
+    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Coordinación de Investigación</h3>
 
     <div class="card shadow-sm mb-4">
+          <div class="card-body text-center"> 
         <div class="card-body">
             <p>
                 La Coordinación de Investigación depende de la Unidad de Posgrado e Investigación de la Facultad.
@@ -28,51 +29,33 @@
                 La actividad investigadora de la Facultad es realizada por cuatro cuerpos académicos reconocidos por el PRODED (39% de los PTC) y un grupo de investigación (14% de los PTC), lo que significa que más del 50% de los PTC están generando o aplicando conocimientos.
             </div>
 
-            <h5 class="fw-bold mt-4" style="color: #002E5F;">Cuerpos Académicos</h5>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="#" target="_blank">Cuerpo Académico Organización y Gestión</a></li>
-                <li class="list-group-item"><a href="#" target="_blank">Cuerpo Académico Economía y Finanzas</a></li>
-                <li class="list-group-item"><a href="#" target="_blank">Cuerpo Académico Creación Asistencia y Análisis de las Organizaciones</a></li>
-                <li class="list-group-item"><a href="#" target="_blank">Cuerpo Académico Área Legal</a></li>
-                <li class="list-group-item"><a href="#" target="_blank">Cuerpo Académico Mercadotecnia, Innovación y Desarrollo</a></li>
-            </ul>
+           <!-- Sección de Documentos de Investigación -->
+<div class="card shadow-sm mb-4 border-0">
+    <div class="card-body">
+        <div class="d-grid gap-3">
+            <a href="#" class="btn btn-uady-custom">Políticas Proyectos de Investigación 2025</a>
+            <a href="#" class="btn btn-uady-custom">Enlaces a formatos SISTPROY 2026</a>
+            <a href="#" class="btn btn-uady-custom">Guías SISTPROY 2026</a>
+            <a href="#" class="btn btn-uady-custom">Formato de Registro de Proyectos</a>
+            <a href="#" class="btn btn-uady-custom">Competencias Genéricas UADY</a>
         </div>
     </div>
-
 </div>
 
-<div class="container my-5">
+<h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Otros documentos de interés</h3>
 
-    <h3 id="SISTPROY" class="fw-bold text-center mb-4" style="color: #002E5F;">Registro de Proyectos en el Sistema de Proyectos (SISTPROY) de la UADY</h3>
-
-    <div class="card shadow-sm mb-4">
-        <div class="card-body">
-            <div class="d-grid gap-3">
-                <a href="#" class="btn btn-outline-primary">Políticas Proyectos de Investigación 2025</a>
-                <a href="#" class="btn btn-outline-primary">Enlaces a formatos SISTPROY 2026</a>
-                <a href="#" class="btn btn-outline-primary">Guías SISTPROY 2026</a>
-                <a href="#" class="btn btn-outline-primary">Formato de Registro de Proyectos</a>
-                <a href="#" class="btn btn-outline-primary">Competencias Genéricas UADY</a>
-            </div>
+<!-- Sección de Otros Documentos -->
+<div class="card shadow-sm mb-4 border-0">
+    <div class="card-body">
+        <div class="d-grid gap-3">
+            <a href="#" class="btn btn-uady-custom">Circular INV-01-2023 Techo Financiero para el Fortalecimiento de los CA</a>
+            <a href="#" class="btn btn-uady-custom">Circular INV-02-2020 Reconocimiento de REDES</a>
+            <a href="#" class="btn btn-uady-custom">Circular INV-02-2023 Línea de Generación y Aplicación del Conocimiento de la FCA</a>
+            <a href="#" class="btn btn-uady-custom">Circular INV-03-2020 Reconocimiento de Productos de Investigación NO registrados en SISTPROY</a>
+            <a href="#" class="btn btn-uady-custom">Políticas y Procedimientos para la Aprobación, Evaluación, Registro y Desarrollo de Proyectos de Investigación y/o Vinculación de la FCA</a>
         </div>
     </div>
-
-    <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Otros documentos de interés</h3>
-
-    <div class="card shadow-sm mb-4">
-        <div class="card-body">
-            <div class="d-grid gap-3">
-                <a href="#" class="btn btn-outline-secondary">Circular INV-01-2023 Techo Financiero para el Fortalecimiento de los CA</a>
-                <a href="#" class="btn btn-outline-secondary">Circular INV-02-2020 Reconocimiento de REDES</a>
-                <a href="#" class="btn btn-outline-secondary">Circular INV-02-2023 Línea de Generación y Aplicación del Conocimiento de la FCA</a>
-                <a href="#" class="btn btn-outline-secondary">Circular INV-03-2020 Reconocimiento de Productos de Investigación NO registrados en SISTPROY</a>
-                <a href="#" class="btn btn-outline-secondary">Políticas y Procedimientos para la Aprobación, Evaluación, Registro y Desarrollo de Proyectos de Investigación y/o Vinculación de la FCA</a>
-            </div>
-        </div>
-    </div>
-
 </div>
-
 <div class="container my-5">
 
     <div class="card shadow-sm">
@@ -90,5 +73,28 @@
     </div>
 
 </div>
+
+
+
+
+
+
+
+<style>
+    .btn-uady-custom {
+        color: #002E5F;
+        border: 1px solid #002E5F;
+        background-color: transparent;
+        transition: all 0.3s ease;
+        text-align: left; /
+        padding: 10px 15px;
+    }
+
+    .btn-uady-custom:hover {
+        background-color: #002E5F;
+        color: #ffffff;
+        border-color: #002E5F;
+    }
+</style>
 
 @endsection

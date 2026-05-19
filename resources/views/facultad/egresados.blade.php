@@ -76,13 +76,9 @@
 
 {{-- GUIAS --}}
 <section class="py-5 seccion-blanca overflow-hidden">
-
     <div class="container">
-
         <div class="row align-items-center g-5">
-
             <div class="col-lg-5">
-
                 <span class="section-badge">
                     Titulación
                 </span>
@@ -90,34 +86,26 @@
                 <h2 id="guias-tramites-titulacion" class="fw-bold display-6 mt-3 mb-4" style="color:#002E5F;">
                     Guías para realizar los trámites
                 </h2>
-
                 <p class="text-muted">
                     Consulta la información oficial para realizar trámites de
                     titulación de licenciatura y maestría de manera sencilla y organizada.
                 </p>
-
             </div>
 
             <div class="col-lg-7">
-
                 <div class="detail-card">
-
                     <div class="d-flex align-items-center gap-3 mb-4">
-
                         <div class="mini-icon">
                             <i class="bi bi-folder-check"></i>
                         </div>
-
                         <div>
                             <h5 class="fw-bold mb-1">
                                 Sitio oficial
                             </h5>
-
                             <small class="text-muted">
                                 Información y formatos oficiales
                             </small>
                         </div>
-
                     </div>
 
                     <a href="https://bit.ly/guiasCE-FCA"
@@ -138,29 +126,19 @@
                             <strong>Trámite de grado académico:</strong><br>
                             Lunes y miércoles de 09:00 a 15:00 hrs.
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
 
 {{-- CITAS --}}
 <section class="py-5 position-relative overflow-hidden seccion-azul">
-
     <div class="container position-relative">
-
         <div class="row align-items-center g-5">
-
             <div class="col-lg-5 text-white">
-
                 <span class="section-badge">
                     Atención
                 </span>
@@ -168,65 +146,46 @@
                 <h2 id="sistema-virtual-citas" class="fw-bold display-6 mt-3 mb-4" style="color:#002E5F;">
                      Sistema Virtual de Citas
                 </h2>
-
                 <p class="text-muted">
                     Agenda y consulta información relacionada con los servicios
                     de Control Escolar y trámites administrativos.
                 </p>
-
             </div>
-
             <div class="col-lg-7">
-
                 <div class="detail-card">
-
                     <div class="d-flex align-items-center gap-3 mb-4">
-
                         <div class="mini-icon gold">
                             <i class="bi bi-calendar-check"></i>
                         </div>
-
                         <div>
                             <h5 class="fw-bold mb-1">
                                 Acceso al sistema
                             </h5>
-
                             <small class="text-muted">
                                 Plataforma oficial de citas
                             </small>
                         </div>
-
                     </div>
 
                     <a href="https://bit.ly/bookingsCE-FCA"
                        target="_blank"
                        class="btn btn-uady">
-
                         Acceso al Sistema
                     </a>
-
                     <div class="schedule-box mt-4">
-
                         <p class="mb-2">
                             <strong>Lic. Diana Eugenia Salazar Cardeña</strong><br>
                             Jefa de Control Escolar
                         </p>
-
                         <p class="mb-0">
                             <strong>Tel:</strong>
                             (999) 981 09 26, ext. 71168
                         </p>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </section>
 
 <style>
