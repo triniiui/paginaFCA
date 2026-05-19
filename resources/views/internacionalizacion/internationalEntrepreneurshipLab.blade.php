@@ -252,31 +252,16 @@
 
 </div>
 
-
-
-
-
-
-
-<div class="container my-5">
-   <section class="py-5 seccion-azul-suave">
-    {{-- Imagen de fases IELSM --}}
-    <div class="text-center mt-5">
-        <img src="{{ asset('images/ielsm_phases.png') }}" alt="Fases IELSM" class="img-fluid rounded shadow">
-    </div>
-
-</div>
-
 <div class="container my-5">
 
     <h3 class="fw-bold text-center mb-4" style="color: #002E5F;">Galería</h3>
 
     <div class="row">
         <div class="col-md-6 mb-4">
-            <img src="{{ asset('images/galeria1.png') }}" alt="Galería IELSM 1" class="img-fluid rounded shadow">
+            <img src="{{ asset('assets/img/internacionalizacion/galeria1.png') }}" alt="Galería IELSM 1" class="img-fluid rounded shadow">
         </div>
         <div class="col-md-6 mb-4">
-            <img src="{{ asset('images/galeria2.png') }}" alt="Galería IELSM 2" class="img-fluid rounded shadow">
+            <img src="{{ asset('assets/img/internacionalizacion/galeria2.png') }}" alt="Galería IELSM 2" class="img-fluid rounded shadow">
         </div>
     </div>
 
@@ -288,7 +273,7 @@
 
     <div class="row align-items-center">
         <div class="col-md-4 text-center mb-3">
-            <img src="{{ asset('images/anel_flores.png') }}" alt="Dra. Anel Flores Novelo" 
+            <img src="{{ asset('assets/img/internacionalizacion/anel.png') }}" alt="Dra. Anel Flores Novelo" 
                  class="img-fluid rounded shadow" style="max-width:250px;">
         </div>
         <div class="col-md-8">

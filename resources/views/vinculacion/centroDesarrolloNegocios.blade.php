@@ -129,10 +129,10 @@
 
     <!-- ENCABEZADO CON IMAGEN -->
     <div class="text-center mb-4">
-        <img src="{{ asset('assets/img/oferta/m1.jpg') }}" 
+        <img src="{{ asset('assets/img/vinculacion/MD.png') }}" 
             alt="Marketing Digital" 
             class="img-fluid rounded shadow" 
-            style="width:450px; height:auto;">
+            style="width:800px; height:auto;">
     </div>
     
 
@@ -159,8 +159,11 @@
 
     <!-- ENCABEZADO CON IMAGEN -->
     <div class="text-center mb-4">
-        <!-- Aquí colocas tu imagen de banner -->
-        <img src="ruta-de-tu-imagen.jpg" alt="Branding" class="img-fluid rounded shadow">
+        
+        <img src="{{ asset('assets/img/vinculacion/B.png') }}" 
+            alt="Marketing Digital" 
+            class="img-fluid rounded shadow" 
+            style="width:800px; height:auto;">
     </div>
 
     <!-- TÍTULO -->
@@ -187,8 +190,11 @@
 
     <!-- ENCABEZADO CON IMAGEN -->
     <div class="text-center mb-4">
-        <!-- Aquí colocas tu imagen de banner -->
-        <img src="ruta-de-tu-imagen.jpg" alt="Diseño de Imagen" class="img-fluid rounded shadow">
+        
+        <img src="{{ asset('assets/img/vinculacion/DI.png') }}" 
+            alt="Marketing Digital" 
+            class="img-fluid rounded shadow" 
+            style="width:800px; height:auto;">
     </div>
 
     <!-- TÍTULO -->
@@ -214,8 +220,11 @@
 
     <!-- ENCABEZADO CON IMAGEN -->
     <div class="text-center mb-4">
-        <!-- Aquí colocas tu imagen de banner -->
-        <img src="ruta-de-tu-imagen.jpg" alt="Investigación de Mercado" class="img-fluid rounded shadow">
+        
+        <img src="{{ asset('assets/img/vinculacion/IM.png') }}" 
+            alt="Marketing Digital" 
+            class="img-fluid rounded shadow" 
+            style="width:800px; height:auto;">
     </div>
 
     <!-- TÍTULO -->
@@ -241,8 +250,10 @@
 
     <!-- ENCABEZADO CON IMAGEN -->
     <div class="text-center mb-4">
-        <!-- Aquí colocas tu imagen de banner -->
-        <img src="ruta-de-tu-imagen.jpg" alt="Servicios de Mercadotecnia" class="img-fluid rounded shadow">
+        <img src="{{ asset('assets/img/vinculacion/IM.png') }}" 
+            alt="Marketing Digital" 
+            class="img-fluid rounded shadow" 
+            style="width:800px; height:auto;">
     </div>
 
     <!-- TÍTULO -->
@@ -268,8 +279,10 @@
 
     <!-- ENCABEZADO CON IMAGEN -->
     <div class="text-center mb-4">
-        <!-- Aquí colocas tu imagen de banner -->
-        <img src="ruta-de-tu-imagen.jpg" alt="Servicios de Administración" class="img-fluid rounded shadow">
+        <img src="{{ asset('assets/img/vinculacion/SA.png') }}" 
+            alt="Marketing Digital" 
+            class="img-fluid rounded shadow" 
+            style="width:800px; height:auto;">
     </div>
 
     <!-- TÍTULO -->
@@ -296,8 +309,10 @@
 
     <!-- ENCABEZADO CON IMAGEN -->
     <div class="text-center mb-4">
-        <!-- Aquí colocas tu imagen de banner -->
-        <img src="ruta-de-tu-imagen.jpg" alt="Servicio de Finanzas" class="img-fluid rounded shadow">
+        <img src="{{ asset('assets/img/vinculacion/SF.png') }}" 
+            alt="Marketing Digital" 
+            class="img-fluid rounded shadow" 
+            style="width:800px; height:auto;">
     </div>
 
     <!-- TÍTULO -->

@@ -127,7 +127,8 @@
 
     {{-- Imagen ilustrativa --}}
     <div class="text-center my-5">
-        <img src="{{ asset('images/maf_oficina.jpg') }}" class="img-fluid rounded shadow" alt="Módulo de Atención Fiscal">
+
+        <img src="{{ asset('assets/img/vinculacion/MAF.png') }}" class="img-fluid rounded shadow" alt="Módulo de Atención Fiscal">
     </div>
 
     {{-- Contacto, dirección y horario en tarjetas --}}

@@ -12,7 +12,7 @@
 
     {{-- Logo centrado --}}
     <div class="text-center mb-5">
-        <img src="{{ asset('images/logo_padrino.png') }}" alt="Logo Programa Padrino Académico" class="img-fluid" style="max-height:150px;">
+        <img src="{{ asset('assets/img/vinculacion/PPA.png') }}" alt="Logo Programa Padrino Académico" class="img-fluid" style="max-height:150px;">
     </div>
 
     {{-- Presentación en bloque destacado --}}
@@ -124,7 +124,7 @@
         <div class="col-md-6">
             <div class="card shadow-sm text-center">
                 <div class="card-body">
-                    <img src="{{ asset('images/coord_ligia.png') }}" alt="Coordinadora" class="img-fluid rounded-circle mb-3" style="max-width:150px;">
+                    <img src="{{ asset('assets/img/vinculacion/ligia.png') }}" alt="Coordinadora" class="img-fluid rounded-circle mb-3" style="max-width:150px;">
                     <h5 class="fw-bold">Dra. Ligia María Río Herrera</h5>
                     <p class="text-muted">Coordinadora</p>
                     <p>

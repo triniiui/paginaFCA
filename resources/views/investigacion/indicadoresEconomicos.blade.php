@@ -31,7 +31,7 @@
 
             <!-- IMAGEN -->
             <div class="col-md-4 text-center">
-                <img src="{{ asset('assets/img/ejemplo.png') }}" 
+                <img src="{{ asset('assets/img/investigacion/IE1.png')}}"
                      class="img-fluid shadow">
             </div>
 
@@ -64,12 +64,12 @@
 
             <!-- ITEM -->
             <div class="col-6 col-md-2 mb-4">
-                <img src="{{ asset('assets/img/ejemplo.png') }}" class="img-fluid shadow-sm mb-2">
+                <img src="{{ asset('assets/img/investigacion/IE12026.png')}}" class="img-fluid shadow-sm mb-2">
                 <div><a href="#">ENERO</a></div>
             </div>
 
             <div class="col-6 col-md-2 mb-4">
-                <img src="{{ asset('assets/img/ejemplo.png') }}" class="img-fluid shadow-sm mb-2">
+                <img src="{{ asset('assets/img/investigacion/IE22026.png')}}" class="img-fluid shadow-sm mb-2">
                 <div><a href="#">FEBRERO</a></div>
             </div>
 
