@@ -2,7 +2,6 @@
 
 <div id="{{ $id }}" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-    {{-- Indicadores --}}
     <div class="carousel-indicators">
         @foreach($imagenes as $index => $imagen)
             <button type="button" data-bs-target="#{{ $id }}" 
@@ -12,7 +11,6 @@
         @endforeach
     </div>
 
-    {{-- Slides --}}
     <div class="carousel-inner">
 
         @foreach($imagenes as $index => $imagen)
@@ -20,7 +18,6 @@
 
                 @if(isset($imagen['type']) && $imagen['type'] === 'video')
                     
-                    {{-- VIDEO --}}
                     <video class="d-block w-100 hero-img"
                            autoplay
                            loop
@@ -32,17 +29,14 @@
 
                 @else
 
-                    {{-- IMAGEN --}}
                     <img src="{{ asset($imagen['url']) }}" 
                          class="d-block w-100 hero-img" 
                          alt="{{ $imagen['alt'] ?? 'Imagen' }}">
 
                 @endif
 
-                {{-- Overlay --}}
                 <div class="overlay"></div>
 
-                {{-- Texto --}}
                 <div class="carousel-caption text-start hero-caption">
                     <h1 class="fw-bold">{{ $imagen['titulo'] }}</h1>
 
@@ -56,7 +50,6 @@
 
     </div>
 
-    {{-- Controles --}}
     <button class="carousel-control-prev" type="button" data-bs-target="#{{ $id }}" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
     </button>

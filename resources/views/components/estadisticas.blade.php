@@ -1,5 +1,4 @@
 <style>
-/* Tarjeta base */
 .estadistica-card {
     border-radius: 12px;
     border: none;
@@ -14,7 +13,6 @@
     color: white;
 }
 
-/* todo el texto a blanco */
 .estadistica-card:hover h3,
 .estadistica-card:hover p {
     color: white !important;
@@ -31,14 +29,12 @@
     color: #ffd700 !important;
 }
 
-/* Total grande */
 .total-num {
     font-size: 3rem;
     font-weight: bold;
     color: #012143;
 }
 
-/* Texto pequeño */
 .estadistica-card p {
     transition: color 0.3s ease;
 }
@@ -49,7 +45,7 @@
     'subtitulo',
     'items' => [],
     'total',
-    'cols' => 'col-md-4', // para controlar columnas
+    'cols' => 'col-md-4', 
     'bg' => null
 ])
 
@@ -72,7 +68,6 @@
 
         </div>
 
-        {{-- total --}}
         <div class="text-center mt-5">
             <h2 class="total-num">{{ $total }}</h2>
             <p class="text-muted">Total de estudiantes</p>

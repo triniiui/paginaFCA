@@ -18,7 +18,6 @@
             @endforeach
         </div>
 
-        {{-- Slot para el texto largo --}}
         <div class="mt-5 texto-largo">
             {{ $slot }}
         </div>

@@ -25,7 +25,6 @@
 
     <div style="position:absolute; inset:0; background:rgba(0,0,0,.8);"></div>
 
-    {{-- Texto --}}
     <div style="position:absolute; bottom:20%; left:10%; color:white; z-index: 2;">
         <h1 class="fw-bold">{{ $titulo }}</h1>
         @if($subtitulo)

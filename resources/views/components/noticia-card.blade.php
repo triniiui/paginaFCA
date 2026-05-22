@@ -21,7 +21,6 @@
                 {{ Str::limit($resumen, 90) }}
             </p>
 
-            {{-- Botón más "gordo" usando py-2 (relleno vertical) y fw-bold --}}
             <span class="btn btn-outline-primary btn-sm mt-auto fw-bold py-2 px-3 border-2">
                 Leer más →
             </span>
@@ -29,7 +28,6 @@
     </div>
 </div>
 
-{{-- Modal --}}
 <div class="modal fade" id="modal{{ Str::slug($titulo) }}" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content border-0 shadow">
@@ -52,7 +50,6 @@
     </div>
 </div>
 
-{{-- ESTILOS --}}
 <style>
 .noticia-card {
     cursor: pointer;
@@ -75,10 +72,9 @@
     transform: scale(1.05);
 }
 
-/* Ajuste extra para que el botón se vea más robusto */
 .btn-outline-primary {
-    border-width: 2px; /* Borde un poco más grueso */
-    text-transform: uppercase; /* Opcional: le da un toque más serio */
+    border-width: 2px; 
+    text-transform: uppercase; 
     font-size: 0.8rem;
 }
 </style>

@@ -20,8 +20,8 @@
     <div class="container">
         <h2 class="fw-bold">Forma parte de nuestra comunidad</h2>
         <p>Inscripciones abiertas 2026</p>
-        <a href="{{ route('facultad.estudiantes') }}"class="btn btn-warning fw-bold px-4 py-2">
-            Solicita información
+        <a href="{{ route('facultad.estudiantes') }}" class="btn fw-bold px-4 py-2 text-white" style="background-color: #b38b00; border-color: #b38b00;">
+        Solicita información
         </a>
     </div>
 </section>

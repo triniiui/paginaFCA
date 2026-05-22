@@ -3,7 +3,7 @@
 @section('vistas-content')
 
 <x-hero 
-    imagen="assets/img/estudiantes/e1.jpg"
+    imagen="assets/img/estudiantes/acercaDe.png"
     titulo="Acerca de Nosotros"
     subtitulo="Facultad de Contaduría y Administración"
 />

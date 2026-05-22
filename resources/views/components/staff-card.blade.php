@@ -9,7 +9,6 @@
                  alt="{{ $nombre }}">
         </div>
 
-        <!-- Contenido -->
         <div class="p-4">
 
             <h5 class="staff-name mb-1">
@@ -38,10 +37,6 @@
 
 <style>
 
-/* =========================
-   CARD MODERNA
-========================= */
-
 .staff-card-modern{
     background: white;
     border-radius: 28px;
@@ -57,9 +52,6 @@
     box-shadow: 0 22px 45px rgba(0,0,0,0.14);
 }
 
-/* =========================
-   TOP DECORATION
-========================= */
 
 .staff-card-modern::before{
     content: '';
@@ -71,9 +63,6 @@
     background: linear-gradient(135deg,#002E5F,#004A99);
 }
 
-/* =========================
-   IMAGEN
-========================= */
 
 .staff-img-wrapper{
     position: relative;
@@ -90,10 +79,6 @@
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     background: white;
 }
-
-/* =========================
-   TEXTOS
-========================= */
 
 .staff-name{
     color: #002E5F;
@@ -117,10 +102,6 @@
     line-height: 1.4;
 }
 
-/* =========================
-   EMAIL
-========================= */
-
 .staff-email{
     display: inline-flex;
     align-items: center;
@@ -136,9 +117,6 @@
     color: #C79A00;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media(max-width:768px){
 

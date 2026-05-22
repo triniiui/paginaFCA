@@ -121,10 +121,76 @@
         
         </nav>
 </header>
-       <style>
 
-/*
-   NAVBAR GENERAL */
+    </nav>
+</header>
+
+<script>
+
+const input = document.getElementById('searchInput');
+const results = document.getElementById('searchResults');
+
+input.addEventListener('keyup', async () => {
+
+    const q = input.value.trim();
+
+    if(q.length < 1){
+
+        results.innerHTML = '';
+        return;
+    }
+
+    try{
+
+        const response = await fetch(`/buscar?q=${q}`);
+
+        const data = await response.json();
+
+        results.innerHTML = '';
+
+        if(data.length === 0){
+
+            results.innerHTML = `
+                <div class="p-2 text-muted">
+                    Sin resultados
+                </div>
+            `;
+
+            return;
+        }
+
+        data.forEach(item => {
+
+            results.innerHTML += `
+                <a href="${item.url}"
+                   class="d-block p-2 text-decoration-none border-bottom text-dark search-item">
+                   
+                    ${item.titulo}
+
+                </a>
+            `;
+        });
+
+    }catch(error){
+
+        console.error(error);
+    }
+
+});
+
+document.addEventListener('click', (e) => {
+
+    if(!results.contains(e.target) && e.target !== input){
+
+        results.innerHTML = '';
+    }
+});
+
+</script>
+
+
+
+<style>
 
 .bg-uady-gold{
     background-color: #b38b00;
@@ -134,7 +200,6 @@
     gap: 10px;
 }
 
-/*    LINKS PRINCIPALES*/
 
 .nav-link-uady{
     color: white !important;
@@ -150,19 +215,16 @@
     white-space: nowrap;
 }
 
-/* Hover del botón principal */
 .uady-dropdown:hover .nav-link-uady{
     background-color: white;
     color: #012143 !important;
 }
 
-/* DROPDOWN*/
 
 .uady-dropdown{
     position: relative;
 }
 
-/* Menú */
 .uady-gold-menu{
     position: absolute;
 
@@ -185,21 +247,18 @@
     box-shadow: 0 10px 24px rgba(0,0,0,0.18);
 }
 
-/* Mostrar dropdown desktop */
 @media (min-width: 992px){
 
     .uady-dropdown:hover .uady-gold-menu{
         display: block;
     }
 
-    /* Último dropdown hacia la izquierda */
     .navbar-nav .uady-dropdown:last-child .uady-gold-menu{
         left: auto;
         right: 0;
     }
 }
 
-/* Opciones internas */
 .uady-gold-menu .dropdown-item{
 
     color: white;
@@ -219,13 +278,11 @@
     transition: background .2s ease;
 }
 
-/* Hover interno */
 .uady-gold-menu .dropdown-item:hover{
     background-color: rgba(255,255,255,0.12);
     color: white;
 }
 
-/*  MOBILE*/
 
 @media (max-width: 991px){
 
@@ -297,68 +354,3 @@
 }
 
 </style>
-    </nav>
-</header>
-
-<script>
-
-const input = document.getElementById('searchInput');
-const results = document.getElementById('searchResults');
-
-input.addEventListener('keyup', async () => {
-
-    const q = input.value.trim();
-
-    if(q.length < 1){
-
-        results.innerHTML = '';
-        return;
-    }
-
-    try{
-
-        const response = await fetch(`/buscar?q=${q}`);
-
-        const data = await response.json();
-
-        results.innerHTML = '';
-
-        if(data.length === 0){
-
-            results.innerHTML = `
-                <div class="p-2 text-muted">
-                    Sin resultados
-                </div>
-            `;
-
-            return;
-        }
-
-        data.forEach(item => {
-
-            results.innerHTML += `
-                <a href="${item.url}"
-                   class="d-block p-2 text-decoration-none border-bottom text-dark search-item">
-                   
-                    ${item.titulo}
-
-                </a>
-            `;
-        });
-
-    }catch(error){
-
-        console.error(error);
-    }
-
-});
-
-document.addEventListener('click', (e) => {
-
-    if(!results.contains(e.target) && e.target !== input){
-
-        results.innerHTML = '';
-    }
-});
-
-</script>

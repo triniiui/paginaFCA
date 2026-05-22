@@ -16,7 +16,6 @@
             @endif
         </div>
 
-        <!-- El texto azul marino (002E5F) combina perfecto con el amarillo UADY -->
         <h5 class="fw-bold mt-3" style="color: white;">
             {{ $titulo }}
         </h5>
